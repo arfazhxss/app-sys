@@ -1,0 +1,360 @@
+│   │   ├── .DS_Store
+│   │   ├── .pdf
+│   │   ├── Alberta.txt
+│   │   ├── British_Columbia.txt
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$02055533#693 - Embedded Developer - Semios (SemiosBIO Technologies Inc) - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212555#526 - QA Analyst - Dayforce (Toronto) - Product & Technology.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212556#527 - eLearning Developer - Reliable Controls Corporation - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212556#528 - UI:UX Designer - Reliable Controls Corporation - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212557#529 - Software Engineering - Ontario Power Generation - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212557#530 - Product Engineer - Netgear Canada - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212558#531 - Firmware Validation - Motorola Solutions Canada - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212558#532 - Firmware Developer - Motorola Solutions Canada - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212559#533 - Systems Engineer - Motorola Solutions Canada - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212559#534 - Software Developer - Motorola Solutions Canada - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212600#535 - Estimating Student - PCL Companies - PCL Constructors Westcoast Inc.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212600#536 - Estimating Student - PCL Companies - PCL Constructors Inc.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212600#537 - Information Technology Student - PCL Companies - PCL Constructors Westcoast Inc.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212601#538 - Data & Business Intelligence Analyst - BC Energy Regulator - Human Resources (Victoria).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212601#539 - Information Systems Analyst and Developer - BC Energy Regulator - Human Resources (Victoria).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212602#540 - UI Engineering - Dayforce - Product & Technology – Web Platform.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212602#541 - Software Developer in Test - Dayforce - Product & Technology.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212603#542 - Software Developer - Dayforce - Product & Technology.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212603#543 - Software Developer - Dayforce - Product & Technology.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212604#544 - Data Analyst - Dayforce - Product & Technology.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212604#545 - Software Developer - Dayforce - Product & Technology.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212605#546 - Test Engineer - Dayforce - Product & Technology.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212605#547 - Data Science - MineSense Technologies Ltd - Human Resources.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212605#548 - Data Science - MineSense Technologies Ltd - Product & Technology.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212606#549 - Data Science - MineSense Technologies Ltd - Human Resources.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212606#551 - Emulation Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212607#550 - Applications Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212607#552 - Firmware Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212608#553 - Validation Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212608#554 - Product Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212609#555 - AES-DDR Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212609#556 - Physical Design Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212609#557 - Validation Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212610#558 - Verification Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212610#559 - Software Development Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212611#560 - PD Verification Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212611#561 - Validation Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212612#562 - Applications Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212612#563 - Firmware Verification Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212613#564 - Data Developer - Vancouver Coastal Health Authority - Burnaby.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212613#565 - Software Developer - Giftbit - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212614#566 - Software Development Engineer in Test - Netgear Canada - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212614#567 - Desktop Support - Teck Resources Ltd - Elkview Operations.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212614#568 - Software Developer - Ocean Networks Canada - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212615#569 - Software Test Automation - Ocean Networks Canada - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212615#571 - Operations Support - Ocean Networks Canada - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212616#572 - Junior Scientific Programmer - Ocean Networks Canada - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212616#573 - Wireless Systems Engineering - Teck Resources Ltd - Elkview Operations.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212617#570 - Data Analyst - Scotiabank - Human Resources (Toronto).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212617#574 - Software Engineering - Scotiabank - Human Resources (Toronto).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212618#575 - Data Engineer - Scotiabank - Human Resources (Toronto).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212618#576 - Data Scientist - Scotiabank - Human Resources (Toronto).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212619#577 - Software Developer - IBM Canada Ltd. - Human Resources.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212619#578 - Software Developer in Test (SDET) - LMI Technologies Inc. - Human Resources.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212619#579 - Web Developer - BC Energy Regulator - Human Resources (Victoria).pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212620#580 - Software Engineering - Dometic - Dometic Marine Richmond.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$16212620#581 - IT Support - Dometic - Dometic Marine Richmond.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$24224919#582 - IT Admin - Carbon Engineering Ltd. - Pilot Plant - Squamish Site .pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$24230726#583 - Underground Utilities Operations Student - - City of Victoria - Engineering & Public Works.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$24231952#584 - Transportation Student - - City of Victoria - Engineering & Public Works.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$24234846#585 - Network Analyst - BC Liquor Distribution Branch - Talent & Compensation.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$24235204#586 - Junior Software Developer - Archipelago Marine Research - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$25000949#587 - Service Delivery Software Engineering - BCI (British Columbia Investment Management Corporation) - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$25002048#588 - Applications & Operations - Software Engineering - BCI (British Columbia Investment Management Corporation) - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$25002406#589 - Technology Specialist - BCI (British Columbia Investment Management Corporation) - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$25002727#524 - Digital Workplace Technical Analyst - BCI (British Columbia Investment Management Corporation) - Human Resource.pdf
+│   │   ├── Hussain, Arfaz - Placement Application _a94d6umy$25004259#525 - Software Test Engineer - Semtech - Sierra Wireless.pdf
+│   │   ├── Manitoba.txt
+│   │   ├── Nova_Scotia.txt
+│   │   ├── Ontario.txt
+│   │   ├── Provinces.txt
+│   │   ├── Quebec.txt
+│   │   ├── Remote.txt
+│   │   ├── company_division.txt
+│   │   ├── company_name.txt
+│   │   ├── company_suffix.txt
+│   │   ├── merged.pdf
+│   │   ├── tntx.tex
+│   ├── .DS_Store
+│   ├── .pdf
+│   ├── 1.pdf
+│   ├── 9-1.pdf
+│   ├── 9-3.pdf
+│   ├── 9.2.pdf
+│   ├── Hussain Arfaz - Placement Application - Application Development - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Cancer Screening Data & Analytics - PHSA (Provincial Health Services Authority) - Human Resources Talent Acquisition.pdf
+│   ├── Hussain Arfaz - Placement Application - Cancer Screening Research - PHSA (Provincial Health Services Authority) - Human Resources Talent Acquisition.pdf
+│   ├── Hussain Arfaz - Placement Application - Computer Help Desk Analyst - University of Victoria  - University Systems.pdf
+│   ├── Hussain Arfaz - Placement Application - Data Analyst - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Data Quality Check and Data Entry - Niltuo Child and Family Services Society  - Social Services.pdf
+│   ├── Hussain Arfaz - Placement Application - DevOps Developer - BC Pension Corporation  - Human Resources Talent Acquisition.pdf
+│   ├── Hussain Arfaz - Placement Application - Digital R&D - Sanofi (Connaught Campus) - Connaught Campus.pdf
+│   ├── Hussain Arfaz - Placement Application - Estimating Student - PCL Constructors Westcoast Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Firmware Engineer - NETINT Technologies Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Full Stack Software Developer (Innovation and Automation) - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - HEP Software Developer - University of Victoria  - Department of Physics and Astronomy.pdf
+│   ├── Hussain Arfaz - Placement Application - IT Service Desk - Provincial Health Services Authority  - BC Cancer Research Institute.pdf
+│   ├── Hussain Arfaz - Placement Application - Information Management - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Junior Security Analyst - BC Pension Corporation  - Human Resources Talent Acquisition.pdf
+│   ├── Hussain Arfaz - Placement Application - Performance Research - D-Wave Systems Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Project Support (Fleet Project Management Office) - BC Ferries  - BC Ferries Head Office (Human Resources).pdf
+│   ├── Hussain Arfaz - Placement Application - R&D Site Quality Operations - Sanofi (Connaught Campus) - Connaught Campus.pdf
+│   ├── Hussain Arfaz - Placement Application - Research Assistant - Simon Fraser University  - Fuel Cell Research Laboratory (FCReL).pdf
+│   ├── Hussain Arfaz - Placement Application - Research-Electrode Team - Ballard Power Systems Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Satellite Engineering - Calian Group Ltd. - Calian Advanced Technology.pdf
+│   ├── Hussain Arfaz - Placement Application - Senior Technical Student in Grid Maintenance - Toronto Hydro  - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Software Developer (Processor) - D-Wave Systems Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Software Developer - Clio  - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Software Developer - Natural Resources Canada  - Pacific Forestry Centre.pdf
+│   ├── Hussain Arfaz - Placement Application - Software Developer in Test - Global Relay Communications Inc. - Vancouver Office.pdf
+│   ├── Hussain Arfaz - Placement Application - Software Engineer - Broadcom Corporation - Richmond HQ.pdf
+│   ├── Hussain Arfaz - Placement Application - Software Engineering - Tegus  - Canalyst by Tegus.pdf
+│   ├── Hussain Arfaz - Placement Application - Student in Manufacturing 4.0 - Sanofi (Connaught Campus) - Connaught Campus.pdf
+│   ├── Hussain Arfaz - Placement Application - Technical Content Developer - Dayforce  - Ceridian (Toronto).pdf
+│   ├── Hussain Arfaz - Placement Application - Technical Operations and Software Platforms - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Video Codec Engineer - NETINT Technologies Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Web Technical Analyst - BC Ministry of Social Development and Poverty Reduction  - Employment and Labour Market Services Division.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$07234937#863 - Firmware Developer - Arlo Technologies - R&DEngineering.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08000045#790 - Software Engineer (Data Foundations) - Sanofi (Connaught Campus) - Connaught Campus.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08000254#791 - Software Engineer - Tradable Bits  - Vancouver HQ.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08000640#990 - R&D Site Quality Operations - Sanofi (Connaught Campus) - Connaught Campus.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08001045#989 - IT Service Desk - Provincial Health Services Authority  - BC Cancer Research Institute.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08002338#991 - Web Technical Analyst - BC Ministry of Social Development and Poverty Reduction  - Employment and Labour Market Services Division.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08005511#988 - Full Stack Software Developer (Innovation and Automation) - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08005828#203 - Technical Operations and Software Platforms - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08010021#440 - DevOps Developer - BC Pension Corporation  - Human Resources Talent Acquisition.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08010418#675 - Software Developer - Clio  - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08011425#570 - Research-Electrode Team - Ballard Power Systems Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08011924#531 - Digital R&D - Sanofi (Connaught Campus) - Connaught Campus.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08012240#303 - Data Analyst - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08012437#304 - Information Management - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08012841#305 - Software Engineering - Tegus  - Canalyst by Tegus.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08013055#293 - Video Codec Engineer - NETINT Technologies Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08013430#282 - Project Support (Fleet Project Management Office) - BC Ferries  - BC Ferries Head Office (Human Resources).pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08013933#715 - Software Developer (Processor) - D-Wave Systems Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08014644#913 - Research Assistant - Simon Fraser University  - Fuel Cell Research Laboratory (FCReL).pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08014918#92 - Student in Manufacturing 4.0 - Sanofi (Connaught Campus) - Connaught Campus.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08015125#787 - Senior Technical Student in Grid Maintenance - Toronto Hydro  - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08015851#839 - Software Engineer - Broadcom Corporation - Richmond HQ.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08020124#838 - Performance Research - D-Wave Systems Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08020422#773 - Technical Content Developer - Dayforce  - Ceridian (Toronto).pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08020816#772 - Estimating Student - PCL Constructors Westcoast Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08110837#688 - Firmware Engineer - NETINT Technologies Inc. - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$08111458#544 - Satellite Engineering - Calian Group Ltd. - Calian Advanced Technology.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$21000735#290 - Software Developer - Natural Resources Canada  - Pacific Forestry Centre.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$21001429#289 - HEP Software Developer - University of Victoria  - Department of Physics and Astronomy.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$21001929#68 - Computer Help Desk Analyst - University of Victoria  - University Systems.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$21002641#55 - Data Quality Check and Data Entry - Niltuo Child and Family Services Society  - Social Services.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$21003722#656 - Junior Security Analyst - BC Pension Corporation  - Human Resources Talent Acquisition.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$21005820#96 - Cancer Screening Data & Analytics - PHSA (Provincial Health Services Authority) - Human Resources Talent Acquisition.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6uje$21010418#371 - Cancer Screening Research - PHSA (Provincial Health Services Authority) - Human Resources Talent Acquisition.pdf
+│   ├── Hussain, Arfaz - Placement Application - AI Software Internship - Rivos Inc - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Application Development - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Apprentice Garage Internship - University of Victoria   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Apprentice Garage Internship - University of Victoria   - INSPIRE: STEM for Social Impact.pdf
+│   ├── Hussain, Arfaz - Placement Application - Automation, Performance and Big Data Test Engineer - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Battery Systems Engineer - Invinity Energy Systems  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Business Technology - BCLC  - Head Office.pdf
+│   ├── Hussain, Arfaz - Placement Application - Business Technology - BCLC (BC Lottery Corporation) - Head Office.pdf
+│   ├── Hussain, Arfaz - Placement Application - Data Analyst - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Desktop Support - Magnet Forensics   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Developer at Platforms and Application Server - Kinaxis   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Digital Information Technologies \& Solutions - Sanofi  - Connaught Campus.pdf
+│   ├── Hussain, Arfaz - Placement Application - Electrical Engineering - Powertech Labs Inc - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Embedded Developer - Semios (SemiosBIO Technologies Inc) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Engineering Student - Industrial Plankton Inc - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Front End Developer - Kinaxis   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - IT Support Analyst - Ammolite Technology Ltd. - Ammolite Technology Calgary.pdf
+│   ├── Hussain, Arfaz - Placement Application - Javascript Developer - Semios (SemiosBIO Technologies Inc) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Junior Developer - Machobear Studios Inc. - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Junior Full-Stack Developer - Hummingbird Drones   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Junior Web Designer - Hummingbird Drones   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Machine Learning Developer - Kinaxis   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Middleware Platforms - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Service Desk - BC Pension Corporation  - Human Resources, Talent Acquisition.pdf
+│   ├── Hussain, Arfaz - Placement Application - Site Reliability Engineer - Clio  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Software - Invinity Energy Systems  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Software Developer - 1Password  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Software Developer - 1Password  - Identity, People \& Accounts.pdf
+│   ├── Hussain, Arfaz - Placement Application - Software Developer - Arctic Wolf   - R&D Headquarters.pdf
+│   ├── Hussain, Arfaz - Placement Application - Software Developer - BC Ferries  - BC Ferries Head Office (Human Resources).pdf
+│   ├── Hussain, Arfaz - Placement Application - Software Developer - Magnet Forensics   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Software Developer - Motorola Solutions Canada (Vancouver) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Software Developer - ThoughtExchange   - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application - Software Developer - WorkSafeBC  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Software Developer - Zetron , A Codan Company - Victoria Head Office.pdf
+│   ├── Hussain, Arfaz - Placement Application - Software Engineer - Invinity Energy Systems  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Software Test Specialist - Magnet Forensics   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Supply Chain - MineSense Technologies Ltd - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application - Systems Engineer - OSI Maritime Systems Ltd - Head Office, Canada.pdf
+│   ├── Hussain, Arfaz - Placement Application - Systems Engineering - Schneider Electric   - Solar (Richmond).pdf
+│   ├── Hussain, Arfaz - Placement Application - Technical Student Writer - WorkSafeBC   - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02162909#243 - Systems Engineer - OSI Maritime Systems Ltd - Head Office, Canada.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02163105#255 - Systems Engineer - OSI Maritime Systems Ltd - Head Office, Canada.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02164242#749 - Electrical Engineering - Powertech Labs Inc - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02164507#748 - Desktop Support - Magnet Forensics   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02164753#268 - Software Developer - Magnet Forensics   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02165000#105 - Software Test Specialist - Magnet Forensics   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02165345#812 - Apprentice Garage Internship - University of Victoria   - INSPIRE: STEM for Social Impact.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02165614#814 - Software Developer - Motorola Solutions Canada (Vancouver) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02165856#813 - Software Developer - Magnet Forensics   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02170444#983 - Machine Learning Developer - Kinaxis   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02171140#508 - Supply Chain - MineSense Technologies Ltd - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02171736#59 - Systems Engineering - Schneider Electric   - Solar (Richmond).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02172118#937 - Front End Developer - Kinaxis   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02172424#938 - Software Developer - Zetron , A Codan Company - Victoria Head Office.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02172733#844 - Junior Web Designer - Hummingbird Drones   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02173202#827 - Junior Full-Stack Developer - Hummingbird Drones   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02173911#942 - Engineering Student - Industrial Plankton Inc - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02174157#589 - Engineering Student - Industrial Plankton Inc - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02175058#950 - AI Software Internship - Rivos Inc - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6u$02175610#951 - Developer at Platforms and Application Server - Kinaxis   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$02055533#274 - Embedded Developer - Semios (SemiosBIO Technologies Inc) - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$02055823#275 - Javascript Developer - Semios (SemiosBIO Technologies Inc) - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$02063356#277 - Technical Student Writer - WorkSafeBC   - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$02063919#276 - Software Developer - ThoughtExchange   - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$02064455#141 - IT Support Analyst - Ammolite Technology Ltd. - Ammolite Technology Calgary.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$02064455#823 - IT Support Analyst - Ammolite Technology Ltd. - Ammolite Technology Calgary.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$02152456#38 - Embedded Developer - Semios (SemiosBIO Technologies Inc) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$02152539#39 - Javascript Developer - Semios (SemiosBIO Technologies Inc) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$02152631#40 - Technical Student Writer - WorkSafeBC   - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$02222003#50 - Software Developer - Arctic Wolf   - R&D Headquarters.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$03003112#345 - Junior Developer - Machobear Studios Inc. - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$04230438#344 - Application Development - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$04231054#53 - Middleware Platforms - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$04231322#718 - Automation, Performance and Big Data Test Engineer - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05061149#202 - Software Developer - 1Password  - Identity, People \& Accounts.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05141605#155 - Digital Information Technologies \& Solutions - Sanofi  - Connaught Campus.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05141927#156 - Software Developer - BC Ferries  - BC Ferries Head Office (Human Resources).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05142544#111 - Site Reliability Engineer - Clio  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05142544#47 - Site Reliability Engineer - Clio  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05143244#219 - Software - Invinity Energy Systems  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05143504#632 - Software Engineer - Invinity Energy Systems  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05143929#459 - Business Technology - BCLC (BC Lottery Corporation) - Head Office.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05144739#747 - Service Desk - BC Pension Corporation  - Human Resources, Talent Acquisition.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05145127#93 - Software Developer - WorkSafeBC  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05145435#206 - Battery Systems Engineer - Invinity Energy Systems  - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6uje$05145721#301 - Data Analyst - ICBC (Insurance Corporation of British Columbia) - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06030414#324 - Software Engineer (Cloud) - Planview - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06031219#325 - Software Engineer (Copilot) - Planview - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06032151#326 - Software Engineer (Viz) - Planview - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06032558#327 - Software Developer in Test (SDET) - LMI Technologies Inc. - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06034800#328 - Software Development in Artificial Intelligence Innovation - Copperleaf Technologies - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06034825#329 - Software Development in Platform - Copperleaf Technologies - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06035552#330 - Software Development in Capture - Copperleaf Technologies - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06035624#331 - Software Development in Business Process Automation - Copperleaf Technologies - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06035906#332 - Software Development in Asset - Copperleaf Technologies - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06035934#333 - Software Development in Value Frameworks - Copperleaf Technologies - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06042528#334 - Data Science - BC Ferries - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06042729#335 - Site Reliability Engineering - - Visier - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06042818#336 - Software Developer - Visier - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06043037#337 - Software Test Enablement Engineer - Visier - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06044317#338 - Data Scientist - Visier - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06045451#339 - Test Engineer - Arlo Technologies - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06050532#340 - Test Engineer - Zaber Technologies Inc.- Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06052821#341 - Certification Engineer - Netgear Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06053158#342 - Orbi Software Test Engineer - Netgear Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06053557#343 - Software QA Analyst - Reliable Controls Corporation - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06053650#344 - Firmware Developer - Reliable Controls Corporation - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06053714#345 - Firmware QA Analyst - Reliable Controls Corporation - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06053842#346 - Software Developer in Platforms - Reliable Controls Corporation - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06053909#347 - Software Developer in Portal - Reliable Controls Corporation - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umc$06070211#348 - Software Development Engineer in Test (SDET) - Netgear Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$02055533#693 - Embedded Developer - Semios (SemiosBIO Technologies Inc) - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$15090650#463 - QA Analyst - Dayforce (Toronto) - Product & Technology.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$15092147#185 - eLearning Developer - Reliable Controls Corporation - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$15093233#31 - UI:UX Designer - Reliable Controls Corporation - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$15093837#979 - Software Engineering - Ontario Power Generation - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$15095140#662 - Product Engineer - Netgear Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$15100359#394 - Firmware Validation - Motorola Solutions Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$15100543#378 - Firmware Developer - Motorola Solutions Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$15100840#177 - Systems Engineer - Motorola Solutions Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$15101417#388 - Software Developer - Motorola Solutions Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16002545#597 - Estimating Student - PCL Companies - PCL Constructors Westcoast Inc.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16002712#596 - Estimating Student - PCL Companies - PCL Constructors Inc.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16005123#598 - Information Technology Student - PCL Companies - PCL Constructors Westcoast Inc.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16012948#398 - Data & Business Intelligence Analyst - BC Energy Regulator - Human Resources (Victoria).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16013511#399 - Information Systems Analyst and Developer - BC Energy Regulator - Human Resources (Victoria).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16014152#400 - UI Engineering - Dayforce - Product & Technology – Web Platform.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16015810#927 - Software Developer in Test - Dayforce - Product & Technology.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16021600#185 - Software Developer - Dayforce - Product & Technology.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16021730#599 - Software Developer - Dayforce - Product & Technology.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16022303#488 - Data Analyst - Dayforce - Product & Technology.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16023143#489 - Software Developer - Dayforce - Product & Technology.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16023439#490 - Test Engineer - Dayforce - Product & Technology.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16034717#913 - Data Science - MineSense Technologies Ltd - Product & Technology.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16035408#912 - Data Science - MineSense Technologies Ltd - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16040717#966 - Data Science - MineSense Technologies Ltd - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16041216#490 - Emulation Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16041342#489 - Applications Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16041524#491 - Firmware Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16041628#493 - Validation Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16041823#492 - Product Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16042033#455 - AES-DDR Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16042241#550 - Physical Design Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16042356#251 - Validation Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16042611#252 - Verification Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16042950#963 - Software Development Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16043502#35 - Validation Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16043639#34 - PD Verification Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16043802#511 - Firmware Verification Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16044259#509 - Applications Engineer - Microchip Technologies Inc - Microsemi (Burnaby).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16045005#854 - Data Developer -  Vancouver Coastal Health Authority - Burnaby.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16045253#836 - Software Developer - Giftbit - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16045554#263 - Software Development Engineer in Test - Netgear Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16050015#641 - Desktop Support - Teck Resources Ltd - Elkview Operations.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16050822#384 - Software Developer - Ocean Networks Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16050913#385 - Software Test Automation - Ocean Networks Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16051144#55 - Operations Support - Ocean Networks Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16051258#54 - Junior Scientific Programmer - Ocean Networks Canada - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16051533#57 - Wireless Systems Engineering - Teck Resources Ltd - Elkview Operations.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16052022#56 - Software Engineering - Scotiabank - Human Resources (Toronto).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16052122#53 - Data Analyst - Scotiabank - Human Resources (Toronto).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16052642#40 - Data Engineer - Scotiabank - Human Resources (Toronto).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16052957#801 - Data Scientist - Scotiabank - Human Resources (Toronto).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16170505#471 - Software Developer - IBM Canada Ltd. - Human Resources .pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16172221#863 - Software Developer in Test (SDET) - LMI Technologies Inc. - Human Resources.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16172429#672 - Web Developer - BC Energy Regulator - Human Resources (Victoria).pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16172829#157 - Software Engineering - Dometic - Dometic Marine Richmond.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$16173303#715 - IT Support - Dometic - Dometic Marine Richmond.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$24224811#343 - IT Admin - Carbon Engineering Ltd. - Pilot Plant - Squamish Site .pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$24230441#477 - Underground Utilities Operations Student - - Carbon Engineering Ltd. - Engineering & Public Works.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$24230708#644 - Underground Utilities Operations Student - - City of Victoria - Engineering & Public Works.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$24231008#531 - Transportation Student - - City of Victoria - Engineering & Public Works.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$24231010#501 - Transportation Student - - City of Victoria - Engineering & Public Works.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$24234737#406 - Network Analyst - BC Liquor Distribution Branch - Talent & Compensation.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$24234756#887 - Network Analyst - BC Liquor Distribution Branch - Talent & Compensation.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$24235159#893 - Junior Software Developer - Archipelago Marine Research - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$25000945#495 - Service Delivery Software Engineering - BCI (British Columbia Investment Management Corporation) - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$25002045#365 - Applications & Operations - Software Engineering - BCI (British Columbia Investment Management Corporation) - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$25002403#626 - Technology Specialist - BCI (British Columbia Investment Management Corporation) - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$25002727#524 - Digital Workplace Technical Analyst - BCI (British Columbia Investment Management Corporation) - Human Resource.pdf
+│   ├── Hussain, Arfaz - Placement Application _a94d6umy$25004259#525 - Software Test Engineer - Semtech - Sierra Wireless.pdf
+│   ├── MAY/
+│   ├── company_data/
+│   ├── direc.sh
+│   ├── location_data/
+│   ├── resume.tex
+│   ├── resut.sh
+│   ├── signature.png
+│   ├── srt.sh
+│   ├── term_data.txt
+│   ├── tex-outputs/
+│   ├── title_data.txt
+├── .DS_Store
+├── 0 ATM/
+├── 1 jne 10/
+├── 9.1 PreProcessed/
+├── 9.2 PostProcessed/
+├── 9.5 PastDocs/
+├── Hussain, Arfaz - Placement Application - SDE.docx
+├── atm.sh
+├── direc.sh
+├── directory_structure.txt
+├── projects.rtf
+├── ren.sh

@@ -1,0 +1,18 @@
+│   ├── Alberta.txt
+│   ├── British_Columbia.txt
+│   ├── Manitoba.txt
+│   ├── Nova_Scotia.txt
+│   ├── Ontario.txt
+│   ├── Provinces.txt
+│   ├── Quebec.txt
+│   ├── Remote.txt
+│   ├── company_division.txt
+│   ├── company_name.txt
+│   ├── company_suffix.txt
+├── company_data/
+├── direc.sh
+├── directory_structure.txt
+├── location_data/
+├── srt.sh
+├── term_data.txt
+├── title_data.txt
