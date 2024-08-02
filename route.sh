@@ -1,7 +1,7 @@
 #  Git Workflow
 #  Stable Script 8.1
 #  
-#  Developed for this Github Repository <Technical>
+#  Developed for this Github Repository <Application System>
 #  Tested on Fedora 36, Mac M1 and Linux Distributions
 #  One-Keyboard Function(s): Pull/Push, Reset & Sync.
 #  This is an open-source script. Feel free to use it at your own risk.
