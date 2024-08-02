@@ -1,3 +1,4 @@
+0footprint
 1Password
 Achievers
 Ada
@@ -20,9 +21,11 @@ Bold Commerce
 Breather
 Broadcom
 Calian
+Cambio Earth Systems
 CaseWare
 Ceridian
 Certn
+Ciena
 Clio
 Coupa
 CrowdStrike
@@ -32,14 +35,18 @@ Datadog
 Dayforce
 Dejero
 Densify
+EQ Bank
+ERCO
 Elastic Path
 Element AI
 Flipp
 Fluence
 FreshBooks
+GIRO
 GitLab
 Global Relay Communications
 Hootsuite
+Huawei
 HubSpot
 ICBC
 Intelex
@@ -53,9 +60,13 @@ Klipfolio
 League
 Lightsail
 Lightspeed
+Magna
 Magnet Forensics
+Mani Wonders
 MavTek
+McCain Foods
 Mediagrif
+MesoMat
 MindBridge
 Mogo
 MongoDB
@@ -75,8 +86,10 @@ Q4
 Resolver
 Ritual
 Salesforce
+Sanctuary
 Sanofi
 Security Compass
+Sentry
 ServiceNow
 Shopify
 Simon Fraser University
@@ -86,6 +99,8 @@ Snowflake
 Solium
 Sonder
 Splunk
+SquareShift
+Survalent
 Tanium
 Tegus
 Thinkific

@@ -75,7 +75,7 @@ const fileOps = {
 
 const browserOps = {
     initializeBrowser: async (): Promise<Browser> => {
-        return await puppeteer.launch({ headless: false });
+        return await puppeteer.launch({ headless: true });
     },
 
     createNewPage: async (browser: Browser): Promise<Page> => {

@@ -1,10 +1,12 @@
 
 (BC Lottery Corporation)
 (Connaught Campus)
+(Equitable Bank)
 (Insurance Corporation of British Columbia)
 (Provincial Health Services Authority)
 AB
 AG
+AI
 ASA
 B.V.
 BHD.
@@ -17,6 +19,7 @@ COMPANY
 CONSTRUCTION
 CONSULTANTS
 CONSULTING
+Canada
 Co.
 Company
 Constructors Westcoast Inc.
@@ -46,7 +49,9 @@ INTERNATIONAL
 Inc
 Inc.
 Incorporated
+Industrial Management Inc.
 Industries
+International Inc.
 KG
 LLC
 LLLP
@@ -57,6 +62,7 @@ Limited
 Ltd
 Ltd.
 MANUFACTURING
+Media Inc.
 NETWORKS
 NV
 NV/SA
@@ -85,6 +91,8 @@ TECH
 TECHNOLOGIES
 TECHNOLOGY
 TELECOMMUNICATIONS
+Tech Services Inc
 Technologies
 Technologies Inc.
 VENTURES
+Worldwide

@@ -1,7 +1,7 @@
 [
   {
     "name": "_shibsession_757669636c696d68747470733a2f2f6c6561726e696e67696e6d6f74696f6e2e757669632e6361",
-    "value": "_32c9f9f5af9066bb043ba0d417f1bb50",
+    "value": "_8f8bd0a85c481a2fa86b501e939e1093",
     "domain": "learninginmotion.uvic.ca",
     "path": "/",
     "expires": -1,
@@ -15,7 +15,7 @@
   },
   {
     "name": "JSESSIONID",
-    "value": "8D405E0530E57EE62E3043F45FDF581E",
+    "value": "C4FDB383B6CDEC563C24748EA529EF54",
     "domain": "learninginmotion.uvic.ca",
     "path": "/",
     "expires": -1,
@@ -43,10 +43,10 @@
   },
   {
     "name": "uvic_sso",
-    "value": "ly71vyw2",
+    "value": "lzar4ty0",
     "domain": ".uvic.ca",
     "path": "/",
-    "expires": 1720343671.766636,
+    "expires": 1722744256.674767,
     "size": 16,
     "httpOnly": true,
     "secure": true,

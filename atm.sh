@@ -415,7 +415,7 @@ main () {
     cd "9.2 PostProcessed/tex-outputs"
     pdflatex tntx.tex && mv tntx.pdf "$filename.pdf"
     cp "$filename.pdf" ../
-    cp "$filename.pdf" ../../1\ jne\ 10/
+    cp "$filename.pdf" ../../999\ AUG-1/
     rm -f !(*.tex)
     cd ../../ || exit
 

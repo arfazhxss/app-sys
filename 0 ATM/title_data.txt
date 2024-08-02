@@ -68,6 +68,7 @@ Enterprise Data Architect
 Estimating Student
 Firmware Developer
 Firmware Engineer
+Front End Web Developer
 Frontend Architect
 Frontend Developer
 Full Stack Developer
@@ -102,6 +103,7 @@ IoT Developer
 Junior Security Analyst
 Junior Software Developer
 Knowledge Engineer
+Lab Hardware and Software Support
 Localization Engineer
 Machine Learning Engineer
 Machine Learning Specialist
@@ -128,6 +130,7 @@ Project Manager
 Project Support (Fleet Project Management Office)
 QA Automation Engineer
 Quality Assurance Engineer
+Quality and Infrastructure Developer
 R&D Site Quality Operations
 RPA Developer
 Release Manager
@@ -152,6 +155,7 @@ Software Deployment Engineer
 Software Developer
 Software Developer (Processor)
 Software Developer in Test
+Software Development
 Software Development Engineer
 Software Development Manager
 Software Engineer
@@ -160,6 +164,7 @@ Software Engineering
 Software Implementation Consultant
 Software Maintenance Engineer
 Software Release Engineer
+Software Robotics Simulation
 Software Test Engineer
 Solution Architect
 Solutions Specialist
@@ -173,6 +178,7 @@ Systems Engineer
 Systems Integrator
 Systems Support Analyst
 Systems Support Engineer
+Tech
 Technical Account Manager
 Technical Consultant
 Technical Content Developer
@@ -183,6 +189,7 @@ Technical Recruiter
 Technical Support Engineer
 Technical Writer
 Technology Manager
+Technology Workplace Services (TWS)
 Test Automation Engineer
 UI/UX Designer
 UI/UX Researcher

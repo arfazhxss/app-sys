@@ -3,7 +3,6 @@
 import os
 import re
 import json
-import requests
 import subprocess
 
 location_data_path = "/Users/arfaz/Desktop/Projects/app-sys/0 ATM/location_data"
@@ -42,7 +41,7 @@ def org_chk(organization, num):
     if num==1:
         return clean_org.strip()
     elif num==2:
-        return organization[len(clean_org)-1:].strip() if len(organization[len(clean_org)-1:].strip()) > 1 else ""
+        return organization[len(clean_org.strip()):].replace(",","-").replace("Ltd","Ltd.").replace("Inc","Inc.").replace("Corp","Corp.").strip() if len(organization[len(clean_org)-1:].strip()) > 1 else ""
 
 def div_chk(organization, division):
     for word in division.split():
@@ -172,9 +171,10 @@ for element in data:
         regions.append(rg_chk(city,sub_elements.get("Region", "")))
 
 for i in range(len(job_titles)):
-    # if i!=47:
+    # if i!=25:
         # continue
     # print(f'{i} [{organization_names[i]}]')
+    # print(f'{i} [{escape_latex_chars(company_suffixes[i])}]')
     # print(f'>> [{company_suffixes[i]}]')
     # print(f'{division_names[i]}')
     # print(f'>> {job_locations[i]}')

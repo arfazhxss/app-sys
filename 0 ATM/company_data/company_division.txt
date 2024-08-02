@@ -25,6 +25,7 @@ Environmental Health and Safety
 Facilities Management
 Finance
 Fuel Cell Research Laboratory (FCReL)
+Global Technology
 Hardware Engineering
 Head Office
 Human Resources
@@ -38,6 +39,7 @@ Internal Audit
 Learning and Development
 Legal and Compliance
 Manufacturing
+Mechatronics Technical Center
 Mobile Development
 Network Operations
 Operations
