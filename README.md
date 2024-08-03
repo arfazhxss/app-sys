@@ -7,8 +7,6 @@
 ├── projects.rtf
 ├── texput.log
 ├── README.md
-├── directory_structure.txt
-├── .gitignore
 ├── ren.sh
 ├── route.sh
 ├── Hussain, Arfaz - Placement Application - SDE.docx
@@ -85,7 +83,6 @@
 │   ├── Hussain Arfaz - Placement Application - Youth STEM Instructor - University of Victoria  - Science Venture.pdf
 │   ├── Hussain Arfaz - Placement Application - AI or ML Reinforcement Learning - Sanctuary AI  - Vancouver office.pdf
 │   ├── Hussain Arfaz - Placement Application - Coastal Dynamics Remote Sensing Assistant - Natural Resources Canada  - Geological Survey of Canada - Pacific Geoscience Centre.pdf
-│   ├── .pdf
 │   ├── Hussain Arfaz - Placement Application - Data Analyst - BC Children's Hospital  - Child and Family Research Institute - CFRI.pdf
 │   ├── Hussain Arfaz - Placement Application - Embedded Software - SHIFT Clean Energy  - - Vancouver.pdf
 │   ├── Hussain Arfaz - Placement Application - Software Machine Learning Operations - Sanctuary AI  - Vancouver office.pdf
@@ -103,6 +100,5 @@
 │   ├── Hussain Arfaz - Placement Application - Junior Full-Stack Developer - Hummingbird Drones  - Human Resources.pdf
 │   ├── Hussain Arfaz - Placement Application - Estimating - PCL Companies  - PCL Constructors Westcoast Inc- Richmond.pdf
 │   ├── tex-outputs/
-│   │   ├── .pdf
 │   │   ├── tntx.tex
 ```
