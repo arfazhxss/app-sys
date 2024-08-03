@@ -21,12 +21,20 @@ list_structure() {
 }
 
 # Output file
-output_file="directory_structure.txt"
+output_file="README.md"
 
 # Clear the output file if it exists
 > "$output_file"
 
+# Write the Markdown header and code block start
+echo "# Directory Structure" >> "$output_file"
+echo "" >> "$output_file"
+echo '```' >> "$output_file"
+
 # Start listing from the current directory with no initial indentation
 list_structure "." "" "$output_file"
+
+# Write the code block end
+echo '```' >> "$output_file"
 
 echo "Directory structure has been saved to $output_file"
