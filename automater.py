@@ -3,11 +3,12 @@
 import os
 import re
 import json
+from termcolor import colored
 import subprocess
 
-location_data_path = "/Users/arfaz/Desktop/Projects/app-sys/0 ATM/location_data"
+location_data_path = "/Users/arfaz/Desktop/Projects/app-sys/9.4 PostProcessed/location_data"
 
-with open('9.0 Scraper/result.json', 'r') as file:
+with open('9.0 LIM+/result.json', 'r') as file:
     data = json.load(file)
 
 def escape_latex_chars(s):
@@ -27,7 +28,7 @@ def is_city(city_name):
     return False
 
 def org_chk(organization, num):
-    suffix_file_path = "/Users/arfaz/Desktop/Projects/app-sys/0 ATM/company_data/company_suffix.txt"
+    suffix_file_path = "/Users/arfaz/Desktop/Projects/app-sys/9.4 PostProcessed/company_data/company_suffix.txt"
 
     with open(suffix_file_path, 'r') as file:
         suffixes = file.read().splitlines()
@@ -96,8 +97,8 @@ def jb_chk(title):
     clean_title = clean_title.replace(' -', '')
     clean_title = clean_title.replace('- ', '')
     clean_title = clean_title.replace('HelpDesk', 'Help-Desk')
-    
-    
+    if clean_title=="":
+        clean_title="Engineering Co-op"
     return clean_title.strip()
 
 def dr_chk(duration_string):
@@ -160,7 +161,11 @@ regions = []
 company_suffixes = []
 
 for element in data:
+    i=0
     for key, sub_elements in element.items():
+        if i==24:
+            print(f'{i} [{sub_elements.get("Job Title", "").split('(')[0].strip()}]')
+            print(f'{i} [{jb_chk(sub_elements.get("Job Title", "").split('(')[0].strip())}]')
         job_titles.append(jb_chk(sub_elements.get("Job Title", "").split('(')[0].strip()))
         organization_names.append(org_chk(sub_elements.get("Organization Name", ""),1))
         company_suffixes.append(org_chk(sub_elements.get("Organization Name", ""),2))
@@ -169,20 +174,18 @@ for element in data:
         city = cty_chk(sub_elements.get("Job Location", ""))
         job_locations.append(city)
         regions.append(rg_chk(city,sub_elements.get("Region", "")))
+        i+=1
 
 for i in range(len(job_titles)):
-    # if i!=25:
-        # continue
     # print(f'{i} [{organization_names[i]}]')
     # print(f'{i} [{escape_latex_chars(company_suffixes[i])}]')
     # print(f'>> [{company_suffixes[i]}]')
     # print(f'{division_names[i]}')
     # print(f'>> {job_locations[i]}')
     # print(f'{i} {regions[i]}')
+    # print(f'./atm.sh "{job_title}" "{organization_name}" "{company_suffix}" "{division_name}" "{job_location}" "{region}" "{work_term_duration}"')
     syst=f'./atm.sh "{job_titles[i]}" "{organization_names[i]}" "{escape_latex_chars(company_suffixes[i])}" "{escape_latex_chars(division_names[i])}" "{job_locations[i]}" "{regions[i]}" "{work_term_durations[i]}"'
-    # print(syst)
+    if ((job_locations[i]=="XXX") or (regions[i]=="XXX")):
+        # print(i,colored(syst, 'blue'))
+        continue
     subprocess.run(syst,shell=True)
-
-
-
-# print(f'./atm.sh "{job_title}" "{organization_name}" "{company_suffix}" "{division_name}" "{job_location}" "{region}" "{work_term_duration}"')

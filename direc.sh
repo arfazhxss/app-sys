@@ -11,10 +11,12 @@ list_structure() {
     echo "${indent}├── $(basename "$file")" >> "$output_file"
   done
 
-  # List the subdirectories in the current directory
+  # List the subdirectories in the current directory, excluding those that start with a dot and node_modules
   find "$dir" -maxdepth 1 -type d ! -path "$dir" | while read -r subdir; do
-    echo "${indent}├── $(basename "$subdir")/" >> "$output_file"
-    list_structure "$subdir" "${indent}│   " "$output_file"
+    if [[ "$(basename "$subdir")" != .* && "$(basename "$subdir")" != "node_modules" ]]; then
+      echo "${indent}├── $(basename "$subdir")/" >> "$output_file"
+      list_structure "$subdir" "${indent}│   " "$output_file"
+    fi
   done
 }
 
@@ -28,4 +30,3 @@ output_file="directory_structure.txt"
 list_structure "." "" "$output_file"
 
 echo "Directory structure has been saved to $output_file"
-

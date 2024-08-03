@@ -65,15 +65,15 @@ process_files() {
     fi
 
     if [ "$postprocess" ] && [ "$postprocess" -eq 1 ]; then
-        [ ! -d "$(dirname "$directory")/9.2 PostProcessed" ] && mkdir -p "$(dirname "$directory")/9.2 PostProcessed" 2>/dev/null
-        cp -n "$newFile" "$(dirname "$directory")/9.2 PostProcessed" 2>/dev/null
+        [ ! -d "$(dirname "$directory")/9.3 CurrProcessed" ] && mkdir -p "$(dirname "$directory")/9.3 CurrProcessed" 2>/dev/null
+        cp -n "$newFile" "$(dirname "$directory")/9.3 CurrProcessed" 2>/dev/null
     fi
 
     if [ "$merge" ] && [ "$merge" -eq 1 ]; then
-        [ ! -d "$(dirname "$directory")/9.1 PreProcessed" ] && mkdir -p "$(dirname "$directory")/9.1 PreProcessed" 2>/dev/null
-        local count=$(find "$(dirname "$directory")/9.1 PreProcessed" -maxdepth 1 -type f -name "[0-8]*.pdf" | wc -l)
+        [ ! -d "$(dirname "$directory")/9.2 PreProcessed" ] && mkdir -p "$(dirname "$directory")/9.2 PreProcessed" 2>/dev/null
+        local count=$(find "$(dirname "$directory")/9.2 PreProcessed" -maxdepth 1 -type f -name "[0-8]*.pdf" | wc -l)
         [ "$count" -ge 1 ] || { echo "Error: Directory does not contain at least one PDF file"; exit 1; }
-        [ -f "$newFile" ] && gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile="$directory/merged.pdf" "$newFile" "$(dirname "$directory")/9.1 PreProcessed"/[0-8]*.pdf
+        [ -f "$newFile" ] && gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile="$directory/merged.pdf" "$newFile" "$(dirname "$directory")/9.2 PreProcessed"/[0-8]*.pdf
         [ -f "$newFile" ] && mv "$directory/merged.pdf" "$newFile"
     fi
 

@@ -10,17 +10,20 @@ random_two () {
 }
 
 # Function to escape LaTeX special characters
+# ESC_LATEX () {
+#     echo "$1" | sed -e 's/\\/\\\\/g' \
+#                     -e 's/{/\\{/g' \
+#                     -e 's/}/\\}/g' \
+#                     -e 's/\$/\\$/g' \
+#                     -e 's/&/\\&/g' \
+#                     -e 's/#/\\#/g' \
+#                     -e 's/_/\\_/g' \
+#                     -e 's/%/\\%/g' \
+#                     -e 's/\^/\\^/g' \
+#                     -e 's/\~/\\~/g'
+# }
 ESC_LATEX () {
-    echo "$1" | sed -e 's/\\/\\\\/g' \
-                    -e 's/{/\\{/g' \
-                    -e 's/}/\\}/g' \
-                    -e 's/\$/\\$/g' \
-                    -e 's/&/\\&/g' \
-                    -e 's/#/\\#/g' \
-                    -e 's/_/\\_/g' \
-                    -e 's/%/\\%/g' \
-                    -e 's/\^/\\^/g' \
-                    -e 's/\~/\\~/g'
+    sed -e 's/[\\{}&$#_^~%]/\\&/g' <<< "$1"
 }
 
 # Function to create a dropdown menu
@@ -48,7 +51,7 @@ DROP_DOWN () {
 # Function to get the Position
 get_title () {
     local DATA_DIR="$(get_dir)" 
-    local title_origin="$DATA_DIR/0 ATM/title_data.txt"
+    local title_origin="$DATA_DIR/9.4 PostProcessed/title_data.txt"
     local title_query="Enter Position:"
     echo "$(DROP_DOWN "$title_origin" "$title_query")"
 }
@@ -56,7 +59,7 @@ get_title () {
 # Function to get the Company Name
 get_company_name () {
     local DATA_DIR="$(get_dir)" 
-    local company_name_origin="$DATA_DIR/0 ATM/company_data/company_name.txt"
+    local company_name_origin="$DATA_DIR/9.4 PostProcessed/company_data/company_name.txt"
     local company_name_query="Enter Company Name:"
     echo "$(DROP_DOWN "$company_name_origin" "$company_name_query")"
 }
@@ -64,14 +67,14 @@ get_company_name () {
 # Function to get the Company Suffix
 get_company_suffix () {
     local DATA_DIR="$(get_dir)" 
-    local company_suffix_origin="$DATA_DIR/0 ATM/company_data/company_suffix.txt"
+    local company_suffix_origin="$DATA_DIR/9.4 PostProcessed/company_data/company_suffix.txt"
     local company_suffix_query="Enter Company Suffix:"
     echo "$(DROP_DOWN "$company_suffix_origin" "$company_suffix_query")"
 }
 
 get_state () {
     local DATA_DIR="$(get_dir)" 
-    local province_origin="$DATA_DIR/0 ATM/location_data/Provinces.txt"
+    local province_origin="$DATA_DIR/9.4 PostProcessed/location_data/Provinces.txt"
     local province_query="Enter Province name:"
     echo "$(DROP_DOWN "$province_origin" "$province_query")"
 }
@@ -80,7 +83,7 @@ get_city () {
     local locationState="$1"
     local DATA_DIR="$(get_dir)" 
     [ -z "$locationState" ] && { echo "$province_query No province selected."; exit 1; }
-    local city_origin="$DATA_DIR/0 ATM/location_data/${locationState// /_}.txt"
+    local city_origin="$DATA_DIR/9.4 PostProcessed/location_data/${locationState// /_}.txt"
     local city_query="Enter City name:"
     local locationCity=$(DROP_DOWN "$city_origin" "$city_query")
     [ -z "$locationCity" ] && { echo "$city_query No city selected."; exit 1; } 
@@ -90,7 +93,7 @@ get_city () {
 # Function to get the Division
 get_division () {
     local DATA_DIR="$(get_dir)" 
-    local division_origin="$DATA_DIR/0 ATM/company_data/company_division.txt"
+    local division_origin="$DATA_DIR/9.4 PostProcessed/company_data/company_division.txt"
     local division_query="Enter Division:"
     echo "$(DROP_DOWN "$division_origin" "$division_query")"
 }
@@ -98,7 +101,7 @@ get_division () {
 # Function to get the Terms
 get_terms () {
     local DATA_DIR="$(get_dir)" 
-    local terms_origin="$DATA_DIR/0 ATM/term_data.txt"
+    local terms_origin="$DATA_DIR/9.4 PostProcessed/term_data.txt"
     local terms_query="Enter Terms:"
     echo "$(DROP_DOWN "$terms_origin" "$terms_query")"
 }
@@ -190,7 +193,7 @@ body_3 () {
 body_4 () {
     local a="\vspace{10pt}\text{Most Sincerely,}"
     local b="\vspace{-25pt}\begin{flushleft}"
-    local c="\hspace*{-1cm}\includegraphics[width=10cm]{../../9.1 PreProcessed/signature.png}\vspace{-1cm}"
+    local c="\hspace*{-1cm}\includegraphics[width=10cm]{../../9.2 PreProcessed/signature.png}\vspace{-1cm}"
     local d="\end{flushleft}"
     local e="\vspace{-10pt}\ps{\textbf{Arfaz Hossain} (He/Him)\\\\"
     local f="Software Engineering Student,\\\\"
@@ -406,16 +409,16 @@ main () {
     # local filename=$(generator | sed 's/[\/\\,;]//g')
      local filename=$(generator "$@" | sed 's/[\/\\,;]//g')
     perl -pe 's/^( {8}|\t{2})//' tntx.tex > ntntx.tex && mv ntntx.tex tntx.tex
-    mv tntx.tex "9.2 PostProcessed/tex-outputs/" || exit 1
-    sed -i 's/ \+/ /g' "9.2 PostProcessed/tex-outputs/tntx.tex"
+    mv tntx.tex "9.3 CurrProcessed/tex-outputs/" || exit 1
+    sed -i 's/ \+/ /g' "9.3 CurrProcessed/tex-outputs/tntx.tex"
 
     # This removes all "TEST" entries in the srt.sh script
-    ./0\ ATM/srt.sh
+    ./9.4\ PostProcessed/srt.sh
 
-    cd "9.2 PostProcessed/tex-outputs"
+    cd "9.3 CurrProcessed/tex-outputs"
     pdflatex tntx.tex && mv tntx.pdf "$filename.pdf"
     cp "$filename.pdf" ../
-    cp "$filename.pdf" ../../999\ AUG-1/
+    cp "$filename.pdf" ../../9.5\ Applications/
     rm -f !(*.tex)
     cd ../../ || exit
 

@@ -1,0 +1,603 @@
+"id","site","job_url","job_url_direct","title","company","location","job_type","date_posted","salary_source","interval","min_amount","max_amount","currency","is_remote","job_level","job_function","company_industry","listing_type","emails","description","company_url","company_url_direct","company_addresses","company_num_employees","company_revenue","company_description","logo_photo_url","banner_photo_url","ceo_name","ceo_photo_url"
+"3989285389","linkedin","https://www.linkedin.com/jobs/view/3989285389","https://careers-kinaxis.icims.com/jobs/31798/co-op-intern-developer%25252c-data-server-tools%25252c-back-end-technologies/job?mode=apply&iis=LinkedIn&iisn=LinkedIn&urlHash=XhYT","Co-op/Intern Developer, Data Server Tools, Back End Technologies","Kinaxis","Toronto, Ontario, Canada","internship","2024-07-31","","","","","","","internship","Engineering","Software Development","","recruitmentprograms@kinaxis.com","**About Kinaxis**
+ In 1984, we started out as a team of three engineers. Today, we have grown to become a global organization with over 2000 employees around the world, with a brand-new HQ based in Kanata North in Ottawa. As one of Canada’s Top Employers for Young People (2024), we want to help you take the first step in crafting your career journey.
+   
+
+  
+
+ At Kinaxis, we power the world’s supply chains to help preserve the planet’s resources and enrich the human experience. As a global leader in end-to-end supply chain management, we enable supply chain excellence for all industries, with more than 40,000 users in over 100 countries. We are expanding our team as we continue to innovate and revolutionize how we support our customers.
+   
+
+  
+
+**Location**
+ If in Ottawa, you must be in the office at least three days a week. Other Canadian Locations - Remote.
+   
+
+  
+
+**About The Team**
+ Our team develops software tools and automation frameworks that are used internally within Kinaxis. The team is responsible for the operation of various testing pipelines used by other software developers in the company. We automate these pipelines to parallelize testing workloads over hundreds of Virtual Machines, running tens of thousands of tests. We primarily use languages such as .NET/C#, PowerShell, Groovy, and Python, and manage their execution in environments involving Jenkins, Docker, Elastic, Azure, and on-premise VMs.
+   
+
+  
+
+ Since we develop internal facing tools, we experience the entire software development lifecycle, from design to release to bug fixes. As a result, creativity is a significant contribution of this team; we need to develop novel solutions for problems that developers face. If solutions jump out at you when you are faced with software development challenges, this is the team for you!
+   
+
+  
+
+**This is a 4-month position, starting September 2024.**
+****What you will do****
+* Developing and supporting various software tools, features, and services in various programming languages used internally by other developers
+* Learn new software development processes to find and deliver solutions to problems as they arise
+* Change and refactor existing code to remove complexity
+* Simplify access to development tools and knowledge
+* Manage machine resource usage to optimize uptime
+* May perform additional projects as needed
+
+
+****What we are looking for****
+* Have finished at least 3 years of studies in a Computer Science or Software Engineering (or equivalent) program, including at least 2 previous co-op work terms
+* Object Oriented programming experience, preferably in C# or C++
+* Strong technical skills and the ability to learn new concepts quickly
+* Insatiable drive for improving productivity
+* Good collaborative skills and positive attitude
+* A creative thinker that is good at problem solving
+
+
+**#Coop, #Internship, #Intern,**
+**Work With Impact:** 
+ Our platform directly helps companies power the world’s supply chains. We see the results of what we do out in the world every day—when we see store shelves stocked, when medications are available for our loved ones, and so much more.
+   
+
+  
+
+**Work with Fortune 500 Brands:** 
+ Companies across industries trust us to help them take control of their integrated business planning and digital supply chain. Some of our customers include Ford, Unilever, Yamaha, P&G, Lockheed-Martin, and more.
+   
+
+  
+
+**Social Responsibility at Kinaxis:** 
+ Our Diversity, Equity, and Inclusion Committee weighs in on hiring practices, talent assessment training materials, and mandatory training on unconscious bias and inclusion fundamentals. Sustainability is key to what we do and we’re committed to net-zero operations strategy for the long term. We are involved in our communities and support causes where we can make the most impact.
+   
+
+  
+
+ People matter at Kinaxis and these are some of the perks and benefits we created for our team:
+   
+
+  
+
+* Flexible vacation and Kinaxis Days (company-wide day off on the last Friday of every month)
+* Flexible work options
+* Physical and mental well-being programs
+* Regularly scheduled virtual fitness classes
+* Mentorship programs and training and career development
+* Recognition programs and referral rewards
+* Hackathons
+
+
+ For more information, visit the Kinaxis web site at www.kinaxis.com or the company’s blog at http://blog.kinaxis.com .
+   
+
+  
+
+ Kinaxis strongly encourages diverse candidates to apply to our welcoming community. We strive to make our website and application process accessible to any and all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please contact us at recruitmentprograms@kinaxis.com . This contact information is for accessibility requests only and cannot be used to inquire about the status of applications.","https://ca.linkedin.com/company/kinaxis","","","","","","https://media.licdn.com/dms/image/D560BAQHPxAih-jGbCA/company-logo_100_100/0/1711628731307/kinaxis_logo?e=2147483647&v=beta&t=w6c1fI2XaDZ9MSGO_HDJiiVpi1WV2fvoZnQaJCYC4qQ","","",""
+"3989285390","linkedin","https://www.linkedin.com/jobs/view/3989285390","https://careers-kinaxis.icims.com/jobs/31798/co-op-intern-developer%25252c-data-server-tools%25252c-back-end-technologies/job?mode=apply&iis=LinkedIn&iisn=LinkedIn&urlHash=XhYT","Co-op/Intern Developer, Data Server Tools, Back End Technologies","Kinaxis","Waterloo, Ontario, Canada","internship","2024-07-31","","","","","","","internship","Engineering","Software Development","","recruitmentprograms@kinaxis.com","**About Kinaxis**
+ In 1984, we started out as a team of three engineers. Today, we have grown to become a global organization with over 2000 employees around the world, with a brand-new HQ based in Kanata North in Ottawa. As one of Canada’s Top Employers for Young People (2024), we want to help you take the first step in crafting your career journey.
+   
+
+  
+
+ At Kinaxis, we power the world’s supply chains to help preserve the planet’s resources and enrich the human experience. As a global leader in end-to-end supply chain management, we enable supply chain excellence for all industries, with more than 40,000 users in over 100 countries. We are expanding our team as we continue to innovate and revolutionize how we support our customers.
+   
+
+  
+
+**Location**
+ If in Ottawa, you must be in the office at least three days a week. Other Canadian Locations - Remote.
+   
+
+  
+
+**About The Team**
+ Our team develops software tools and automation frameworks that are used internally within Kinaxis. The team is responsible for the operation of various testing pipelines used by other software developers in the company. We automate these pipelines to parallelize testing workloads over hundreds of Virtual Machines, running tens of thousands of tests. We primarily use languages such as .NET/C#, PowerShell, Groovy, and Python, and manage their execution in environments involving Jenkins, Docker, Elastic, Azure, and on-premise VMs.
+   
+
+  
+
+ Since we develop internal facing tools, we experience the entire software development lifecycle, from design to release to bug fixes. As a result, creativity is a significant contribution of this team; we need to develop novel solutions for problems that developers face. If solutions jump out at you when you are faced with software development challenges, this is the team for you!
+   
+
+  
+
+**This is a 4-month position, starting September 2024.**
+****What you will do****
+* Developing and supporting various software tools, features, and services in various programming languages used internally by other developers
+* Learn new software development processes to find and deliver solutions to problems as they arise
+* Change and refactor existing code to remove complexity
+* Simplify access to development tools and knowledge
+* Manage machine resource usage to optimize uptime
+* May perform additional projects as needed
+
+
+****What we are looking for****
+* Have finished at least 3 years of studies in a Computer Science or Software Engineering (or equivalent) program, including at least 2 previous co-op work terms
+* Object Oriented programming experience, preferably in C# or C++
+* Strong technical skills and the ability to learn new concepts quickly
+* Insatiable drive for improving productivity
+* Good collaborative skills and positive attitude
+* A creative thinker that is good at problem solving
+
+
+**#Coop, #Internship, #Intern,**
+**Work With Impact:** 
+ Our platform directly helps companies power the world’s supply chains. We see the results of what we do out in the world every day—when we see store shelves stocked, when medications are available for our loved ones, and so much more.
+   
+
+  
+
+**Work with Fortune 500 Brands:** 
+ Companies across industries trust us to help them take control of their integrated business planning and digital supply chain. Some of our customers include Ford, Unilever, Yamaha, P&G, Lockheed-Martin, and more.
+   
+
+  
+
+**Social Responsibility at Kinaxis:** 
+ Our Diversity, Equity, and Inclusion Committee weighs in on hiring practices, talent assessment training materials, and mandatory training on unconscious bias and inclusion fundamentals. Sustainability is key to what we do and we’re committed to net-zero operations strategy for the long term. We are involved in our communities and support causes where we can make the most impact.
+   
+
+  
+
+ People matter at Kinaxis and these are some of the perks and benefits we created for our team:
+   
+
+  
+
+* Flexible vacation and Kinaxis Days (company-wide day off on the last Friday of every month)
+* Flexible work options
+* Physical and mental well-being programs
+* Regularly scheduled virtual fitness classes
+* Mentorship programs and training and career development
+* Recognition programs and referral rewards
+* Hackathons
+
+
+ For more information, visit the Kinaxis web site at www.kinaxis.com or the company’s blog at http://blog.kinaxis.com .
+   
+
+  
+
+ Kinaxis strongly encourages diverse candidates to apply to our welcoming community. We strive to make our website and application process accessible to any and all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please contact us at recruitmentprograms@kinaxis.com . This contact information is for accessibility requests only and cannot be used to inquire about the status of applications.","https://ca.linkedin.com/company/kinaxis","","","","","","https://media.licdn.com/dms/image/D560BAQHPxAih-jGbCA/company-logo_100_100/0/1711628731307/kinaxis_logo?e=2147483647&v=beta&t=w6c1fI2XaDZ9MSGO_HDJiiVpi1WV2fvoZnQaJCYC4qQ","","",""
+"3989283554","linkedin","https://www.linkedin.com/jobs/view/3989283554","https://careers-kinaxis.icims.com/jobs/31798/co-op-intern-developer%25252c-data-server-tools%25252c-back-end-technologies/job?mode=apply&iis=LinkedIn&iisn=LinkedIn&urlHash=XhYT","Co-op/Intern Developer, Data Server Tools, Back End Technologies","Kinaxis","Calgary, Alberta, Canada","internship","2024-07-31","","","","","","","internship","Engineering","Software Development","","recruitmentprograms@kinaxis.com","**About Kinaxis**
+ In 1984, we started out as a team of three engineers. Today, we have grown to become a global organization with over 2000 employees around the world, with a brand-new HQ based in Kanata North in Ottawa. As one of Canada’s Top Employers for Young People (2024), we want to help you take the first step in crafting your career journey.
+   
+
+  
+
+ At Kinaxis, we power the world’s supply chains to help preserve the planet’s resources and enrich the human experience. As a global leader in end-to-end supply chain management, we enable supply chain excellence for all industries, with more than 40,000 users in over 100 countries. We are expanding our team as we continue to innovate and revolutionize how we support our customers.
+   
+
+  
+
+**Location**
+ If in Ottawa, you must be in the office at least three days a week. Other Canadian Locations - Remote.
+   
+
+  
+
+**About The Team**
+ Our team develops software tools and automation frameworks that are used internally within Kinaxis. The team is responsible for the operation of various testing pipelines used by other software developers in the company. We automate these pipelines to parallelize testing workloads over hundreds of Virtual Machines, running tens of thousands of tests. We primarily use languages such as .NET/C#, PowerShell, Groovy, and Python, and manage their execution in environments involving Jenkins, Docker, Elastic, Azure, and on-premise VMs.
+   
+
+  
+
+ Since we develop internal facing tools, we experience the entire software development lifecycle, from design to release to bug fixes. As a result, creativity is a significant contribution of this team; we need to develop novel solutions for problems that developers face. If solutions jump out at you when you are faced with software development challenges, this is the team for you!
+   
+
+  
+
+**This is a 4-month position, starting September 2024.**
+****What you will do****
+* Developing and supporting various software tools, features, and services in various programming languages used internally by other developers
+* Learn new software development processes to find and deliver solutions to problems as they arise
+* Change and refactor existing code to remove complexity
+* Simplify access to development tools and knowledge
+* Manage machine resource usage to optimize uptime
+* May perform additional projects as needed
+
+
+****What we are looking for****
+* Have finished at least 3 years of studies in a Computer Science or Software Engineering (or equivalent) program, including at least 2 previous co-op work terms
+* Object Oriented programming experience, preferably in C# or C++
+* Strong technical skills and the ability to learn new concepts quickly
+* Insatiable drive for improving productivity
+* Good collaborative skills and positive attitude
+* A creative thinker that is good at problem solving
+
+
+**#Coop, #Internship, #Intern,**
+**Work With Impact:** 
+ Our platform directly helps companies power the world’s supply chains. We see the results of what we do out in the world every day—when we see store shelves stocked, when medications are available for our loved ones, and so much more.
+   
+
+  
+
+**Work with Fortune 500 Brands:** 
+ Companies across industries trust us to help them take control of their integrated business planning and digital supply chain. Some of our customers include Ford, Unilever, Yamaha, P&G, Lockheed-Martin, and more.
+   
+
+  
+
+**Social Responsibility at Kinaxis:** 
+ Our Diversity, Equity, and Inclusion Committee weighs in on hiring practices, talent assessment training materials, and mandatory training on unconscious bias and inclusion fundamentals. Sustainability is key to what we do and we’re committed to net-zero operations strategy for the long term. We are involved in our communities and support causes where we can make the most impact.
+   
+
+  
+
+ People matter at Kinaxis and these are some of the perks and benefits we created for our team:
+   
+
+  
+
+* Flexible vacation and Kinaxis Days (company-wide day off on the last Friday of every month)
+* Flexible work options
+* Physical and mental well-being programs
+* Regularly scheduled virtual fitness classes
+* Mentorship programs and training and career development
+* Recognition programs and referral rewards
+* Hackathons
+
+
+ For more information, visit the Kinaxis web site at www.kinaxis.com or the company’s blog at http://blog.kinaxis.com .
+   
+
+  
+
+ Kinaxis strongly encourages diverse candidates to apply to our welcoming community. We strive to make our website and application process accessible to any and all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please contact us at recruitmentprograms@kinaxis.com . This contact information is for accessibility requests only and cannot be used to inquire about the status of applications.","https://ca.linkedin.com/company/kinaxis","","","","","","https://media.licdn.com/dms/image/D560BAQHPxAih-jGbCA/company-logo_100_100/0/1711628731307/kinaxis_logo?e=2147483647&v=beta&t=w6c1fI2XaDZ9MSGO_HDJiiVpi1WV2fvoZnQaJCYC4qQ","","",""
+"3989284416","linkedin","https://www.linkedin.com/jobs/view/3989284416","https://careers-kinaxis.icims.com/jobs/31798/co-op-intern-developer%25252c-data-server-tools%25252c-back-end-technologies/job?mode=apply&iis=LinkedIn&iisn=LinkedIn&urlHash=XhYT","Co-op/Intern Developer, Data Server Tools, Back End Technologies","Kinaxis","Ottawa, Ontario, Canada","internship","2024-07-31","","","","","","","internship","Engineering","Software Development","","recruitmentprograms@kinaxis.com","**About Kinaxis**
+ In 1984, we started out as a team of three engineers. Today, we have grown to become a global organization with over 2000 employees around the world, with a brand-new HQ based in Kanata North in Ottawa. As one of Canada’s Top Employers for Young People (2024), we want to help you take the first step in crafting your career journey.
+   
+
+  
+
+ At Kinaxis, we power the world’s supply chains to help preserve the planet’s resources and enrich the human experience. As a global leader in end-to-end supply chain management, we enable supply chain excellence for all industries, with more than 40,000 users in over 100 countries. We are expanding our team as we continue to innovate and revolutionize how we support our customers.
+   
+
+  
+
+**Location**
+ If in Ottawa, you must be in the office at least three days a week. Other Canadian Locations - Remote.
+   
+
+  
+
+**About The Team**
+ Our team develops software tools and automation frameworks that are used internally within Kinaxis. The team is responsible for the operation of various testing pipelines used by other software developers in the company. We automate these pipelines to parallelize testing workloads over hundreds of Virtual Machines, running tens of thousands of tests. We primarily use languages such as .NET/C#, PowerShell, Groovy, and Python, and manage their execution in environments involving Jenkins, Docker, Elastic, Azure, and on-premise VMs.
+   
+
+  
+
+ Since we develop internal facing tools, we experience the entire software development lifecycle, from design to release to bug fixes. As a result, creativity is a significant contribution of this team; we need to develop novel solutions for problems that developers face. If solutions jump out at you when you are faced with software development challenges, this is the team for you!
+   
+
+  
+
+**This is a 4-month position, starting September 2024.**
+****What you will do****
+* Developing and supporting various software tools, features, and services in various programming languages used internally by other developers
+* Learn new software development processes to find and deliver solutions to problems as they arise
+* Change and refactor existing code to remove complexity
+* Simplify access to development tools and knowledge
+* Manage machine resource usage to optimize uptime
+* May perform additional projects as needed
+
+
+****What we are looking for****
+* Have finished at least 3 years of studies in a Computer Science or Software Engineering (or equivalent) program, including at least 2 previous co-op work terms
+* Object Oriented programming experience, preferably in C# or C++
+* Strong technical skills and the ability to learn new concepts quickly
+* Insatiable drive for improving productivity
+* Good collaborative skills and positive attitude
+* A creative thinker that is good at problem solving
+
+
+**#Coop, #Internship, #Intern,**
+**Work With Impact:** 
+ Our platform directly helps companies power the world’s supply chains. We see the results of what we do out in the world every day—when we see store shelves stocked, when medications are available for our loved ones, and so much more.
+   
+
+  
+
+**Work with Fortune 500 Brands:** 
+ Companies across industries trust us to help them take control of their integrated business planning and digital supply chain. Some of our customers include Ford, Unilever, Yamaha, P&G, Lockheed-Martin, and more.
+   
+
+  
+
+**Social Responsibility at Kinaxis:** 
+ Our Diversity, Equity, and Inclusion Committee weighs in on hiring practices, talent assessment training materials, and mandatory training on unconscious bias and inclusion fundamentals. Sustainability is key to what we do and we’re committed to net-zero operations strategy for the long term. We are involved in our communities and support causes where we can make the most impact.
+   
+
+  
+
+ People matter at Kinaxis and these are some of the perks and benefits we created for our team:
+   
+
+  
+
+* Flexible vacation and Kinaxis Days (company-wide day off on the last Friday of every month)
+* Flexible work options
+* Physical and mental well-being programs
+* Regularly scheduled virtual fitness classes
+* Mentorship programs and training and career development
+* Recognition programs and referral rewards
+* Hackathons
+
+
+ For more information, visit the Kinaxis web site at www.kinaxis.com or the company’s blog at http://blog.kinaxis.com .
+   
+
+  
+
+ Kinaxis strongly encourages diverse candidates to apply to our welcoming community. We strive to make our website and application process accessible to any and all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please contact us at recruitmentprograms@kinaxis.com . This contact information is for accessibility requests only and cannot be used to inquire about the status of applications.","https://ca.linkedin.com/company/kinaxis","","","","","","https://media.licdn.com/dms/image/D560BAQHPxAih-jGbCA/company-logo_100_100/0/1711628731307/kinaxis_logo?e=2147483647&v=beta&t=w6c1fI2XaDZ9MSGO_HDJiiVpi1WV2fvoZnQaJCYC4qQ","","",""
+"3989283552","linkedin","https://www.linkedin.com/jobs/view/3989283552","https://careers-kinaxis.icims.com/jobs/31798/co-op-intern-developer%25252c-data-server-tools%25252c-back-end-technologies/job?mode=apply&iis=LinkedIn&iisn=LinkedIn&urlHash=XhYT","Co-op/Intern Developer, Data Server Tools, Back End Technologies","Kinaxis","Montreal, Quebec, Canada","internship","2024-07-31","","","","","","","internship","Engineering","Software Development","","recruitmentprograms@kinaxis.com","**About Kinaxis**
+ In 1984, we started out as a team of three engineers. Today, we have grown to become a global organization with over 2000 employees around the world, with a brand-new HQ based in Kanata North in Ottawa. As one of Canada’s Top Employers for Young People (2024), we want to help you take the first step in crafting your career journey.
+   
+
+  
+
+ At Kinaxis, we power the world’s supply chains to help preserve the planet’s resources and enrich the human experience. As a global leader in end-to-end supply chain management, we enable supply chain excellence for all industries, with more than 40,000 users in over 100 countries. We are expanding our team as we continue to innovate and revolutionize how we support our customers.
+   
+
+  
+
+**Location**
+ If in Ottawa, you must be in the office at least three days a week. Other Canadian Locations - Remote.
+   
+
+  
+
+**About The Team**
+ Our team develops software tools and automation frameworks that are used internally within Kinaxis. The team is responsible for the operation of various testing pipelines used by other software developers in the company. We automate these pipelines to parallelize testing workloads over hundreds of Virtual Machines, running tens of thousands of tests. We primarily use languages such as .NET/C#, PowerShell, Groovy, and Python, and manage their execution in environments involving Jenkins, Docker, Elastic, Azure, and on-premise VMs.
+   
+
+  
+
+ Since we develop internal facing tools, we experience the entire software development lifecycle, from design to release to bug fixes. As a result, creativity is a significant contribution of this team; we need to develop novel solutions for problems that developers face. If solutions jump out at you when you are faced with software development challenges, this is the team for you!
+   
+
+  
+
+**This is a 4-month position, starting September 2024.**
+****What you will do****
+* Developing and supporting various software tools, features, and services in various programming languages used internally by other developers
+* Learn new software development processes to find and deliver solutions to problems as they arise
+* Change and refactor existing code to remove complexity
+* Simplify access to development tools and knowledge
+* Manage machine resource usage to optimize uptime
+* May perform additional projects as needed
+
+
+****What we are looking for****
+* Have finished at least 3 years of studies in a Computer Science or Software Engineering (or equivalent) program, including at least 2 previous co-op work terms
+* Object Oriented programming experience, preferably in C# or C++
+* Strong technical skills and the ability to learn new concepts quickly
+* Insatiable drive for improving productivity
+* Good collaborative skills and positive attitude
+* A creative thinker that is good at problem solving
+
+
+**#Coop, #Internship, #Intern,**
+**Work With Impact:** 
+ Our platform directly helps companies power the world’s supply chains. We see the results of what we do out in the world every day—when we see store shelves stocked, when medications are available for our loved ones, and so much more.
+   
+
+  
+
+**Work with Fortune 500 Brands:** 
+ Companies across industries trust us to help them take control of their integrated business planning and digital supply chain. Some of our customers include Ford, Unilever, Yamaha, P&G, Lockheed-Martin, and more.
+   
+
+  
+
+**Social Responsibility at Kinaxis:** 
+ Our Diversity, Equity, and Inclusion Committee weighs in on hiring practices, talent assessment training materials, and mandatory training on unconscious bias and inclusion fundamentals. Sustainability is key to what we do and we’re committed to net-zero operations strategy for the long term. We are involved in our communities and support causes where we can make the most impact.
+   
+
+  
+
+ People matter at Kinaxis and these are some of the perks and benefits we created for our team:
+   
+
+  
+
+* Flexible vacation and Kinaxis Days (company-wide day off on the last Friday of every month)
+* Flexible work options
+* Physical and mental well-being programs
+* Regularly scheduled virtual fitness classes
+* Mentorship programs and training and career development
+* Recognition programs and referral rewards
+* Hackathons
+
+
+ For more information, visit the Kinaxis web site at www.kinaxis.com or the company’s blog at http://blog.kinaxis.com .
+   
+
+  
+
+ Kinaxis strongly encourages diverse candidates to apply to our welcoming community. We strive to make our website and application process accessible to any and all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please contact us at recruitmentprograms@kinaxis.com . This contact information is for accessibility requests only and cannot be used to inquire about the status of applications.","https://ca.linkedin.com/company/kinaxis","","","","","","https://media.licdn.com/dms/image/D560BAQHPxAih-jGbCA/company-logo_100_100/0/1711628731307/kinaxis_logo?e=2147483647&v=beta&t=w6c1fI2XaDZ9MSGO_HDJiiVpi1WV2fvoZnQaJCYC4qQ","","",""
+"3989283553","linkedin","https://www.linkedin.com/jobs/view/3989283553","https://careers-kinaxis.icims.com/jobs/31798/co-op-intern-developer%25252c-data-server-tools%25252c-back-end-technologies/job?mode=apply&iis=LinkedIn&iisn=LinkedIn&urlHash=XhYT","Co-op/Intern Developer, Data Server Tools, Back End Technologies","Kinaxis","Halifax, Nova Scotia, Canada","internship","2024-07-31","","","","","","","internship","Engineering","Software Development","","recruitmentprograms@kinaxis.com","**About Kinaxis**
+ In 1984, we started out as a team of three engineers. Today, we have grown to become a global organization with over 2000 employees around the world, with a brand-new HQ based in Kanata North in Ottawa. As one of Canada’s Top Employers for Young People (2024), we want to help you take the first step in crafting your career journey.
+   
+
+  
+
+ At Kinaxis, we power the world’s supply chains to help preserve the planet’s resources and enrich the human experience. As a global leader in end-to-end supply chain management, we enable supply chain excellence for all industries, with more than 40,000 users in over 100 countries. We are expanding our team as we continue to innovate and revolutionize how we support our customers.
+   
+
+  
+
+**Location**
+ If in Ottawa, you must be in the office at least three days a week. Other Canadian Locations - Remote.
+   
+
+  
+
+**About The Team**
+ Our team develops software tools and automation frameworks that are used internally within Kinaxis. The team is responsible for the operation of various testing pipelines used by other software developers in the company. We automate these pipelines to parallelize testing workloads over hundreds of Virtual Machines, running tens of thousands of tests. We primarily use languages such as .NET/C#, PowerShell, Groovy, and Python, and manage their execution in environments involving Jenkins, Docker, Elastic, Azure, and on-premise VMs.
+   
+
+  
+
+ Since we develop internal facing tools, we experience the entire software development lifecycle, from design to release to bug fixes. As a result, creativity is a significant contribution of this team; we need to develop novel solutions for problems that developers face. If solutions jump out at you when you are faced with software development challenges, this is the team for you!
+   
+
+  
+
+**This is a 4-month position, starting September 2024.**
+****What you will do****
+* Developing and supporting various software tools, features, and services in various programming languages used internally by other developers
+* Learn new software development processes to find and deliver solutions to problems as they arise
+* Change and refactor existing code to remove complexity
+* Simplify access to development tools and knowledge
+* Manage machine resource usage to optimize uptime
+* May perform additional projects as needed
+
+
+****What we are looking for****
+* Have finished at least 3 years of studies in a Computer Science or Software Engineering (or equivalent) program, including at least 2 previous co-op work terms
+* Object Oriented programming experience, preferably in C# or C++
+* Strong technical skills and the ability to learn new concepts quickly
+* Insatiable drive for improving productivity
+* Good collaborative skills and positive attitude
+* A creative thinker that is good at problem solving
+
+
+**#Coop, #Internship, #Intern,**
+**Work With Impact:** 
+ Our platform directly helps companies power the world’s supply chains. We see the results of what we do out in the world every day—when we see store shelves stocked, when medications are available for our loved ones, and so much more.
+   
+
+  
+
+**Work with Fortune 500 Brands:** 
+ Companies across industries trust us to help them take control of their integrated business planning and digital supply chain. Some of our customers include Ford, Unilever, Yamaha, P&G, Lockheed-Martin, and more.
+   
+
+  
+
+**Social Responsibility at Kinaxis:** 
+ Our Diversity, Equity, and Inclusion Committee weighs in on hiring practices, talent assessment training materials, and mandatory training on unconscious bias and inclusion fundamentals. Sustainability is key to what we do and we’re committed to net-zero operations strategy for the long term. We are involved in our communities and support causes where we can make the most impact.
+   
+
+  
+
+ People matter at Kinaxis and these are some of the perks and benefits we created for our team:
+   
+
+  
+
+* Flexible vacation and Kinaxis Days (company-wide day off on the last Friday of every month)
+* Flexible work options
+* Physical and mental well-being programs
+* Regularly scheduled virtual fitness classes
+* Mentorship programs and training and career development
+* Recognition programs and referral rewards
+* Hackathons
+
+
+ For more information, visit the Kinaxis web site at www.kinaxis.com or the company’s blog at http://blog.kinaxis.com .
+   
+
+  
+
+ Kinaxis strongly encourages diverse candidates to apply to our welcoming community. We strive to make our website and application process accessible to any and all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please contact us at recruitmentprograms@kinaxis.com . This contact information is for accessibility requests only and cannot be used to inquire about the status of applications.","https://ca.linkedin.com/company/kinaxis","","","","","","https://media.licdn.com/dms/image/D560BAQHPxAih-jGbCA/company-logo_100_100/0/1711628731307/kinaxis_logo?e=2147483647&v=beta&t=w6c1fI2XaDZ9MSGO_HDJiiVpi1WV2fvoZnQaJCYC4qQ","","",""
+"3989282517","linkedin","https://www.linkedin.com/jobs/view/3989282517","https://careers-kinaxis.icims.com/jobs/31798/co-op-intern-developer%25252c-data-server-tools%25252c-back-end-technologies/job?mode=apply&iis=LinkedIn&iisn=LinkedIn&urlHash=XhYT","Co-op/Intern Developer, Data Server Tools, Back End Technologies","Kinaxis","Québec, Quebec, Canada","internship","2024-07-31","","","","","","","internship","Engineering","Software Development","","recruitmentprograms@kinaxis.com","**About Kinaxis**
+ In 1984, we started out as a team of three engineers. Today, we have grown to become a global organization with over 2000 employees around the world, with a brand-new HQ based in Kanata North in Ottawa. As one of Canada’s Top Employers for Young People (2024), we want to help you take the first step in crafting your career journey.
+   
+
+  
+
+ At Kinaxis, we power the world’s supply chains to help preserve the planet’s resources and enrich the human experience. As a global leader in end-to-end supply chain management, we enable supply chain excellence for all industries, with more than 40,000 users in over 100 countries. We are expanding our team as we continue to innovate and revolutionize how we support our customers.
+   
+
+  
+
+**Location**
+ If in Ottawa, you must be in the office at least three days a week. Other Canadian Locations - Remote.
+   
+
+  
+
+**About The Team**
+ Our team develops software tools and automation frameworks that are used internally within Kinaxis. The team is responsible for the operation of various testing pipelines used by other software developers in the company. We automate these pipelines to parallelize testing workloads over hundreds of Virtual Machines, running tens of thousands of tests. We primarily use languages such as .NET/C#, PowerShell, Groovy, and Python, and manage their execution in environments involving Jenkins, Docker, Elastic, Azure, and on-premise VMs.
+   
+
+  
+
+ Since we develop internal facing tools, we experience the entire software development lifecycle, from design to release to bug fixes. As a result, creativity is a significant contribution of this team; we need to develop novel solutions for problems that developers face. If solutions jump out at you when you are faced with software development challenges, this is the team for you!
+   
+
+  
+
+**This is a 4-month position, starting September 2024.**
+****What you will do****
+* Developing and supporting various software tools, features, and services in various programming languages used internally by other developers
+* Learn new software development processes to find and deliver solutions to problems as they arise
+* Change and refactor existing code to remove complexity
+* Simplify access to development tools and knowledge
+* Manage machine resource usage to optimize uptime
+* May perform additional projects as needed
+
+
+****What we are looking for****
+* Have finished at least 3 years of studies in a Computer Science or Software Engineering (or equivalent) program, including at least 2 previous co-op work terms
+* Object Oriented programming experience, preferably in C# or C++
+* Strong technical skills and the ability to learn new concepts quickly
+* Insatiable drive for improving productivity
+* Good collaborative skills and positive attitude
+* A creative thinker that is good at problem solving
+
+
+**#Coop, #Internship, #Intern,**
+**Work With Impact:** 
+ Our platform directly helps companies power the world’s supply chains. We see the results of what we do out in the world every day—when we see store shelves stocked, when medications are available for our loved ones, and so much more.
+   
+
+  
+
+**Work with Fortune 500 Brands:** 
+ Companies across industries trust us to help them take control of their integrated business planning and digital supply chain. Some of our customers include Ford, Unilever, Yamaha, P&G, Lockheed-Martin, and more.
+   
+
+  
+
+**Social Responsibility at Kinaxis:** 
+ Our Diversity, Equity, and Inclusion Committee weighs in on hiring practices, talent assessment training materials, and mandatory training on unconscious bias and inclusion fundamentals. Sustainability is key to what we do and we’re committed to net-zero operations strategy for the long term. We are involved in our communities and support causes where we can make the most impact.
+   
+
+  
+
+ People matter at Kinaxis and these are some of the perks and benefits we created for our team:
+   
+
+  
+
+* Flexible vacation and Kinaxis Days (company-wide day off on the last Friday of every month)
+* Flexible work options
+* Physical and mental well-being programs
+* Regularly scheduled virtual fitness classes
+* Mentorship programs and training and career development
+* Recognition programs and referral rewards
+* Hackathons
+
+
+ For more information, visit the Kinaxis web site at www.kinaxis.com or the company’s blog at http://blog.kinaxis.com .
+   
+
+  
+
+ Kinaxis strongly encourages diverse candidates to apply to our welcoming community. We strive to make our website and application process accessible to any and all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please contact us at recruitmentprograms@kinaxis.com . This contact information is for accessibility requests only and cannot be used to inquire about the status of applications.","https://ca.linkedin.com/company/kinaxis","","","","","","https://media.licdn.com/dms/image/D560BAQHPxAih-jGbCA/company-logo_100_100/0/1711628731307/kinaxis_logo?e=2147483647&v=beta&t=w6c1fI2XaDZ9MSGO_HDJiiVpi1WV2fvoZnQaJCYC4qQ","","",""
