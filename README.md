@@ -68,37 +68,22 @@
 ├── 9.4 PostProcessed/
 │   ├── direc.sh
 │   ├── directory_structure.txt
-│   ├── directory_structure.txt.tmp
 │   ├── srt.sh
 │   ├── term_data.txt
-│   ├── term_data.txt.tmp
 │   ├── title_data.txt
-│   ├── title_data.txt.tmp
 │   ├── company_data/
 │   │   ├── company_division.txt
-│   │   ├── company_division.txt.tmp
 │   │   ├── company_name.txt
-│   │   ├── company_name.txt.tmp
 │   │   ├── company_suffix.txt
-│   │   ├── company_suffix.txt.tmp
 │   ├── location_data/
 │   │   ├── Alberta.txt
-│   │   ├── Alberta.txt.tmp
 │   │   ├── British_Columbia.txt
-│   │   ├── British_Columbia.txt.tmp
 │   │   ├── Manitoba.txt
-│   │   ├── Manitoba.txt.tmp
 │   │   ├── New_Brunswick.txt
-│   │   ├── New_Brunswick.txt.tmp
 │   │   ├── Nova_Scotia.txt
-│   │   ├── Nova_Scotia.txt.tmp
 │   │   ├── Ontario.txt
-│   │   ├── Ontario.txt.tmp
 │   │   ├── Provinces.txt
-│   │   ├── Provinces.txt.tmp
 │   │   ├── Quebec.txt
-│   │   ├── Quebec.txt.tmp
 │   │   ├── Remote.txt
-│   │   ├── Remote.txt.tmp
 ├── 9.5 Applications/
 ```
