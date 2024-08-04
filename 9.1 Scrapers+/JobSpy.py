@@ -3,8 +3,8 @@ from jobspy import scrape_jobs
 
 jobs = scrape_jobs(
     site_name=["indeed", "linkedin", "zip_recruiter", "glassdoor"],
-    search_term="full stack intern co-op OR web developer intern co-op OR back end intern co-op OR back-end intern co-op OR full-stack intern co-op",
-    # search_term="software engineer \"intern\" co-op OR software developer \"intern\" co-op OR software engineer intern \"co-op\" OR software developer intern \"co-op\"",
+    # search_term="full stack intern co-op OR web developer intern co-op OR back end intern co-op OR back-end intern co-op OR full-stack intern co-op",
+    search_term="software engineer \"intern\" co-op OR software developer \"intern\" co-op OR software engineer intern \"co-op\" OR software developer intern \"co-op\"",
     location="Canada",
     verbose=2,
     results_wanted=500,
