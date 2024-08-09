@@ -45,11 +45,13 @@
 │   ├── Hussain Arfaz - Placement Application - Data Analyst - BC Children's Hospital  - Child and Family Research Institute - CFRI.pdf
 │   ├── Hussain Arfaz - Placement Application - Data EngineerandMBA or - TELUS  - Burnaby Office - Kingsway.pdf
 │   ├── Hussain Arfaz - Placement Application - Data Platform Specialist - BC Children's Hospital  - Child and Family Research Institute - CFRI.pdf
+│   ├── Hussain Arfaz - Placement Application - Development - CCRM (Centre for Commercialization of Regenerative Medicine) - Talent Acquisition.pdf
 │   ├── Hussain Arfaz - Placement Application - Disaster Recovery Assistant - BC Ministry of Emergency Management and Climate Readiness  - Disaster Recovery.pdf
 │   ├── Hussain Arfaz - Placement Application - Distribution Engineering - Primary Engineering and Construction  - Victoria Office.pdf
 │   ├── Hussain Arfaz - Placement Application - Embedded Software - SHIFT Clean Energy  - - Vancouver.pdf
 │   ├── Hussain Arfaz - Placement Application - Energy - Taseko Mines Limited  - Gibraltar Mines Ltd.pdf
 │   ├── Hussain Arfaz - Placement Application - Engineering Co-op - Polar Engineering  - Victoria.pdf
+│   ├── Hussain Arfaz - Placement Application - Environmental - AECOM  - Human Resources.pdf
 │   ├── Hussain Arfaz - Placement Application - Estimating - PCL Companies  - PCL Constructors Westcoast Inc- Richmond.pdf
 │   ├── Hussain Arfaz - Placement Application - IT - HootSuite Media Inc  - Human Resources.pdf
 │   ├── Hussain Arfaz - Placement Application - IT Operations Architect - Talos  - True Training Academy.pdf
@@ -58,11 +60,19 @@
 │   ├── Hussain Arfaz - Placement Application - Junior Full-Stack Developer - Hummingbird Drones  - Human Resources.pdf
 │   ├── Hussain Arfaz - Placement Application - Junior Game Developer - Simply Sweet Games  - - Osoyoos.pdf
 │   ├── Hussain Arfaz - Placement Application - Project Scientist - JASCO Applied Sciences  - Victoria.pdf
+│   ├── Hussain Arfaz - Placement Application - Software Developer - Dawat India  - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Software Developer - NorthCode Technology - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application - Software Engineering - Asana  - Human Resources Talent Acquisition.pdf
 │   ├── Hussain Arfaz - Placement Application - Software Machine Learning Operations - Sanctuary AI  - Vancouver office.pdf
 │   ├── Hussain Arfaz - Placement Application - Software Robotics Simulation - Sanctuary AI  - Vancouver office.pdf
 │   ├── Hussain Arfaz - Placement Application - Technical Game Designer - Buffalo Buffalo  - Human Resources.pdf
 │   ├── Hussain Arfaz - Placement Application - Unity Developer - Buffalo Buffalo  - Human Resources.pdf
 │   ├── Hussain Arfaz - Placement Application - Youth STEM Instructor - University of Victoria  - Science Venture.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6u$04021749#72 - Software Developer - Dawat India  - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6u$08011847#600 - Software Engineering - Asana  - Human Resources Talent Acquisition.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6u$08171627#599 - Software Developer - NorthCode Technology - Human Resources.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6u$08172200#3 - Development - CCRM (Centre for Commercialization of Regenerative Medicine) - Talent Acquisition.pdf
+│   ├── Hussain Arfaz - Placement Application _a94d6u$08172813#4 - Environmental - AECOM  - Human Resources.pdf
 │   ├── tex-outputs/
 │   │   ├── tntx.tex
 ├── 9.4 PostProcessed/
@@ -80,6 +90,7 @@
 │   │   ├── British_Columbia.txt
 │   │   ├── Manitoba.txt
 │   │   ├── New_Brunswick.txt
+│   │   ├── Northwest_Territories.txt
 │   │   ├── Nova_Scotia.txt
 │   │   ├── Ontario.txt
 │   │   ├── Provinces.txt
