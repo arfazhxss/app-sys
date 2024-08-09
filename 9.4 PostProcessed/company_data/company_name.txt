@@ -1,5 +1,6 @@
 0footprint
 1Password
+AECOM
 Achievers
 Ada
 Adobe
@@ -20,6 +21,7 @@ BlackBerry
 Bold Commerce
 Breather
 Broadcom
+CCRM
 Calian
 Cambio Earth Systems
 CaseWare
@@ -32,6 +34,7 @@ CrowdStrike
 D-Wave Systems
 D2L
 Datadog
+Dawat India
 Dayforce
 Dejero
 Densify
@@ -74,6 +77,7 @@ NETINT
 Natural Resources Canada
 Netsuite
 Niltuo Child and Family Services Society
+NorthCode
 Okta
 OpenText
 PCL

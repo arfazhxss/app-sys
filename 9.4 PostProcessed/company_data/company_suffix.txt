@@ -1,5 +1,6 @@
 
 (BC Lottery Corporation)
+(Centre for Commercialization of Regenerative Medicine)
 (Connaught Campus)
 (Equitable Bank)
 (Insurance Corporation of British Columbia)
@@ -94,5 +95,6 @@ TELECOMMUNICATIONS
 Tech Services Inc
 Technologies
 Technologies Inc.
+Technology
 VENTURES
 Worldwide

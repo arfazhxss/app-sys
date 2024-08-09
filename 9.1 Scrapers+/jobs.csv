@@ -1,87 +1,359 @@
 "id","site","job_url","job_url_direct","title","company","location","job_type","date_posted","salary_source","interval","min_amount","max_amount","currency","is_remote","job_level","job_function","company_industry","listing_type","emails","description","company_url","company_url_direct","company_addresses","company_num_employees","company_revenue","company_description","logo_photo_url","banner_photo_url","ceo_name","ceo_photo_url"
-"1009393403371","glassdoor","https://www.glassdoor.ca/job-listing/j?jl=1009393403371","","Software Developer Intern","Dawat India","Toronto","","2024-08-04","","","","","",False,"","","","organic","","We are looking for a driven and eager Software Developer Intern to join our team. This position offers an excellent opportunity to work directly with our Principal Software Engineer and Principal Software Architect, supporting web and mobile development projects. The role provides hands-on experience in coding, testing, and software architecture, with ample opportunities for professional growth and learning.
+"3993759500","linkedin","https://www.linkedin.com/jobs/view/3993759500","","YVR Summer Software Engineering Internship","Asana","Vancouver, British Columbia, Canada","internship","2024-08-06","","","","","","","internship","Engineering and Information Technology","Software Development","","","We’re looking for students aspiring to be efficient, productive, and impactful software developers to join our Summer 2025 Engineering Internship Program. Jumpstart your career in a supportive environment that enables you to take on challenging work that directly impacts the business.
+   
 
-**About Our Internship Program:** The DI Inc Group Internship Program is crafted to equip you with practical skills, valuable experiences, and exposure to real-world scenarios in the experience industry. The program ensures that 80% of your time is dedicated to role-specific activities, while the remaining 20% is allocated to job shadowing, skill development, and collaborative projects across various DI Group businesses.
+  
 
-**About The DI Group:** The DI Group has been a leader in experience creation since 2005. As an independent international company, we manage 10 hospitality properties and 7 venues across Canada, aiming to provide positive, shareable experiences for our guests, employees, and partners. Additionally, the DI Group operates an events business, a travel company, and a digital publication. In 2021, we expanded into the US, establishing venues in Washington and Chicago.
+ Our 12-week program is designed to expose you to all parts of software development in a growing tech company and prepare you for a full-time engineering career. Our 1:1 mentorship philosophy paired with our small team structure ensures you are being taught the best engineering practices and foundational principles that will help grow your career and allow you to excel quickly and have endless opportunities for impact!
+   
 
-**Key Responsibilities:**
+  
 
-* Assist in web development tasks, reporting to the Principal Software Engineer and Principal Software Architect.
-* Engage in frontend, backend, and potentially mobile coding.
-* Support the QA team in testing applications and writing test cases.
-* Collaborate with lead developers in architecting software solutions.
+ As a member of our Engineering Program, you’ll join one of our many functional engineering teams as an individual contributor to develop new and well-written code, participate in and contribute to stand-ups, collaborate with team members on program and day-to-day work,, and increase efficiency amongst your team. Whether it’s working on one of our product teams and architecting product tours with React , building out our foundational systems with our infrastructure teams, or redesigning our mobile apps with our mobile team , you will become an integral part of our growing organization.
+   
 
-**Knowledge, Skills, Abilities:**
+  
 
-* Solid understanding of core programming principles (e.g., KISS, object-oriented programming, functional programming, encapsulation, polymorphism).
-* Proficiency in web development concepts (e.g., event-driven programming, authentication vs. authorization, error handling).
-* Experience with or willingness to learn React, Node.js, Go, MongoDB, and React Native.
+ This role is based in our San Francisco office with an office-centric hybrid schedule. Along with most Asanas, you’ll work from this office in person on Mondays, Tuesdays, and Thursdays. Most Asanas have the option to work from home on Wednesdays and Fridays. If you're interviewing for this role, your Talent Acquisition Partner will share more about the in-office requirements.
+   
 
-**Internship Program Term:**
+  
 
-* **Start Date:** September 9, 2024
-* **End Date:** December 13, 2024
+ Learn more about our Engineering team:
+   
 
-**What's In It For You?**
+  
 
-* Paid Internship (Minimum Wage)
-* A dynamic and collaborative work environment with a close-knit, innovative team.
-* Employee discounts at our concerts, shows, and hospitality venues.
-* A welcoming and inclusive workplace where authenticity and respect are valued.
-* Career development opportunities within a company that promotes continuous learning and growth.
+* The Asana Engineering Guide to Intern Mentorship
+* What our 2020 Interns Built!
+* How we build Inclusivity in the Workplace
 
-Thank you for your interest in DI Inc. Due to the high volume of applications, only those selected for an interview will be contacted.
 
-Job Types: Casual, Internship / Co-op  
-Contract length: 4 months
+**What You'll Achieve**
+* Learn what it’s like to work as a full-time software developer in a fast growing tech company.
+* Make a real impact by contributing to a variety of projects, like building new features, testing infrastructure, implementing subtle interaction behaviors, or designing data models..
+* Experience growth and development by being paired with a mentor who will support and guide you through opportunities to stretch and learn.
+* Help us maintain a codebase and an award-winning culture, contributing to everything from the broadest strategic discussions to the specifics of updating a small app feature.
+* Develop clean, beautiful code and leave it better than you found it.
+* Feel supported by a growth-oriented team cheering you on as you take on new challenges
+* Participate in Asana’s culture of transparency and distributed responsibility by providing peer feedback to members of your team.
 
-Benefits:
 
-* Casual dress
-* On-site parking
+**About You**
+* Your anticipated graduation date is between December 2025 and July 2026
+* A constant desire to learn and improve
+* A foundational understanding of software development or computer science skills - we want to teach you more!
+* Passion for creating a user friendly experience, down to those little details that matter
+* Appreciate productivity and care deeply about helping teams collaborate more effectively and efficiently, including your own
+* Excited to be a part of an inclusive culture where we encourage everyone to bring their whole selves to work
 
-Work Location: Hybrid remote in Toronto, ON M5G 1X6","","","","","","","","","",""
-"0834efc8682646f7","indeed","https://ca.indeed.com/viewjob?jk=0834efc8682646f7","http://ca.indeed.com/job/software-developer-intern-0834efc8682646f7","Software Developer Intern","DAWAT INDIA","Toronto, ON, CA","","2024-08-03","","","","","",True,"","","","","","We are looking for a driven and eager Software Developer Intern to join our team. This position offers an excellent opportunity to work directly with our Principal Software Engineer and Principal Software Architect, supporting web and mobile development projects. The role provides hands-on experience in coding, testing, and software architecture, with ample opportunities for professional growth and learning.
 
-**About Our Internship Program:** The DI Inc Group Internship Program is crafted to equip you with practical skills, valuable experiences, and exposure to real-world scenarios in the experience industry. The program ensures that 80% of your time is dedicated to role-specific activities, while the remaining 20% is allocated to job shadowing, skill development, and collaborative projects across various DI Group businesses.
+**What We’ll Offer**
+ Our comprehensive compensation package plays a big part in how we recognize you for the impact you have on our path to achieving our mission. We believe that compensation should be reflective of the value you create relative to the market value of your role. To ensure pay is fair and not impacted by biases, we're committed to looking at market value which is why we check ourselves and conduct a yearly pay equity audit.
+   
 
-**About The DI Group:** The DI Group has been a leader in experience creation since 2005. As an independent international company, we manage 10 hospitality properties and 7 venues across Canada, aiming to provide positive, shareable experiences for our guests, employees, and partners. Additionally, the DI Group operates an events business, a travel company, and a digital publication. In 2021, we expanded into the US, establishing venues in Washington and Chicago.
+  
 
-**Key Responsibilities:**
+ For this role, the estimated pay rate is $53.00 per hour. The actual rate will vary based on various factors, including market and individual qualifications objectively assessed during the interview process. The listed pay rate above is a guideline, and the pay rate for this role may be modified.
+   
 
-* Assist in web development tasks, reporting to the Principal Software Engineer and Principal Software Architect.
-* Engage in frontend, backend, and potentially mobile coding.
-* Support the QA team in testing applications and writing test cases.
-* Collaborate with lead developers in architecting software solutions.
+  
 
-**Knowledge, Skills, Abilities:**
+ We strive to provide equitable and competitive benefit packages that support our employees worldwide and includes:
+   
 
-* Solid understanding of core programming principles (e.g., KISS, object-oriented programming, functional programming, encapsulation, polymorphism).
-* Proficiency in web development concepts (e.g., event-driven programming, authentication vs. authorization, error handling).
-* Experience with or willingness to learn React, Node.js, Go, MongoDB, and React Native.
+  
 
-**Internship Program Term:**
+* Mental health, wellness & fitness benefits
+* Career coaching & support
+* In-office culinary options to cater to your dietary preferences
 
-* **Start Date:** September 9, 2024
-* **End Date:** December 13, 2024
 
-**What's In It For You?**
+ These are just some of the benefits we offer, and benefits may vary based on role, country, and local regulations. If you're interviewing for this role, speak with your Talent Acquisition Partner to learn more about the total compensation and benefits for this role.
+   
 
-* Paid Internship (Minimum Wage)
-* A dynamic and collaborative work environment with a close-knit, innovative team.
-* Employee discounts at our concerts, shows, and hospitality venues.
-* A welcoming and inclusive workplace where authenticity and respect are valued.
-* Career development opportunities within a company that promotes continuous learning and growth.
+  
 
-Thank you for your interest in DI Inc. Due to the high volume of applications, only those selected for an interview will be contacted.
+**About Us**
+ Asana helps teams orchestrate their work, from small projects to strategic initiatives. Millions of teams around the world rely on Asana to achieve their most important goals, faster. Asana has been named a Top 10 Best Workplace for 5 years in a row, is Fortune's #1 Best Workplace in the Bay Area, and one of Glassdoor’s and Inc.’s Best Places to Work. After spending more than a year physically distanced, Team Asana is safely and mindfully returning to in-person collaboration, incorporating flexibility that adds hybrid elements to our office-centric culture . With 11+ offices all over the world, we are always looking for individuals who care about building technology that drives positive change in the world and a culture where everyone feels that they belong.
+   
 
-Job Types: Casual, Internship / Co-op  
-Contract length: 4 months
+  
 
-Benefits:
+ We believe in supporting people to do their best work and thrive, and building a diverse, equitable, and inclusive company is core to our mission. Our goal is to ensure that Asana upholds an inclusive environment where all people feel that they are equally respected and valued, whether they are applying for an open position or working at the company. We provide equal employment opportunities to all applicants without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by law.
+   
 
-* Casual dress
-* On-site parking
+  
 
-Work Location: Hybrid remote in Toronto, ON M5G 1X6","https://ca.indeed.com/cmp/Dawat-India","","","","","","","","",""
+ #internship","https://www.linkedin.com/company/asana","","","","","","https://media.licdn.com/dms/image/D4E0BAQEkMiCf0h2oeA/company-logo_100_100/0/1711542643480/asana_logo?e=2147483647&v=beta&t=e8Nxbbf3_c7YPX-pieivFe9Z4a-COVO1nwxGPYLI9No","","",""
+"3994383183","linkedin","https://www.linkedin.com/jobs/view/3994383183","","Co-op - Software Developer","NorthCode Technology","British Columbia, Canada","internship","","","","","","","","internship","Engineering and Information Technology","IT Services and IT Consulting","","","**About the Company:** 
+
+
+
+
+ NorthCode Technology is a small startup technology consulting company based in Metro Vancouver area. We are looking for a co-op/intern from BC-based colleges to work for us for a 3-month remote internship with occasional office visit, if needed. As a small founder-led firm, we look for applicants who can work independently and proactively. A spirit of curiosity to figure things out is imperative.
+ 
+
+
+
+  
+
+
+
+
+
+**Responsibilities** 
+ :
+ 
+
+
+* Design and create visually appealing and feature-rich business websites for clients, with specified features and functionalities.
+* Build simple web applications, web pages, or forms to implement intake of client information and other interactive features.
+* Analyze the company’s workflows and manual processes to identify opportunities to automate them. Build solutions and tools to automate processes.
+* Research opportunities to leverage Artificial Intelligence tools to make manual process more efficient and automated.
+* Use commercial AI applications (ChatGPT, etc.) to write AI prompts, create specialized AI instances to perform pre-defined tasks, and prepare simple custom AI applications.
+* Utilize low-code or no-code tools (Bubble, Airtable, Make, etc.) to simplify and build custom workflows for company processes.
+* Any other technical tasks as needed by the business.
+
+
+
+  
+
+
+
+
+
+**Candidate Profile** 
+
+
+
+* Current students from a BC-based college or university. Opportunity is open to those looking for an internship, co-op alongside their coursework. Timings are flexible.
+* Previous experience with the above duties is an asset and nice to have.
+* Nice to have: a portfolio of prior apps, websites, projects you have created.
+* Curiosity and willingness to learn new concepts independently from scratch with minimal guidance.
+* This opportunity is open for Canadian citizens and permanent residents only.","https://ca.linkedin.com/company/northcodetech","","","","","","https://media.licdn.com/dms/image/v2/C560BAQERt5GDyYrXNw/company-logo_100_100/company-logo_100_100/0/1655862002388/northcodetech_logo?e=2147483647&v=beta&t=kBxDxwxu0Am5L0KRNxk4_995R22lHGLLiqjwSPVl38g","","",""
+"TJfbg2B6ZOX2JIP0TzAypA","zip_recruiter","https://www.ziprecruiter.com/jobs//j?lvk=TJfbg2B6ZOX2JIP0TzAypA","https://app.jobvite.com/CompanyJobs/Job.aspx?j=oxliufwo&s=ziprecruiter&company=CCRM&job_location=Toronto%2C+ON&listing_key=TJfbg2B6ZOX2JIP0TzAypA&posted_time=2024-08-08T22:57:33Z","Development Intern","CCRM","Toronto, ON, Canada","","2024-08-08","","","","","","","","","","organic","","**Role Summary:** 
+
+
+
+
+ We are seeking a motivated and detail-oriented co-op student to join our Manufacturing Science and Technology (MSAT) team to help develop the next generation of cell and gene therapy (CGT) manufacturing technologies and processes. You will gain first-hand experience with industrial cell culture technologies and a strong appreciation of Good Manufacturing Practices (GMP) manufacturing from technology transfer challenges for CGTs from academic and clinical research to a commercial setting. You will acquire the skills to understand the process of introducing innovative discoveries, leading to the delivery of cutting-edge solutions in cell and gene manufacturing.
+ 
+
+
+
+**Responsibilities:** 
+
+
+
+* Assists in the preparation of new process technology transfer to GMP process improvements, including protocol generation, data analysis and report writing.
+* Works effectively with other team members in a multi-disciplinary environment.
+* Supports writing technical documents, including standard operating procedures, project plans and reports.
+* Develops and improves the skills and knowledge necessary to successfully support assigned projects.
+* Assists and helps with colleagues' training, as necessary.
+* Participates in cross-functional project teams to provide MSAT input and support.
+* Understands that the role and responsibilities may change with the evolving needs of the organization, requiring flexibility and adaptability.
+
+
+
+**Qualifications:** 
+
+
+
+* Currently enrolled in undergraduate education in industrial engineering, bioprocess engineering, chemical engineering, biotechnology or similar.
+* Strong attention to detail.
+* Practical experience with computer programming, process modelling, databases and statistics.
+* Excellent analytical, problem solving and process development skills.
+* Excellent organizational skills.
+* Able to work independently and as part of a team.
+* Detail-oriented team player.
+* Strong English written and verbal communications skills.
+* Solid working knowledge of MS Office programs.
+* Demonstrated knowledge of laboratory safety plans and procedures to ensure compliance with applicable federal, provincial and local regulations.
+
+
+
+ This position may be fully or partially funded by 
+ **Biotalent Canada** 
+ . In order to be eligible for funding under Biotalent Canada the applicant must be a
+ **Canadian citizen, permanent resident** 
+ , or a person to whom
+ **refugee protection** 
+ has been conferred and such are legally entitled to work in Canada in accordance with relevant provincial or territorial legislation and regulations. As such, only applicants that meet the above criteria will be eligible for this opportunity. 
+ 
+
+
+
+ Revision Number: CCRMDEVMSAT-20240507","","","","","","","","","",""
+"bohZu3P6VyPVGrmoKWOLiA","zip_recruiter","https://www.ziprecruiter.com/jobs//j?lvk=bohZu3P6VyPVGrmoKWOLiA","https://jobs.smartrecruiters.com/AECOM2/744000005574112-environmental-intern&company=AECOM&job_location=Yellowknife%2C+NT&listing_key=bohZu3P6VyPVGrmoKWOLiA&posted_time=2024-08-07T03:01:57Z","Environmental Intern","AECOM","Yellowknife, NT, Canada","","2024-08-07","","","","","","","","","","organic","","### 
+ About AECOM:
+
+
+
+  
+
+  
+
+
+
+
+
+
+**Work with Us. Change the World.** 
+
+
+
+
+ At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations.
+ 
+
+
+
+ There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world.
+ 
+
+
+
+ We're one global team driven by our common purpose to deliver a better world. Join us.
+ 
+
+
+
+**Learning, working and living. Together.** 
+
+
+
+
+ AECOM is committed to supporting Indigenous communities through the work we do and the role we play as a global infrastructure leader. This commitment includes respectful engagement with Indigenous Peoples, governments, businesses, and lands.
+ 
+
+
+
+ The ideas, experiences, innovations, and forward-thinking solutions that Indigenous youth carry, align with AECOM’s values of building better communities for tomorrow. We are invested in walking with Indigenous peoples and communities to deliver on infrastructure projects and building economic reconciliation together.
+ 
+
+
+
+ How will we succeed? By relying on the talents of the next generation and blending western and traditional ways of building and working together.
+ 
+
+
+  
+
+  
+
+
+**AECOM** 
+ is seeking an 
+ **Environmental Intern** 
+  based out of our 
+ **Yellowknife** 
+  office.
+ 
+
+
+
+*This position is expected to begin in September 2024 and will be a three-month term position.* 
+
+
+
+
+ The responsibilities of this position include, but are not limited to:
+ 
+
+
+* Supporting environmental field investigations, including the field sampling of various media potentially including soil, surface water, groundwater, and more.
+* Fieldwork will occasionally require:
+	+ Flying on charter aircraft including float planes and helicopters.
+	+ Moderate-to-heavy physical exertion.
+	+ Work periods that extend beyond an eight-hour workday or require working on weekends.
+	+ Working from boats and use of all-terrain vehicles.
+	+ Contribution to the development of investigation work plans and health and safety plans.
+	+ Assessment of field data and technical reporting.
+	+ Supporting municipal works, which may include surveying assistance.
+* Other duties as assigned.
+
+
+ Qualifications
+   
+
+  
+
+
+**Minimum Requirements:** 
+
+
+
+* High School Diploma or equivalency.
+
+
+
+**Preferred Qualifications:** 
+
+
+
+* Current enrollment or completion of a science or technical certificate or degree program, or completion of ECO Canada BEAHR Training or similar.
+* Potential candidates must be First Nations Inuit or Metis, and applicants must declare that they are in the application form and our HR management system if successful.
+* Experience with remote site logistics.
+* Solid written and spoken communication skills.
+* Working knowledge of Microsoft Office software (Outlook, Word, Excel)
+* Valid Drivers’ License
+
+
+  
+
+  
+
+ Additional Information
+   
+
+  
+
+* Relocation assistance is not available for this position.
+* Sponsorship is not available for this position.
+
+
+
+
+
+**About AECOM** 
+
+
+
+
+ AECOM is the world’s trusted infrastructure consulting firm, delivering professional services throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. On projects spanning transportation, buildings, water, new energy and the environment, our public- and private-sector clients trust us to solve their most complex challenges. Our teams are driven by a common purpose to deliver a better world through our unrivaled technical and digital expertise, a culture of equity, diversity and inclusion, and a commitment to environmental, social and governance priorities. AECOM is a Fortune 500 firm and its Professional Services business had revenue of $14.4 billion in fiscal year 2023. See how we are delivering sustainable legacies for generations to come at aecom.com and @AECOM.
+ 
+
+
+
+  
+ 
+
+
+
+**Freedom to Grow in a World of Opportunity** 
+
+
+
+
+ You will have the flexibility you need to do your best work with hybrid work options. Whether you’re working from an AECOM office, remote location or at a client site, you will be working in a dynamic environment where your integrity, entrepreneurial spirit and pioneering mindset are championed.
+ 
+
+
+
+ You will help us foster a culture of equity, diversity and inclusion – a safe and respectful workplace, where we invite everyone to bring their whole selves to work using their unique talents, backgrounds and expertise to create transformational outcomes for our clients.
+ 
+
+
+
+ AECOM provides a wide array of compensation and benefits programs to meet the diverse needs of our employees and their families. We also provide a robust global well-being program. We’re the world’s trusted global infrastructure firm, and we’re in this together – your growth and success are ours too.
+ 
+
+
+
+ Join us, and you’ll get all the benefits of being a part of a global, publicly traded firm – access to industry-leading technology and thinking and transformational work with big impact and work flexibility. As an Equal Opportunity Employer, we believe in each person’s potential, and we’ll help you reach yours.
+ 
+
+
+
+ All your information will be kept confidential according to EEO guidelines.","","","","","","","","","",""

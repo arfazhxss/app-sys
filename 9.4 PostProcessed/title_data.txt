@@ -56,6 +56,8 @@ Database Developer
 Desktop Support Specialist
 DevOps Developer
 DevOps Engineer
+Development
+Development Intern
 Digital Forensics Analyst
 Digital Information Technologies & Solutions
 Digital Marketing Analyst
@@ -65,6 +67,7 @@ ERP Specialist
 Embedded Systems Engineer
 Enterprise Architect
 Enterprise Data Architect
+Environmental
 Estimating Student
 Firmware Developer
 Firmware Engineer
