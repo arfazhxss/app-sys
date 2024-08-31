@@ -1,0 +1,61 @@
+% formatting.tex
+
+% Ensure necessary packages are imported
+\RequirePackage{titlesec}
+\RequirePackage{enumitem}
+\RequirePackage{xcolor}
+\RequirePackage{amsmath}
+
+% Section formatting
+\titleformat{\section}
+{\scshape\large\raggedright}
+{}{0em}
+{}[\titlerule]
+
+% Command for technical skill items
+\newcommand{\TechSkillItems}[2]{
+  \item \normalsize{\textbf{#1}{: #2}}
+}
+
+% Command for bullet points in resumes
+\newcommand{\resumeItemDot}[1]{
+  \item \normalsize{#1}
+}
+
+% Command for subheadings in resumes
+\newcommand{\resumeSubheadingA}[5]{
+  \item
+    \begin{tabular*}{\dimexpr\textwidth-1.2em\relax}{@{}l@{\extracolsep{\fill}}r@{}}
+      \large \textbf{#1} \textit{#2} & \fontsize{11}{12}\selectfont \text{#3} \\
+      \href{https://\detokenize{#4}}{\textit{#4}} & \textit{#5} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeSubheadingB}[4]{
+  \item
+    \begin{tabular*}{\dimexpr\textwidth-1.2em\relax}{@{}l@{\extracolsep{\fill}}r@{}}
+      \large \textbf{#1} & \fontsize{11}{12}\selectfont \text{#2} \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+% Command for scholarship subheadings in resumes
+\newcommand{\resumeScholarshipSubheading}[2]{
+  \item
+    \begin{tabular*}{\dimexpr\textwidth-3.5em\relax}{@{}l@{\extracolsep{\fill}}r@{}}
+      \textbf{#1} & \normalsize{#2} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+% Command for subitems in resumes
+\newcommand{\resumeSubItem}[2]{\TechSkillItems{#1}{#2}}
+
+% Environment for subheading list start in resumes
+\newenvironment{resumeSubHeadingListStart}
+{\begin{itemize}[leftmargin=0.10in, label={}]}
+{\end{itemize}}
+
+% Environment for item list start in resumes
+\newenvironment{resumeItemListStart}
+{\begin{itemize}[leftmargin=0.15in, label={$\bullet$}]}
+{\end{itemize}}

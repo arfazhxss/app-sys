@@ -1,0 +1,25 @@
+% project-entry.tex
+
+\RequirePackage{xparse}
+\RequirePackage{color}
+\RequirePackage{ulem}
+\ExplSyntaxOn
+
+% Define the new project entry command
+\NewDocumentCommand{\projectentry}{m m m m m m}{%
+    \begin{resumeSubHeadingListStart}
+    \resumeSubheadingA
+        {#1}                      % Project Title
+        {\fontsize{11pt}{11pt}\selectfont \  \textbar\ #2}
+          						  % Tech Stack
+        {#3}    				  % Duration
+        {\textcolor{blue}{#4}}    % Link (displayed in blue)
+        {#5}					  % Location
+	\begin{itemize}[leftmargin=3em, label={$\bullet$}, labelsep=1em]
+        \seq_set_split:Nnn \l_tmpa_seq {|} {#6}        
+        \seq_map_inline:Nn \l_tmpa_seq { \resumeItemDot{##1} }
+    \end{itemize}
+    \end{resumeSubHeadingListStart}
+}
+
+\ExplSyntaxOff

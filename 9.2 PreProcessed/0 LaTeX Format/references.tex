@@ -1,0 +1,21 @@
+% references.tex
+
+\RequirePackage{xparse}
+
+\NewDocumentCommand{\reference}{m m m m m}{%
+    \begin{minipage}[t]{0.48\textwidth}
+        \textbf{#1}\\
+        \textit{\small #2}\\
+        \textit{\small #3}\\[0.3\baselineskip]
+        \href{mailto:#4}{\uline{#4}}\\
+        \text{#5}
+    \end{minipage}%
+}
+
+\NewDocumentEnvironment{references}{}{%
+    \section{References}
+    \vspace{0.2em}
+    \begin{minipage}{\textwidth}
+}{%
+    \end{minipage}
+}

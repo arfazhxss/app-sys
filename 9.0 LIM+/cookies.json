@@ -1,0 +1,73 @@
+[
+  {
+    "name": "_shibsession_757669636c696d68747470733a2f2f6c6561726e696e67696e6d6f74696f6e2e757669632e6361",
+    "value": "_8f8bd0a85c481a2fa86b501e939e1093",
+    "domain": "learninginmotion.uvic.ca",
+    "path": "/",
+    "expires": -1,
+    "size": 124,
+    "httpOnly": true,
+    "secure": false,
+    "session": true,
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  },
+  {
+    "name": "JSESSIONID",
+    "value": "C4FDB383B6CDEC563C24748EA529EF54",
+    "domain": "learninginmotion.uvic.ca",
+    "path": "/",
+    "expires": -1,
+    "size": 42,
+    "httpOnly": true,
+    "secure": true,
+    "session": true,
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  },
+  {
+    "name": "TS0165a077",
+    "value": "0183e075342aa0da49b5dfab46974f5f5007e2b23c7508d277d976eccefa2f3ae68f6a21f5d75f970365f4207b0b5e61346e9a4a831fa094eac461fb1bbe6a5022e712427e",
+    "domain": ".uvic.ca",
+    "path": "/",
+    "expires": -1,
+    "size": 148,
+    "httpOnly": true,
+    "secure": true,
+    "session": true,
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  },
+  {
+    "name": "uvic_sso",
+    "value": "lzar4ty0",
+    "domain": ".uvic.ca",
+    "path": "/",
+    "expires": 1722744256.674767,
+    "size": 16,
+    "httpOnly": true,
+    "secure": true,
+    "session": false,
+    "sameSite": "Lax",
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  },
+  {
+    "name": "TS014ba4fb",
+    "value": "0183e075343805c523204679dd2c37dd42aba5a883a73f29ca46f7d75418ca12a8085a89587351b2b0d73b07fd1a441404b924e1b9",
+    "domain": ".uvic.ca",
+    "path": "/",
+    "expires": -1,
+    "size": 116,
+    "httpOnly": true,
+    "secure": true,
+    "session": true,
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  }
+]

@@ -1,0 +1,14 @@
+% header.tex
+
+\RequirePackage{xparse}
+\RequirePackage{hyperref}
+\RequirePackage{ulem}  % Added for underlining
+
+\NewDocumentCommand{\header}{m m m m m}{
+  \begin{center}
+    \textbf{\Huge #1} \\
+    \vspace{2pt}
+    #2 \ $|$ \uline{\href{mailto:#3}{#3}} \ $|$ \uline{\href{https://www.linkedin.com/in/#4}{linkedin.com/in/#4}} \ $|$ \uline{\href{https://github.com/#5}{github.com/#5}}
+    \vspace{2pt} \\
+  \end{center}
+}

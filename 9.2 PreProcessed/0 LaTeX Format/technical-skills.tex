@@ -1,0 +1,11 @@
+\RequirePackage{xparse}
+
+\NewDocumentCommand{\technicalskills}{m m m m}{%
+    \section{Technical Skills}
+    \begin{resumeSubHeadingListStart}
+        \resumeSubItem{Languages}{#1}
+        \resumeSubItem{Frameworks and Libraries}{#2}
+        \resumeSubItem{Databases}{#3}
+        \resumeSubItem{Developer Tools}{#4}
+    \end{resumeSubHeadingListStart}
+}

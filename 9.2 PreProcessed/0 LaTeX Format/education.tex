@@ -1,0 +1,14 @@
+% education.tex
+
+\RequirePackage{xparse} 
+
+\NewDocumentCommand{\education}{m m m m}{%
+    \section{Education}
+    \begin{resumeSubHeadingListStart}
+        \resumeSubheadingB
+            {#1}  % Degree
+            {#2}  % Dates
+            {#3}  % University Name
+            {#4}  % Location
+    \end{resumeSubHeadingListStart}
+}

@@ -1,0 +1,144 @@
+0footprint
+1Password
+AECOM
+Achievers
+Ada
+Adobe
+Amazon
+Arlo
+Arpeg
+Asana
+Atlassian
+Autodesk
+Aviary Technologies
+Axonify
+BC Ferries
+BC Ministry of Citizens' Services
+BC Ministry of Forests
+BC Ministry of Social Development and Poverty Reduction
+BC Pension Corporation
+BCLC
+BGC Engineering
+Ballard Power Systems
+Bench
+Benevity
+BlackBerry
+Bold Commerce
+Breather
+Broadcom
+CCRM
+Calian
+Cambio Earth Systems
+Canada Pension Plan
+Canadian Natural Resources
+CaseWare
+Ceridian
+Certn
+Ciena
+Clio
+Coast Capital Savings
+Connor, Clark & Lunn Financial Group
+Coupa
+CrowdStrike
+D-Wave Systems
+D2L
+Datadog
+Dawat India
+Dayforce
+Dejero
+Densify
+EQ Bank
+ERCO
+Elastic Path
+Element AI
+Everbridge
+Flipp
+Fluence
+FreshBooks
+GIRO
+GitLab
+Global Relay Communications
+Hootsuite
+Huawei
+HubSpot
+ICBC
+Improving
+Intelex
+Intuit
+Invinity Energy Systems
+JEA
+Kardium
+Kik
+Kinaxis
+Kira Systems
+Klipfolio
+League
+Lightsail
+Lightspeed
+Magna
+Magnet Forensics
+Mani Wonders
+MavTek
+McCain Foods
+Mediagrif
+MesoMat
+MindBridge
+Mogo
+MongoDB
+NETINT
+Natural Resources Canada
+Netsuite
+Niltuo Child and Family Services Society
+Nokia
+NorthCode
+Okta
+OpenText
+PCL
+PHSA
+PayBright
+Piktochart
+PointClickCare
+Provincial Health Services Authority
+Q4
+Resolver
+Ritual
+Salesforce
+Sanctuary
+Sanofi
+Security Compass
+Sentry
+ServiceNow
+Shopify
+Simon Fraser University
+Slack
+Smartsheet
+Snowflake
+Solium
+Sonder
+Splunk
+SquareShift
+Survalent
+Talos
+Tanium
+Tegus
+Thinkific
+Top Hat
+Toptal
+Toronto Hydro
+Tradable Bits
+Trello
+Trulioo
+Tulip
+Unbounce
+University of Victoria
+Vend
+Vendasta
+Vidyard
+Vision Critical
+Wattpad
+Wave
+WorkSafeBC
+Workday
+Zoom
+dd
+ecobee
