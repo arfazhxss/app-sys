@@ -6,14 +6,15 @@ list_structure() {
   local indent="$2"
   local output_file="$3"
 
-  # Use git ls-files to list tracked files in the current directory
-  git ls-files --cached --others --exclude-standard "$dir" | sort | while IFS= read -r file; do
-    if [[ -f "$file" ]]; then
-      echo "${indent}├── $(basename "$file")" >> "$output_file"
-    elif [[ -d "$file" ]]; then
-      echo "${indent}├── $(basename "$file")/" >> "$output_file"
-      list_structure "$file" "${indent}│   " "$output_file"
-    fi
+  # List and sort the files in the current directory, excluding dotfiles and specified files
+  find "$dir" -maxdepth 1 -type f ! -name '.*' ! -name 'Hussain Arfaz - Placement Application*' | sort | while IFS= read -r file; do
+    echo "${indent}├── $(basename "$file")" >> "$output_file"
+  done
+
+  # List and sort the subdirectories in the current directory, excluding dotfiles and node_modules
+  find "$dir" -maxdepth 1 -type d ! -path "$dir" ! -name '.*' ! -name 'node_modules' | sort | while IFS= read -r subdir; do
+    echo "${indent}├── $(basename "$subdir")/" >> "$output_file"
+    list_structure "$subdir" "${indent}│   " "$output_file"
   done
 }
 
