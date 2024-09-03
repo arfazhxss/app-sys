@@ -26,35 +26,40 @@
 
 #### **Technical Projects:**
 
-- **Course Planner | Next.js, React, TypeScript, PostgreSQL, Tailwind** (Feb 2024 - Present) [GitHub Repository](www.github.com/arfazhxss/course-planner), Victoria, BC
+- **Course Planner | Next.js, React, TypeScript, PostgreSQL, Tailwind** (Feb 2024 - Present) 
+  [GitHub Repository](www.github.com/arfazhxss/course-planner), Victoria, BC
 
   - Developed a course planning tool using Next.js to help students plan courses and track degree progress.
   - Integrated PostgreSQL for database management of course data and user information.
   - Implemented drag-and-drop functionality in React with state functions to enhance user interactivity.
   - Designed the User Experience using TailwindCSS to create a seamless and intuitive user experience.
 
-- **Automated Application System | Bash, Python, LaTeX** (Dec 2023 - Present) [GitHub Repository](www.github.com/arfazhxss/app-sys), Victoria, BC
+- **Automated Application System | Bash, Python, LaTeX** (Dec 2023 - Present) 
+  [GitHub Repository](www.github.com/arfazhxss/app-sys), Victoria, BC
 
   - Automated and streamlined the entire job application process, optimizing workflow and data handling.
   - Utilized multithreading for simultaneous data extraction and processing tasks, reducing runtime by 60%.
   - Built command-line tools for data input and batch file processing, reducing manual efforts by 90%.
   - Increased consistency by 70% by implementing proper data cleanup and extraction.
 
-- **Jabref - Open Source Contributions | Java, JUnit** (Dec 2023 - May 2024) [GitHub Repository](www.github.com/arfazhxss/jabref), Victoria, BC
+- **Jabref - Open Source Contributions | Java, JUnit** (Dec 2023 - May 2024) 
+  [GitHub Repository](www.github.com/arfazhxss/jabref), Victoria, BC
 
   - Developed 100+ unit tests to ensure end-to-end correctness of file lookup in JabRef’s database.
   - Implemented 20+ caching tests to optimize JabRef’s performance and memory management.
   - Implemented 30+ integration tests to verify correct interactions between multiple modules and classes.
   - Engineered end-to-end functional tests validating bibliography management workflows.
 
-- **Ground Support System | React, TypeScript, MongoDB, Figma** (Jul 2023 - Jan 2024) [GitHub Repository](www.github.com/UVicRocketry/Ground-Support), Victoria, BC
+- **Ground Support System | React, TypeScript, MongoDB, Figma** (Jul 2023 - Jan 2024) 
+  [GitHub Repository](www.github.com/UVicRocketry/Ground-Support), Victoria, BC
 
   - Collaborated with 13 developers to create portable telemetry software for rocket performance analysis.
   - Developed front-end components using TypeScript and contributed to the final Figma designs.
   - Integrated live telemetry data from the MongoDB database into MaterialUI tables for post-flight analysis.
   - Implemented data visualizations with MaterialUI tables and charts for engineering students.
 
-- **Rubik’s Cube (3D Simulation) | C++** (Feb 2023 - June 2023) [GitHub Repository](www.github.com/arfazhxss/rubiks-cube-cpp), Victoria, BC
+- **Rubik’s Cube (3D Simulation) | C++** (Feb 2023 - June 2023) 
+  [GitHub Repository](www.github.com/arfazhxss/rubiks-cube-cpp), Victoria, BC
 
   - Developed a 3D simulation with OpenGL, integrating GLSL for visuals and math operations.
   - Created intuitive keyboard controls for cube rotations using keys like L, J, I, K.
