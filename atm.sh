@@ -348,7 +348,6 @@ letter_details () {
     # local d="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
     # local e="\vspace{10pt}\text{Dear Mr. Richardson:} \\\\"
     # printf "%s\n\t\t%s\n\t\t%s\n\t\t%s\n\t\t%s\n\t\t%s" "$a" "$b" "$c" "$d" "$e"
-
 }
 
 # Function to generate LaTeX file
