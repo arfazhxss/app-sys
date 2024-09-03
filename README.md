@@ -1,7 +1,7 @@
 # Directory Structure
 
 ```
-├── Hussain, Arfaz - Placement Application - SDE.docx
+├── Hussain, Arfaz - Placement Application - SDE (DOCX).docx
 ├── README.md
 ├── atm.sh
 ├── automater.py
