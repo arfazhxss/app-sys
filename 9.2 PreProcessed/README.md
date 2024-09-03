@@ -1,4 +1,4 @@
-# Arfaz Hossain (Resume)
+# **Arfaz Hossain (Resume)**
 
 #### **Contact Information:**
 
