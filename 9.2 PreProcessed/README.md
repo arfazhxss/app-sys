@@ -1,4 +1,4 @@
-# * Arfaz Hossain (Resume)*
+# Arfaz Hossain (Resume)
 
 #### **Contact Information:**
 
@@ -125,8 +125,8 @@
 #### **References:**
 
 - **Le Hung Nguyen**Ph.D. Candidate, Department of Electrical and Computer Engineering, University of Victoria
-Email: lehung.nguyen27@gmail.com
-Phone: (236) 990-2709
+  Email: lehung.nguyen27@gmail.com
+  Phone: (236) 990-2709
 
 - **Mohammad Ali Akber**
   Software Development Engineer, Amazon Payment Platforms
