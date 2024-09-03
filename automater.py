@@ -1,5 +1,31 @@
 #!/bin/bash
 
+# =============================================================================
+# Script Name: automater.py
+# Author: Arfaz Hossain
+# Created Date: Thursday, August 29, 2023
+# Description: 
+# This script processes job application data from a JSON file and generates 
+# LaTeX cover letters for each job entry. It includes functions to clean and 
+# validate job titles, organization names, division names, work term durations, 
+# job locations, and regions. The script also escapes LaTeX special characters 
+# and runs a shell script to generate the final output.
+#
+# Usage:
+# Run the script with the necessary JSON file in the specified location. The 
+# script will read the data, process it, and generate the required LaTeX files.
+#
+# License:
+# This script is provided "as is", without warranty of any kind, express or 
+# implied, including but not limited to the warranties of merchantability, 
+# fitness for a particular purpose, and noninfringement. In no event shall the 
+# author be liable for any claim, damages, or other liability, whether in an 
+# action of contract, tort, or otherwise, arising from, out of, or in connection 
+# with the script or the use or other dealings in the script.
+#
+# Use at your own risk.
+# =============================================================================
+
 import os
 import re
 import json

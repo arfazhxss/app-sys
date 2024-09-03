@@ -459,8 +459,7 @@ test_removal () {
 main () {
     echo "Number of arguments: $#"
     
-    # local filename=$(generator | sed 's/[\/\\,;]//g')
-     local filename=$(generator "$@" | sed 's/[\/\\,;]//g')
+    local filename=$(generator "$@" | sed 's/[\/\\,;]//g')
     perl -pe 's/^( {8}|\t{2})//' tntx.tex > ntntx.tex && mv ntntx.tex tntx.tex
     mv tntx.tex "9.3 CurrProcessed/tex-outputs/" || exit 1
     sed -i 's/ \+/ /g' "9.3 CurrProcessed/tex-outputs/tntx.tex"
