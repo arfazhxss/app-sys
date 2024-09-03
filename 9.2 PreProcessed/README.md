@@ -125,13 +125,13 @@
 #### **References:**
 
 - **Le Hung Nguyen**Ph.D. Candidate, Department of Electrical and Computer Engineering, University of Victoria
-  Email: lehung.nguyen27@gmail.com
-  Phone: (236) 990-2709
+  - Email: lehung.nguyen27@gmail.com
+  - Phone: (236) 990-2709
 
 - **Mohammad Ali Akber**
-  Software Development Engineer, Amazon Payment Platforms
-  Email: mail2aliakber@gmail.com
-  Phone: (250) 813-3070
+  - Software Development Engineer, Amazon Payment Platforms
+  - Email: mail2aliakber@gmail.com
+  - Phone: (250) 813-3070
 
 ---
 
