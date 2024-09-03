@@ -1,20 +1,14 @@
 #!/bin/bash
 
 # -----------------------------------------------------------------------------
-# Script Name: direc.sh
+# Script Name: direc-old.sh
 # Description: This script recursively lists the directory structure and saves it to a README.md file.
 # Author: Arfaz Hussain
 # License: MIT License
 # -----------------------------------------------------------------------------
 # DISCLAIMER:
-# This script is provided "as is", without warranty of any kind, express or 
-# implied, including but not limited to the warranties of merchantability, 
-# fitness for a particular purpose, and noninfringement. In no event shall the 
-# author be liable for any claim, damages, or other liability, whether in an 
-# action of contract, tort, or otherwise, arising from, out of, or in connection 
-# with the script or the use or other dealings in the script.
+# This script is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the script or the use or other dealings in the script. Use at your own risk.
 # -----------------------------------------------------------------------------
-
 
 # Function to list the directory structure recursively
 list_structure() {
@@ -22,8 +16,8 @@ list_structure() {
   local indent="$2"
   local output_file="$3"
 
-  # List and sort the files in the current directory, excluding dotfiles and specified files
-  find "$dir" -maxdepth 1 -type f ! -name '.*' ! -name 'Hussain Arfaz - Placement Application*' | sort | while IFS= read -r file; do
+  # List and sort the files in the current directory, excluding dotfiles
+  find "$dir" -maxdepth 1 -type f ! -name '.*' | sort | while IFS= read -r file; do
     echo "${indent}├── $(basename "$file")" >> "$output_file"
   done
 

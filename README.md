@@ -1,11 +1,10 @@
 # Directory Structure
 
 ```
-├── Hussain, Arfaz - Placement Application - SDE.docx
+├── Hussain, Arfaz - Placement Application - SDE (DOCX).docx
 ├── README.md
 ├── atm.sh
 ├── automater.py
-├── direc-t.sh
 ├── direc.sh
 ├── ren.sh
 ├── route.sh
@@ -79,4 +78,6 @@
 │   │   ├── Remote.txt
 ├── 9.5 Applications/
 │   ├── Hussain Arfaz - Software Developer - Dayforce.pdf
+├── 9.6 Archives/
+│   ├── direc-old.sh
 ```
