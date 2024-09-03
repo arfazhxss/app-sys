@@ -124,7 +124,8 @@
 
 #### **References:**
 
-- **Le Hung Nguyen**Ph.D. Candidate, Department of Electrical and Computer Engineering, University of Victoria
+- **Le Hung Nguyen**
+  - Ph.D. Candidate, Department of Electrical and Computer Engineering, University of Victoria
   - Email: lehung.nguyen27@gmail.com
   - Phone: (236) 990-2709
 
