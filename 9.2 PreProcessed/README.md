@@ -11,7 +11,7 @@
 #### **Education:**
 
 - **University of Victoria, Victoria, BC**
-  Bachelor of Engineering in Software Engineering (Sept 2021 - Present)
+  - Bachelor of Engineering in Software Engineering (Sept 2021 - Present)
 
 ---
 
