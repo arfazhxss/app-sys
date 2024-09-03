@@ -331,7 +331,7 @@ letter_details () {
         local c="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
         local d="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
     else
-        local a="\textbf{\CompanyName}\textbf{\CompanyNameSuffix},"
+        local a="\textbf{\CompanyName}\textbf{ \CompanyNameSuffix},"
         local b="\text{\Division}\\\\"
         local c="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
         local d="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
