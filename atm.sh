@@ -284,11 +284,34 @@ begin_document () {
 }
 
 letter_details () {
-    local a="\textbf{\CompanyName}\textbf{ \CompanyNameSuffix} \\\\"
-    local b="\text{Division: \Division} \\\\"
-    local c="\vspace{20pt}\text{Location: \LocationCity}, \text{\LocationState} \\\\"
-    local d="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
+    local cname="$1"
+    local csuf="$2"
+    local cdiv="$3"
+
+    if [ $((${#cname} + ${#csuf} + ${#cdiv})) -gt 45 ]; then
+        local a="\textbf{\CompanyName}\textbf{ \CompanyNameSuffix}\\\\"
+        local b="\text{\Division}\\\\"
+        local c="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
+        local d="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
+    else
+        local a="\textbf{\CompanyName}\textbf{\CompanyNameSuffix},"
+        local b="\text{\Division}\\\\"
+        local c="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
+        local d="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
+    fi
+
     printf "%s\n\t\t%s\n\t\t%s\n\t\t%s\n\t\t%s" "$a" "$b" "$c" "$d"
+    
+    # local size1=$((${#cname}))
+    # local size2=$((${#csuf}))
+    # local size3=$((${#cdiv}))
+    # local a="\textbf{Ashlin Richardson}\\\\"
+    # local b="\textit {Band 3 Senior Data Scientist and Manager of Business Intelligence}\\\\"
+    # local c="\text{\CompanyName}\text{, \Division} \\\\"
+    # local d="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
+    # local e="\vspace{10pt}\text{Dear Mr. Richardson:} \\\\"
+    # printf "%s\n\t\t%s\n\t\t%s\n\t\t%s\n\t\t%s\n\t\t%s" "$a" "$b" "$c" "$d" "$e"
+
 }
 
 # Function to generate LaTeX file
@@ -311,7 +334,8 @@ LaTeX () {
     local header_settings="$(header_settings)"
     local begin_document="$(begin_document)"
     local custom_ruler="$(custom_ruler)"
-    local letter_details="$(letter_details)"
+    # local letter_details="$(letter_details)"
+    local letter_details="$(letter_details "$company_name" "$company_suffix" "$division")"
 
     local body_0="$(body_0)"
     local body_1="$(body_1)"
