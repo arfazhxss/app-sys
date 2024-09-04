@@ -223,7 +223,7 @@ body_3 () {
 body_4 () {
     local a="\vspace{10pt}\text{Most Sincerely,}"
     local b="\vspace{-25pt}\begin{flushleft}"
-    local c="\hspace*{-1cm}\includegraphics[width=10cm]{../../9.2 PreProcessed/signature.png}\vspace{-1cm}"
+    local c="\hspace*{-1cm}\includegraphics[width=10cm]{../../9.2 PreProcessed/0 Resources/signature.png}\vspace{-1cm}"
     local d="\end{flushleft}"
     local e="\vspace{-10pt}\ps{\textbf{Arfaz Hossain} (He/Him)\\\\"
     local f="Software Engineering Student,\\\\"
@@ -330,14 +330,15 @@ letter_details () {
         local b="\text{\Division}\\\\"
         local c="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
         local d="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
+        printf "%s\n\t%s\n\t\t%s\n\t\t%s\n\t\t%s" "$a" "$b" "$c" "$d"
     else
-        local a="\textbf{\CompanyName}\textbf{ \CompanyNameSuffix},"
-        local b="\text{\Division}\\\\"
-        local c="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
-        local d="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
+        local a="\vspace{1em}"
+        local b="\textbf{\CompanyName}\textbf{ \CompanyNameSuffix},"
+        local c="\text{\Division}\\\\"
+        local d="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
+        local e="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
+        printf "%s\n%s\n\t\t%s\n\t\t%s\n\t\t%s\n\t\t%s" "$a" "$b" "$c" "$d" "$e"
     fi
-
-    printf "%s\n\t\t%s\n\t\t%s\n\t\t%s\n\t\t%s" "$a" "$b" "$c" "$d"
     
     # local size1=$((${#cname}))
     # local size2=$((${#csuf}))
@@ -412,7 +413,7 @@ LaTeX () {
         $letter_details $body_0 $line_break
         $body_1
         $body_2
-        $body_3 \\\\\\\\
+        $body_3 \\\\\\\\\\\\
         $body_4 
         \end{document}
 EOF
