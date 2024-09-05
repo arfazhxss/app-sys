@@ -164,7 +164,7 @@ find_term () {
 }
 
 body_0 () {
-    local body_0_0="I am writing to express my strong interest in the \\Position\\ Co-op at \\CompanyName."
+    local body_0_0="I am writing to express my strong interest in the \\textit{\\Position} Co-op at \\CompanyName."
     local body_0_1="I am a software engineering student at the University of Victoria in British Columbia."
     local body_0_2="I am eager to learn and grow in the field of computer and software engineering,"
     local body_0_3="and I believe that this role will help me gain valuable work experience related to my interests"

@@ -1,13 +1,13 @@
 # Directory Structure
 
 ```
-├── Hussain, Arfaz - Placement Application - SDE (DOCX).docx
 ├── README.md
 ├── atm.sh
 ├── automater.py
 ├── direc.sh
 ├── ren.sh
 ├── route.sh
+├── scs.sh
 ├── textual.rtf
 ├── 9.0 LIM+/
 │   ├── checklist.py
@@ -29,6 +29,7 @@
 │   ├── 1.pdf
 │   ├── 9-2.pdf
 │   ├── 9-4.pdf
+│   ├── README.md
 │   ├── signature.png
 │   ├── 0 LaTeX Format/
 │   │   ├── about.tex
@@ -50,10 +51,16 @@
 │   │   │   ├── jake-resume-format.tex
 │   ├── 0 Resources/
 │   │   ├── resut-depricated.sh
+│   │   ├── signature.png
 ├── 9.3 CurrProcessed/
-│   ├── Hussain Arfaz - Software Developer - Dayforce.pdf
 │   ├── August 2024 Box/
+│   │   ├── Hussain Arfaz - Software Developer - Dayforce.pdf
+│   ├── September 2024 Box/
 │   ├── tex-outputs/
+│   │   ├── tntx.aux
+│   │   ├── tntx.log
+│   │   ├── tntx.out
+│   │   ├── tntx.pdf
 │   │   ├── tntx.tex
 ├── 9.4 PostProcessed/
 │   ├── direc.sh
@@ -77,7 +84,9 @@
 │   │   ├── Quebec.txt
 │   │   ├── Remote.txt
 ├── 9.5 Applications/
-│   ├── Hussain Arfaz - Software Developer - Dayforce.pdf
 ├── 9.6 Archives/
 │   ├── direc-old.sh
+├── 9.7 DOCX/
+│   ├── Hussain, Arfaz - Placement Application - SDE (DOCX).docx
+│   ├── SCS.md
 ```
