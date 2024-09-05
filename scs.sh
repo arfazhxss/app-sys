@@ -41,14 +41,35 @@ DRAW_BOX () {
 # Function to copy text to clipboard
 COPY_TO_CLIPBOARD () {
     local boxed_text=$(DRAW_BOX "$1")
-    echo -n "$boxed_text" | pbcopy
-    printf "Copied to clipboard:\n%s\n" "$boxed_text"
+    echo -n "$1" | pbcopy
+    printf "\033[31m%s\033[0m\n" "$2"  # Blue color
+    printf "\033[34m%s\033[0m\n" "$boxed_text"  # Red color
+}
+
+LINKEDIN () {
+    COPY_TO_CLIPBOARD "https://linkedin.com/in/arfazhussain" "LinkedIn URL"
+}
+
+GITHUB () {
+    COPY_TO_CLIPBOARD "https://github.com/arfazhxss" "GitHub URL"
+}
+
+PHONE () {
+    COPY_TO_CLIPBOARD "+1 (250) 880-8402" "Not sure why I need this but most probably browser didn't catch that."
+}
+
+EMAIL () {
+    local email=$(
+        printf "arfazhussain.zn@gmail.com;\n"
+        printf "arfazhussain@outlook.com;\n"
+        printf "arfazhussain@uvic.ca\n"
+    )
+    COPY_TO_CLIPBOARD "$email" "Note: I've given 3 emails, there's one more but I doubt we need that."
 }
 
 # Function to copy the prompt script
-COPY_PROMPT_SCRIPT() {
-    local prompt_script
-    prompt_script=$(
+PROMPT_SCRIPT() {
+    local prompt_script=$(
         printf "______________________________________________________________________________________________________\n"
         printf "Find me the following information:\n"
         printf "Name of the job:\n"
@@ -79,23 +100,53 @@ COPY_PROMPT_SCRIPT() {
 main () {
     # Define options
     local st=(
+        "Email"
+        "Phone Number"
+        # "Address"
+        # "Website"
+        "GitHub"
+        "LinkedIn"
         "Prompt Script"
+        "Exit"
     )
-    local options=$(printf "%s\n" "${st[@]}")
+    while true; do
+        local options=$(printf "%s\n" "${st[@]}")
 
-    # Create dropdown menu
-    local selected=$(DROP_DOWN "$options" "Select information to copy: ")
+        # Create dropdown menu
+        local selected=$(DROP_DOWN "$options" "Select information to copy: ")
 
-    # Handle selected option
-    case "$selected" in
-        "Prompt Script")
-            COPY_PROMPT_SCRIPT "Prompt Script"
-            ;;
-        *)
-            echo "Invalid option selected"
-            exit 1
-            ;;
-    esac
+        # Handle selected option
+        case "$selected" in
+            "Exit")
+                echo "Exiting the script. Goodbye!"
+                exit 0
+                ;;
+            "Email")
+                EMAIL
+                ;;
+            "Phone Number")
+                PHONE
+                ;;
+            "Address")
+                COPY_TO_CLIPBOARD "123 Main St, City, State, ZIP" "Address"
+                ;;
+            "GitHub")
+                GITHUB
+                ;;
+            "LinkedIn")
+                LINKEDIN
+                ;;
+            "Prompt Script")
+                PROMPT_SCRIPT
+                ;;
+            *)
+                echo "Invalid option selected"
+                exit 1
+                ;;
+        esac
+        # echo "Press Enter to continue..."
+        # read -r
+    done
 }
 
 # Run the main function
