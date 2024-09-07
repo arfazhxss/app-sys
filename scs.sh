@@ -116,32 +116,22 @@ UNIVERSITY () {
     COPY_TO_CLIPBOARD "University of Victoria" "Don't know why they keep asking for the same thing, but I'm sure it's because I'm from Canada."
 }
 
-ADDRESS() {
+EMAIL() {
     local options=(
-        "Full Address"
-        "Street"
-        "City and Province"
-        "Postal Code"
-        "xX"
+        "0/UVIC"
+        "1/OUTLOOK"
+        "2/GMAIL"
     )
-    local selected=$(DROP_DOWN "$(printf "%s\n" "${options[@]}")" "Select address information: ")
+    local selected=$(DROP_DOWN "$(printf "%s\n" "${options[@]}")" "Select email option: ")
     case "$selected" in
-        "Full Address")
-            local full_address=$(
-                printf "4257 Thornhill Crescent,\n"
-                printf "Victoria, British Columbia,\n"
-                printf "V8N 3G6\n"
-            )
-            COPY_TO_CLIPBOARD "$full_address" "Full address copied to clipboard"
+        "0/UVIC")
+            COPY_TO_CLIPBOARD "arfazhussain@uvic.ca" "UVIC copied to clipboard"
             ;;
-        "Street")
-            COPY_TO_CLIPBOARD "4257 Thornhill Crescent" "Street address copied to clipboard"
+        "1/OUTCOME")
+            COPY_TO_CLIPBOARD "arfazhussain@outlook.com" "OUTLOOK copied to clipboard"
             ;;
-        "City and Province")
-            COPY_TO_CLIPBOARD "Victoria, British Columbia" "City and province copied to clipboard"
-            ;;
-        "Postal Code")
-            COPY_TO_CLIPBOARD "V8N 3G6" "Postal code copied to clipboard"
+        "2/GMAIL")
+            COPY_TO_CLIPBOARD "arfazhussain.zn@gmail.com" "GMAIL copied to clipboard"
             ;;
         "xX")
             return
@@ -152,17 +142,64 @@ ADDRESS() {
     esac
 }
 
-PHONE () {
-    COPY_TO_CLIPBOARD "+1 (250) 880-8402" "Not sure why I need this but most probably browser didn't catch that."
+ADDRESS() {
+    local options=(
+        "Full Address"
+        "Street"
+        "City and Province"
+        "Postal Code"
+        "xX"
+    )
+    while true; do
+        local selected=$(DROP_DOWN "$(printf "%s\n" "${options[@]}")" "Select address information: ")
+        case "$selected" in
+            "Full Address")
+                local full_address=$(
+                    printf "4257 Thornhill Crescent,\n"
+                    printf "Victoria, British Columbia,\n"
+                    printf "V8N 3G6\n"
+                )
+                COPY_TO_CLIPBOARD "$full_address" "Full address copied to clipboard"
+                ;;
+            "Street")
+                COPY_TO_CLIPBOARD "4257 Thornhill Crescent" "Street address copied to clipboard"
+                ;;
+            "City and Province")
+                COPY_TO_CLIPBOARD "Victoria, British Columbia" "City and province copied to clipboard"
+                ;;
+            "Postal Code")
+                COPY_TO_CLIPBOARD "V8N 3G6" "Postal code copied to clipboard"
+                ;;
+            "xX")
+                return
+                ;;
+            "")
+                return
+                ;;
+        esac
+    done
 }
 
-EMAIL () {
-    local email=$(
-        printf "arfazhussain.zn@gmail.com;\n"
-        printf "arfazhussain@outlook.com;\n"
-        printf "arfazhussain@uvic.ca\n"
+PHONE () {
+    local options=(
+        "0/NON-FORMATTED"
+        "1/FORMATTED"
     )
-    COPY_TO_CLIPBOARD "$email" "Note: I've given 3 emails, there's one more but I doubt we need that."
+    local selected=$(DROP_DOWN "$(printf "%s\n" "${options[@]}")" "Select phone option: ")
+    case "$selected" in
+        "0/NON-FORMATTED")
+            COPY_TO_CLIPBOARD "2508808402" "Phone number copied to clipboard"
+            ;;
+        "1/FORMATTED")
+            COPY_TO_CLIPBOARD "+1 (250) 880-8402" "Not sure why I need this but most probably browser didn't catch that."
+            ;;
+        "xX")
+            return
+            ;;
+        "")
+            return
+            ;;
+    esac
 }
 
 # Function to copy the prompt script
@@ -285,7 +322,7 @@ JOB_DETAILS() {
     local job="$1"
     local options=(
         "Title"
-        "Organization"
+        "organization/company"
         "Location"
         "Duration"
         "Accomplishments"
@@ -314,7 +351,7 @@ JOB_DETAILS() {
                         ;;
                 esac
                 ;;
-            "Organization")
+            "organization/company")
                 case "$job" in
                     "Software Team Lead")
                         COPY_TO_CLIPBOARD "VikeLabs" "Organization copied to clipboard"
@@ -752,23 +789,24 @@ PROJECTS() {
 main () {
     # Define options
     local st=(
+        "xX"
         "Name"
-        "University Name"
         "Email"
-        "Phone Number"
-        "Address/Location"
-        "Jobs"
-        "Projects"
         "GitHub"
         "LinkedIn"
-        "Prompt Script"
+        "Jobs [2]"
+        "Phone Number"
         "Current Year"
-        "Credits Completed"
+        "Projects [1]"
+        "Hard Problems"
+        "University Name"
         "Graduation Date"
         "Coop Start Date"
+        "Prompt Script [0]"
+        "Address/Location"
         "Coop Work Permit"
+        "Credits Completed"
         "Coop Coordinator Name"
-        "xX"
     )
     while true; do
         local options=$(printf "%s\n" "${st[@]}")
@@ -793,38 +831,29 @@ main () {
             "Email")
                 EMAIL
                 ;;
-            "Phone Number")
-                PHONE
-                ;;
-            "Address/Location")
-                ADDRESS
-                ;;
-            "University Name")
-                UNIVERSITY
-                ;;
-            "Jobs")
-                JOBS
-                ;;
-            "Projects")
-                PROJECTS
-                ;;
             "GitHub")
                 GITHUB
+                ;;
+            "Jobs [2]")
+                JOBS
                 ;;
             "LinkedIn")
                 LINKEDIN
                 ;;
-            "Prompt Script")
-                PROMPT_SCRIPT
-                ;;
-            "Hard Problems")
-                HARD_PROBLEMS
+            "Projects [1]")
+                PROJECTS
                 ;;
             "Current Year")
                 CURRENT_YEAR
                 ;;
-            "Credits Completed")
-                CREDITS
+            "Phone Number")
+                PHONE
+                ;;
+            "Hard Problems")
+                HARD_PROBLEMS
+                ;;
+            "Prompt Script [0]")
+                PROMPT_SCRIPT
                 ;;
             "Graduation Date")
                 GRAD_DATE
@@ -832,8 +861,17 @@ main () {
             "Coop Start Date")
                 COOP_START_DATE
                 ;;
+            "University Name")
+                UNIVERSITY
+                ;;
+            "Address/Location")
+                ADDRESS
+                ;;
             "Coop Work Permit")
                 TYPE_OF_CANADIAN
+                ;;
+            "Credits Completed")
+                CREDITS
                 ;;
             "Coop Coordinator Name")
                 COOP_COORDINATOR_NAME
