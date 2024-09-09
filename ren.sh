@@ -1,31 +1,38 @@
 #!/bin/bash
 #!/bin/sh
 
-# =============================================================================
-# Script Name: ren.sh
-# Author: Arfaz Hossain
-# Created Date: Thursday, August 29, 2024 at 4:08 PM
-# Description: 
-# This script is designed to rename and process files within a specified directory.
-# It includes functions to check directory validity, print file details, process 
-# files based on specific patterns, and handle file renaming and post-processing 
-# tasks. The script uses ExifTool to extract file creation dates and Ghostscript 
-# for PDF merging.
-#
-# Usage:
-# Run the script with the directory path as an argument. The script will process 
-# all files matching the specified patterns within the directory.
-#
-# License:
-# This script is provided "as is", without warranty of any kind, express or 
-# implied, including but not limited to the warranties of merchantability, 
-# fitness for a particular purpose, and noninfringement. In no event shall the 
-# author be liable for any claim, damages, or other liability, whether in an 
-# action of contract, tort, or otherwise, arising from, out of, or in connection 
-# with the script or the use or other dealings in the script.
-#
-# Use at your own risk.
-# =============================================================================
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                          REFORMAT, ENHANCE AND NAVIGATE                           ┃
+# ┃===================================================================================┃
+# ┃ Script Name: ren.sh                                                               ┃
+# ┃ Author: Arfaz Hossain                                                             ┃
+# ┃ Created Date: Thursday, August 29, 2024 at 4:08 PM                                ┃
+# ┃===================================================================================┃
+# ┃ Description:                                                                      ┃
+# ┃===================================================================================┃
+# ┃ This script is designed to rename and process files within a specified directory. ┃
+# ┃ It includes functions to check directory validity, print file details, process    ┃
+# ┃ files based on specific patterns, and handle file renaming and post-processing    ┃
+# ┃ tasks. The script uses ExifTool to extract file creation dates and Ghostscript    ┃
+# ┃ for PDF merging.                                                                  ┃
+# ┃===================================================================================┃
+# ┃ Usage                                                                             ┃
+# ┃===================================================================================┃
+# ┃ Run the script with the directory path as an argument. The script will process    ┃
+# ┃ all files matching the specified patterns within the directory.                   ┃
+# ┃===================================================================================┃
+# ┃ License                                                                           ┃
+# ┃===================================================================================┃
+# ┃ This script is provided "as is", without warranty of any kind, express or         ┃
+# ┃ implied, including but not limited to the warranties of merchantability,          ┃
+# ┃ fitness for a particular purpose, and noninfringement. In no event shall the      ┃
+# ┃ author be liable for any claim, damages, or other liability, whether in an        ┃
+# ┃ action of contract, tort, or otherwise, arising from, out of, or in connection    ┃
+# ┃ with the script or the use or other dealings in the script.                       ┃
+# ┃                                                                                   ┃
+# ┃ Use at your own risk.                                                             ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 symbol000="_"
 symbol333="$"
