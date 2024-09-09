@@ -1,16 +1,22 @@
 #!/bin/bash
 
-#  Git Workflow
-#  Stable Script 8.1
-#  
-#  Developed for this Github Repository <Application System>
-#  Tested on Fedora 36, Mac M1 and Linux Distributions
-#  One-Keyboard Function(s): Pull/Push, Reset & Sync.
-#  This is an open-source script. Feel free to use it at your own risk.
-# 
-#  2024 @arfazhxss. 
-#
-#  Suggestions/Others: <arfazhxss@duck.com>
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                 Git Workflow                                      ┃
+# ┃===================================================================================┃
+# ┃ Developed for this Github Repository Application System (APP SYS)                 ┃
+# ┃ Tested on Mac, Fedora 36, and unix-based Distributions,                           ┃
+# ┃                                                                                   ┃
+# ┃ One-Keyboard Function(s): Pull/Push, Reset & Sync.                                ┃
+# ┃                                                                                   ┃
+# ┃ This is an open-source script. Feel free to use it at your own risk.              ┃
+# ┃                                                                                   ┃
+# ┃===================================================================================┃
+# ┃                    Suggestions/Others: <arfazhxss@duck.com>                       ┃
+# ┃===================================================================================┃
+# ┃                               Stable Script 8.1                                   ┃
+# ┃                                2024 @arfazhxss                                    ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 breakStrSize=50
 breakStrIter=$(printf '_%.0s' $(seq 1 "$breakStrSize"))
