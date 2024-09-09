@@ -454,8 +454,41 @@ if [ "$#" -eq 7 ]; then
 }
 
 test_removal () {
-    find . -type f -name '*TEST*.pdf' -delete
+    find . -type f -name '*TEST*.pdf' -delete > /dev/null 2>&1
 }
+
+DRAW_BOX() {
+    local input="$*"
+    local termWidth=$(tput cols 2>/dev/null || echo 80)
+    local maxWidth=$((termWidth - 4))  # Subtract 4 to account for the box borders
+
+    # Ensure maxWidth is at least 20 characters
+    maxWidth=$((maxWidth < 20 ? 20 : maxWidth))
+
+    # Wrap text to the maxWidth
+    local wrapped_text=$(echo "$input" | fold -s -w $maxWidth)
+
+    # Calculate the width of the longest line
+    local width=$(echo "$wrapped_text" | awk '{print length}' | sort -nr | head -n1)
+    local lineBeg="| "
+    local lineEnd=" |"
+
+    # Create the top and bottom borders
+    local dashes=$(printf '%*s' $((width + ${#lineBeg} + ${#lineEnd})) "")
+    dashes=${dashes// /-}
+
+    # ANSI escape code for red text
+    local RED='\033[0;31m'
+    local RESET='\033[0m'
+
+    # Print the box with wrapped text in red
+    echo "${RED}${dashes}${RESET}"
+    while IFS= read -r line; do
+        printf "${RED}%s%-*s%s${RESET}\n" "$lineBeg" "$width" "$line" "$lineEnd"
+    done <<< "$wrapped_text"
+    echo "${RED}${dashes}${RESET}"
+}
+
 
 main () {
     echo "Number of arguments: $#"
@@ -463,19 +496,21 @@ main () {
     local filename=$(generator "$@" | sed 's/[\/\\,;]//g')
     perl -pe 's/^( {8}|\t{2})//' tntx.tex > ntntx.tex && mv ntntx.tex tntx.tex
     mv tntx.tex "9.3 CurrProcessed/tex-outputs/" || exit 1
-    sed -i 's/ \+/ /g' "9.3 CurrProcessed/tex-outputs/tntx.tex"
+    sed -i '' 's/ \+/ /g' "9.3 CurrProcessed/tex-outputs/tntx.tex"
 
     # This removes all "TEST" entries in the srt.sh script
-    ./9.4\ PostProcessed/srt.sh
+    ./9.4\ PostProcessed/srt.sh > /dev/null 2>&1
 
     cd "9.3 CurrProcessed/tex-outputs"
-    pdflatex tntx.tex && mv tntx.pdf "$filename.pdf"
+    pdflatex tntx.tex > /dev/null 2>&1 && mv tntx.pdf "$filename.pdf"
     cp "$filename.pdf" ../
     cp "$filename.pdf" ../../9.5\ Applications/
     rm -f !(*.tex)
     cd ../../ || exit
 
-    echo "Cover letter generated and saved as $filename.pdf"
+    printf "%s" "${filename}.pdf" | pbcopy
+    # printf "Cover letter generated and saved as \033[31m%s\033[0m\n" "${filename}.pdf"
+    DRAW_BOX "$(printf "Cover letter generated and saved as %s.pdf" "$filename")"
     unset filename
 }
 

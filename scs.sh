@@ -144,31 +144,35 @@ EMAIL() {
 
 ADDRESS() {
     local options=(
-        "Full Address"
-        "Street"
-        "City and Province"
-        "Postal Code"
+        "Street [0]"
+        "City [1]"
+        "Province [2]"
+        "Postal Code [3]"
+        "Full Address [4]"
         "xX"
     )
     while true; do
         local selected=$(DROP_DOWN "$(printf "%s\n" "${options[@]}")" "Select address information: ")
         case "$selected" in
-            "Full Address")
+            "Street [0]")
+                COPY_TO_CLIPBOARD "4257 Thornhill Crescent" "Street address copied to clipboard"
+                ;;
+            "City [1]")
+                COPY_TO_CLIPBOARD "Victoria" "City copied to clipboard"
+                ;;
+            "Province [2]")
+                COPY_TO_CLIPBOARD "British Columbia" "City copied to clipboard"
+                ;;
+            "Postal Code [3]")
+                COPY_TO_CLIPBOARD "V8N 3G6" "Postal code copied to clipboard"
+                ;;
+            "Full Address [4]")
                 local full_address=$(
                     printf "4257 Thornhill Crescent,\n"
                     printf "Victoria, British Columbia,\n"
                     printf "V8N 3G6\n"
                 )
                 COPY_TO_CLIPBOARD "$full_address" "Full address copied to clipboard"
-                ;;
-            "Street")
-                COPY_TO_CLIPBOARD "4257 Thornhill Crescent" "Street address copied to clipboard"
-                ;;
-            "City and Province")
-                COPY_TO_CLIPBOARD "Victoria, British Columbia" "City and province copied to clipboard"
-                ;;
-            "Postal Code")
-                COPY_TO_CLIPBOARD "V8N 3G6" "Postal code copied to clipboard"
                 ;;
             "xX")
                 return
@@ -275,6 +279,15 @@ COOP_COORDINATOR_NAME() {
     COPY_TO_CLIPBOARD "$coop_coordinator_description" "Meet Imen Bourguiba, the person who knows if I'm slacking off. Pro tip: butter them up with coffee offers (it's a hypothesis, untested)."
 }
 
+COOP_PROGRAM_NAME() {
+    local coop_program_description=$(
+        printf "University of Victoria Engineering and Computer Science (UVic ECE) Cooperative Program\n"
+        printf "Coop Coordinator Name: Imen Bourguiba\n"
+        printf "Co-op: Software Engineering\n"
+        printf "Email: engrcoop@uvic.ca\n"
+    )
+    COPY_TO_CLIPBOARD "$coop_program_description" "Not sure why I need this but most probably browser didn't catch that."
+}
 
 HARD_PROBLEMS() {
     local question=$(
@@ -806,6 +819,7 @@ main () {
         "Address/Location"
         "Coop Work Permit"
         "Credits Completed"
+        "Coop Program Name"
         "Coop Coordinator Name"
     )
     while true; do
@@ -844,7 +858,7 @@ main () {
                 PROJECTS
                 ;;
             "Current Year")
-                CURRENT_YEAR
+                ACADEMIC_YEAR
                 ;;
             "Phone Number")
                 PHONE
@@ -875,6 +889,9 @@ main () {
                 ;;
             "Coop Coordinator Name")
                 COOP_COORDINATOR_NAME
+                ;;
+            "Coop Program Name")
+                COOP_PROGRAM_NAME
                 ;;
             *)
                 echo "Invalid option selected"
