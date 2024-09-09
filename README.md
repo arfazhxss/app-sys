@@ -27,7 +27,7 @@
 │   ├── session.pkl
 ├── 9.2 PreProcessed/
 │   ├── 1.pdf
-│   ├── 9-2.pdf
+│   ├── 2.pdf
 │   ├── 9-4.pdf
 │   ├── README.md
 │   ├── signature.png
@@ -57,10 +57,6 @@
 │   │   ├── Hussain Arfaz - Software Developer - Dayforce.pdf
 │   ├── September 2024 Box/
 │   ├── tex-outputs/
-│   │   ├── tntx.aux
-│   │   ├── tntx.log
-│   │   ├── tntx.out
-│   │   ├── tntx.pdf
 │   │   ├── tntx.tex
 ├── 9.4 PostProcessed/
 │   ├── direc.sh
