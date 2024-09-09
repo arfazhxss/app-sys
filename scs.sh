@@ -1,35 +1,41 @@
 #!/bin/bash
 
-# =============================================================================
-# Script Name: Standard Clipboard Scripted System (SCSS/SCS)
-# Author: Arfaz Hussain
-# Created Date: Thursday, August 29, 2024 at 4:08 PM
-# Description: 
-# This script provides a set of utility functions to copy various types of 
-# information (such as email, phone number, GitHub URL, LinkedIn URL, etc.) 
-# to the clipboard. It includes functions to create dropdown menus, draw ASCII 
-# boxes around text, and handle clipboard operations. The script uses `fzf` 
-# for interactive selection and `pbcopy` for clipboard operations.
-#
-# Usage:
-# Run the script and follow the prompts to select the information you want to 
-# copy to the clipboard. The script will display the selected information in 
-# an ASCII box and copy it to the clipboard.
-#
-# License:
-# This script is provided "as is", without warranty of any kind, express or 
-# implied, including but not limited to the warranties of merchantability, 
-# fitness for a particular purpose, and noninfringement. In no event shall the 
-# author be liable for any claim, damages, or other liability, whether in an 
-# action of contract, tort, or otherwise, arising from, out of, or in connection 
-# with the script or the use or other dealings in the script.
-#
-# Use at your own risk.
-#
-# Full Documentation:
-# For more detailed information, please refer to the full documentation located 
-# in the 9.7 DOCX/scs.md file.
-# =============================================================================
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                STANDARD CLIPBOARD SCRIPTED SYSTEM (SCSS/SCS)                      ┃
+# ┃ ==================================================================================┃
+# ┃ Script Name: scs.sh                                                               ┃
+# ┃ Author: Arfaz Hussain                                                             ┃
+# ┃ Created Date: Thursday, August 29, 2024 at 4:08 PM                                ┃
+# ┃ Description:                                                                      ┃
+# ┃ This script provides a set of utility functions to copy various types of          ┃
+# ┃ information (such as email, phone number, GitHub URL, LinkedIn URL, etc.)         ┃
+# ┃ to the clipboard. It includes functions to create dropdown menus, draw ASCII      ┃
+# ┃ boxes around text, and handle clipboard operations. The script uses `fzf`         ┃
+# ┃ for interactive selection and `pbcopy` for clipboard operations.                  ┃
+# ┃ ==================================================================================┃
+# ┃ Usage                                                                             ┃
+# ┃ ==================================================================================┃
+# ┃ Run the script and follow the prompts to select the information you want to       ┃
+# ┃ copy to the clipboard. The script will display the selected information in        ┃
+# ┃ an ASCII box and copy it to the clipboard.                                        ┃
+# ┃ ==================================================================================┃
+# ┃ License                                                                           ┃
+# ┃ ==================================================================================┃
+# ┃ This script is provided "as is", without warranty of any kind, express or         ┃
+# ┃ implied, including but not limited to the warranties of merchantability,          ┃
+# ┃ fitness for a particular purpose, and noninfringement. In no event shall the      ┃
+# ┃ author be liable for any claim, damages, or other liability, whether in an        ┃
+# ┃ action of contract, tort, or otherwise, arising from, out of, or in connection    ┃
+# ┃ with the script or the use or other dealings in the script.                       ┃
+# ┃                                                                                   ┃
+# ┃ Use at your own risk.                                                             ┃
+# ┃ ==================================================================================┃
+# ┃ Full Documentation                                                                ┃
+# ┃ ==================================================================================┃
+# ┃ For more detailed information, please refer to the full documentation located     ┃
+# ┃ in the 9.7 DOCX/scs.md file.                                                      ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 # Function to create a dropdown menu
 DROP_DOWN () {

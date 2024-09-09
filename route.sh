@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #  Git Workflow
 #  Stable Script 8.1
 #  
@@ -9,8 +11,6 @@
 #  2024 @arfazhxss. 
 #
 #  Suggestions/Others: <arfazhxss@duck.com>
-
-#!/bin/bash
 
 breakStrSize=50
 breakStrIter=$(printf '_%.0s' $(seq 1 "$breakStrSize"))

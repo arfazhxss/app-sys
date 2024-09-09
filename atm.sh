@@ -1,40 +1,47 @@
-# #!/bin/bash
-# =============================================================================
-# Script Name: atm.sh
-# Author: Arfaz Hussain
-# Created Date: 2022-10-19
-# Description: 
-# This script is designed to automate the generation of LaTeX cover letters 
-# for job applications. It includes functions to gather user input through 
-# dropdown menus, escape LaTeX special characters, and generate a LaTeX file 
-# with the provided information. The script also compiles the LaTeX file into 
-# a PDF and organizes the output files.
-#
-# Usage:
-# Run the script with or without arguments. If no arguments are provided, the 
-# script will prompt the user for input. If arguments are provided, they should 
-# be in the following order:
-#   1. Position
-#   2. Company Name
-#   3. Company Suffix
-#   4. Division
-#   5. City
-#   6. State
-#   7. Terms
-#
-# Example:
-# ./atm.sh "Software Engineer" "Tech Corp" "Inc." "Development" "San Francisco" "California" "4-month"
-#
-# DISCLAIMER:
-# This script is provided "as is", without warranty of any kind, express or 
-# implied, including but not limited to the warranties of merchantability, 
-# fitness for a particular purpose, and noninfringement. In no event shall the 
-# author be liable for any claim, damages, or other liability, whether in an 
-# action of contract, tort, or otherwise, arising from, out of, or in connection 
-# with the script or the use or other dealings in the script.
-#
-# Use at your own risk.
-# =============================================================================
+#!/bin/bash
+
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                      APPLICATION TEMPLATE MANAGEMENT SYSTEM                       ┃
+# ┃ ==================================================================================┃
+# ┃ Script Name: atm.sh                                                               ┃
+# ┃ Author: Arfaz Hussain                                                             ┃
+# ┃ Created Date: 2022-10-19                                                          ┃
+# ┃ Description:                                                                      ┃
+# ┃ This script is designed to automate the generation of LaTeX cover letters         ┃
+# ┃ for job applications. It includes functions to gather user input through          ┃
+# ┃ dropdown menus, escape LaTeX special characters, and generate a LaTeX file        ┃
+# ┃ with the provided information. The script also compiles the LaTeX file into       ┃
+# ┃ a PDF and organizes the output files.                                             ┃
+# ┃                                                                                   ┃
+# ┃ Usage:                                                                            ┃
+# ┃ Run the script with or without arguments. If no arguments are provided, the       ┃
+# ┃ script will prompt the user for input. If arguments are provided, they should     ┃
+# ┃ be in the following order:                                                        ┃
+# ┃   1. Position                                                                     ┃
+# ┃   2. Company Name                                                                 ┃
+# ┃   3. Company Suffix                                                               ┃
+# ┃   4. Division                                                                     ┃
+# ┃   5. City                                                                         ┃
+# ┃   6. State                                                                        ┃
+# ┃   7. Terms                                                                        ┃
+# ┃                                                                                   ┃
+# ┃ Example:                                                                          ┃
+# ┃                                                                                   ┃
+# ┃ ┌───────────────────────────────────────────────────────────────────────────────┐ ┃
+# ┃ │ ./atm.sh "Software Engineer" "Tech Corp" "Inc." "Development" "San Francisco" │ ┃
+# ┃ │ "California" "4-month"                                                        │ ┃
+# ┃ └───────────────────────────────────────────────────────────────────────────────┘ ┃
+# ┃                                                                                   ┃
+# ┃ DISCLAIMER:                                                                       ┃
+# ┃ This script is provided "as is", without warranty of any kind, express or         ┃
+# ┃ implied, including but not limited to the warranties of merchantability,          ┃
+# ┃ fitness for a particular purpose, and noninfringement. In no event shall the      ┃
+# ┃ author be liable for any claim, damages, or other liability, whether in an        ┃
+# ┃ action of contract, tort, or otherwise, arising from, out of, or in connection    ┃
+# ┃ with the script or the use or other dealings in the script.                       ┃
+# ┃                                                                                   ┃
+# ┃ Use at your own risk.                                                             ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 shopt -s extglob
 
