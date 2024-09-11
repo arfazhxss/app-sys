@@ -484,9 +484,9 @@ DRAW_BOX() {
     local dashes=$(printf '%*s' $((width + ${#lineBeg} + ${#lineEnd})) "")
     dashes=${dashes// /-}
 
-    # ANSI escape code for red text
-    local RED='\033[0;31m'
-    local RESET='\033[0m'
+    # ANSI escape code for red text using tput
+    local RED=$(tput setaf 1)
+    local RESET=$(tput sgr0)
 
     # Print the box with wrapped text in red
     echo "${RED}${dashes}${RESET}"
@@ -495,7 +495,6 @@ DRAW_BOX() {
     done <<< "$wrapped_text"
     echo "${RED}${dashes}${RESET}"
 }
-
 
 main () {
     echo "Number of arguments: $#"
