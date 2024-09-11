@@ -1,40 +1,47 @@
-# #!/bin/bash
-# =============================================================================
-# Script Name: atm.sh
-# Author: Arfaz Hussain
-# Created Date: 2022-10-19
-# Description: 
-# This script is designed to automate the generation of LaTeX cover letters 
-# for job applications. It includes functions to gather user input through 
-# dropdown menus, escape LaTeX special characters, and generate a LaTeX file 
-# with the provided information. The script also compiles the LaTeX file into 
-# a PDF and organizes the output files.
-#
-# Usage:
-# Run the script with or without arguments. If no arguments are provided, the 
-# script will prompt the user for input. If arguments are provided, they should 
-# be in the following order:
-#   1. Position
-#   2. Company Name
-#   3. Company Suffix
-#   4. Division
-#   5. City
-#   6. State
-#   7. Terms
-#
-# Example:
-# ./atm.sh "Software Engineer" "Tech Corp" "Inc." "Development" "San Francisco" "California" "4-month"
-#
-# DISCLAIMER:
-# This script is provided "as is", without warranty of any kind, express or 
-# implied, including but not limited to the warranties of merchantability, 
-# fitness for a particular purpose, and noninfringement. In no event shall the 
-# author be liable for any claim, damages, or other liability, whether in an 
-# action of contract, tort, or otherwise, arising from, out of, or in connection 
-# with the script or the use or other dealings in the script.
-#
-# Use at your own risk.
-# =============================================================================
+#!/bin/bash
+
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                      APPLICATION TEMPLATE MANAGEMENT SYSTEM                       ┃
+# ┃ ==================================================================================┃
+# ┃ Script Name: atm.sh                                                               ┃
+# ┃ Author: Arfaz Hussain                                                             ┃
+# ┃ Created Date: 2022-10-19                                                          ┃
+# ┃ Description:                                                                      ┃
+# ┃ This script is designed to automate the generation of LaTeX cover letters         ┃
+# ┃ for job applications. It includes functions to gather user input through          ┃
+# ┃ dropdown menus, escape LaTeX special characters, and generate a LaTeX file        ┃
+# ┃ with the provided information. The script also compiles the LaTeX file into       ┃
+# ┃ a PDF and organizes the output files.                                             ┃
+# ┃                                                                                   ┃
+# ┃ Usage:                                                                            ┃
+# ┃ Run the script with or without arguments. If no arguments are provided, the       ┃
+# ┃ script will prompt the user for input. If arguments are provided, they should     ┃
+# ┃ be in the following order:                                                        ┃
+# ┃   1. Position                                                                     ┃
+# ┃   2. Company Name                                                                 ┃
+# ┃   3. Company Suffix                                                               ┃
+# ┃   4. Division                                                                     ┃
+# ┃   5. City                                                                         ┃
+# ┃   6. State                                                                        ┃
+# ┃   7. Terms                                                                        ┃
+# ┃                                                                                   ┃
+# ┃ Example:                                                                          ┃
+# ┃                                                                                   ┃
+# ┃ ┌───────────────────────────────────────────────────────────────────────────────┐ ┃
+# ┃ │ ./atm.sh "Software Engineer" "Tech Corp" "Inc." "Development" "San Francisco" │ ┃
+# ┃ │ "California" "4-month"                                                        │ ┃
+# ┃ └───────────────────────────────────────────────────────────────────────────────┘ ┃
+# ┃                                                                                   ┃
+# ┃ DISCLAIMER:                                                                       ┃
+# ┃ This script is provided "as is", without warranty of any kind, express or         ┃
+# ┃ implied, including but not limited to the warranties of merchantability,          ┃
+# ┃ fitness for a particular purpose, and noninfringement. In no event shall the      ┃
+# ┃ author be liable for any claim, damages, or other liability, whether in an        ┃
+# ┃ action of contract, tort, or otherwise, arising from, out of, or in connection    ┃
+# ┃ with the script or the use or other dealings in the script.                       ┃
+# ┃                                                                                   ┃
+# ┃ Use at your own risk.                                                             ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 shopt -s extglob
 
@@ -164,7 +171,7 @@ find_term () {
 }
 
 body_0 () {
-    local body_0_0="I am writing to express my strong interest in the \\Position\\ Co-op at \\CompanyName."
+    local body_0_0="I am writing to express my strong interest in the \\textit{\\Position} Co-op at \\CompanyName."
     local body_0_1="I am a software engineering student at the University of Victoria in British Columbia."
     local body_0_2="I am eager to learn and grow in the field of computer and software engineering,"
     local body_0_3="and I believe that this role will help me gain valuable work experience related to my interests"
@@ -223,7 +230,7 @@ body_3 () {
 body_4 () {
     local a="\vspace{10pt}\text{Most Sincerely,}"
     local b="\vspace{-25pt}\begin{flushleft}"
-    local c="\hspace*{-1cm}\includegraphics[width=10cm]{../../9.2 PreProcessed/signature.png}\vspace{-1cm}"
+    local c="\hspace*{-1cm}\includegraphics[width=10cm]{../../9.2 PreProcessed/0 Resources/signature.png}\vspace{-1cm}"
     local d="\end{flushleft}"
     local e="\vspace{-10pt}\ps{\textbf{Arfaz Hossain} (He/Him)\\\\"
     local f="Software Engineering Student,\\\\"
@@ -330,14 +337,15 @@ letter_details () {
         local b="\text{\Division}\\\\"
         local c="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
         local d="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
+        printf "%s\n\t%s\n\t\t%s\n\t\t%s\n\t\t%s" "$a" "$b" "$c" "$d"
     else
-        local a="\textbf{\CompanyName}\textbf{\CompanyNameSuffix},"
-        local b="\text{\Division}\\\\"
-        local c="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
-        local d="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
+        local a="\vspace{1em}"
+        local b="\textbf{\CompanyName}\textbf{ \CompanyNameSuffix},"
+        local c="\text{\Division}\\\\"
+        local d="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
+        local e="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
+        printf "%s\n%s\n\t\t%s\n\t\t%s\n\t\t%s\n\t\t%s" "$a" "$b" "$c" "$d" "$e"
     fi
-
-    printf "%s\n\t\t%s\n\t\t%s\n\t\t%s\n\t\t%s" "$a" "$b" "$c" "$d"
     
     # local size1=$((${#cname}))
     # local size2=$((${#csuf}))
@@ -412,7 +420,7 @@ LaTeX () {
         $letter_details $body_0 $line_break
         $body_1
         $body_2
-        $body_3 \\\\\\\\
+        $body_3 \\\\\\\\\\\\
         $body_4 
         \end{document}
 EOF
@@ -453,8 +461,41 @@ if [ "$#" -eq 7 ]; then
 }
 
 test_removal () {
-    find . -type f -name '*TEST*.pdf' -delete
+    find . -type f -name '*TEST*.pdf' -delete > /dev/null 2>&1
 }
+
+DRAW_BOX() {
+    local input="$*"
+    local termWidth=$(tput cols 2>/dev/null || echo 80)
+    local maxWidth=$((termWidth - 4))  # Subtract 4 to account for the box borders
+
+    # Ensure maxWidth is at least 20 characters
+    maxWidth=$((maxWidth < 20 ? 20 : maxWidth))
+
+    # Wrap text to the maxWidth
+    local wrapped_text=$(echo "$input" | fold -s -w $maxWidth)
+
+    # Calculate the width of the longest line
+    local width=$(echo "$wrapped_text" | awk '{print length}' | sort -nr | head -n1)
+    local lineBeg="| "
+    local lineEnd=" |"
+
+    # Create the top and bottom borders
+    local dashes=$(printf '%*s' $((width + ${#lineBeg} + ${#lineEnd})) "")
+    dashes=${dashes// /-}
+
+    # ANSI escape code for red text
+    local RED='\033[0;31m'
+    local RESET='\033[0m'
+
+    # Print the box with wrapped text in red
+    echo "${RED}${dashes}${RESET}"
+    while IFS= read -r line; do
+        printf "${RED}%s%-*s%s${RESET}\n" "$lineBeg" "$width" "$line" "$lineEnd"
+    done <<< "$wrapped_text"
+    echo "${RED}${dashes}${RESET}"
+}
+
 
 main () {
     echo "Number of arguments: $#"
@@ -462,19 +503,21 @@ main () {
     local filename=$(generator "$@" | sed 's/[\/\\,;]//g')
     perl -pe 's/^( {8}|\t{2})//' tntx.tex > ntntx.tex && mv ntntx.tex tntx.tex
     mv tntx.tex "9.3 CurrProcessed/tex-outputs/" || exit 1
-    sed -i 's/ \+/ /g' "9.3 CurrProcessed/tex-outputs/tntx.tex"
+    sed -i '' 's/ \+/ /g' "9.3 CurrProcessed/tex-outputs/tntx.tex"
 
     # This removes all "TEST" entries in the srt.sh script
-    ./9.4\ PostProcessed/srt.sh
+    ./9.4\ PostProcessed/srt.sh > /dev/null 2>&1
 
     cd "9.3 CurrProcessed/tex-outputs"
-    pdflatex tntx.tex && mv tntx.pdf "$filename.pdf"
+    pdflatex tntx.tex > /dev/null 2>&1 && mv tntx.pdf "$filename.pdf"
     cp "$filename.pdf" ../
     cp "$filename.pdf" ../../9.5\ Applications/
     rm -f !(*.tex)
     cd ../../ || exit
 
-    echo "Cover letter generated and saved as $filename.pdf"
+    printf "%s" "${filename}.pdf" | pbcopy
+    # printf "Cover letter generated and saved as \033[31m%s\033[0m\n" "${filename}.pdf"
+    DRAW_BOX "$(printf "Cover letter generated and saved as %s.pdf" "$filename")"
     unset filename
 }
 
