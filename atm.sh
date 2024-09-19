@@ -332,6 +332,9 @@ letter_details () {
     local csuf="$2"
     local cdiv="$3"
 
+    # Trim leading/trailing whitespace from csuf
+    csuf=$(echo "$csuf" | sed 's/^ *//;s/ *$//')
+
     if [ $((${#cname} + ${#csuf} + ${#cdiv})) -gt 45 ]; then
         local a="\textbf{\CompanyName}\textbf{ \CompanyNameSuffix}\\\\"
         local b="\text{\Division}\\\\"
@@ -340,13 +343,20 @@ letter_details () {
         printf "%s\n\t%s\n\t\t%s\n\t\t%s\n\t\t%s" "$a" "$b" "$c" "$d"
     else
         local a="\vspace{1em}"
-        local b="\textbf{\CompanyName}\textbf{ \CompanyNameSuffix},"
+
+        # Check if csuf has letters or is empty/whitespace
+        if [[ -z "$csuf" || "$csuf" =~ ^[[:space:]]*$ ]]; then
+            local b="\textbf{\CompanyName}\textbf{\CompanyNameSuffix},"
+        else
+            local b="\textbf{\CompanyName}\textbf{ \CompanyNameSuffix},"
+        fi
+
         local c="\text{\Division}\\\\"
         local d="\vspace{20pt}\text{\LocationCity}, \text{\LocationState} \\\\"
         local e="\vspace{10pt}\text{Dear Hiring Manager:} \\\\"
         printf "%s\n%s\n\t\t%s\n\t\t%s\n\t\t%s\n\t\t%s" "$a" "$b" "$c" "$d" "$e"
     fi
-    
+
     # local size1=$((${#cname}))
     # local size2=$((${#csuf}))
     # local size3=$((${#cdiv}))
