@@ -1,0 +1,53 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{setspace}
+
+% Page geometry
+\geometry{a4paper, margin=1.5in}
+
+% Title formatting to eliminate horizontal misalignment
+\makeatletter
+\renewcommand{\maketitle}{
+  \begin{center}
+    {\Huge \@title \par}
+    \vskip 0.01em
+    {\large \@author \par}
+    \vskip -1em 
+    {\large \@date \par}
+    \noindent\hrulefill 
+  \end{center}
+}
+
+% Title setup
+\title{Application Overview}
+\author{Arfaz Hossain}
+
+% Spacing
+\setstretch{1.3}
+
+\begin{document}
+\maketitle
+
+\vskip 2em
+This document contains the following attachments, structured as follows:\\
+
+\begin{itemize}[leftmargin=*,labelsep=1em]
+    \item \textbf{Page 2: Cover Letter}\\
+    This section contains a formal cover letter addressed to the hiring manager. It highlights my relevant skills, experience, and motivation for applying for the position.
+    
+    \item \textbf{Pages 3-4: Resume}\\
+    My resume provides a detailed overview of my education, technical skills, projects, work experiences, and volunteering activities.
+    
+    \item \textbf{Pages 5-7: University of Victoria Unofficial Transcript}\\
+    The transcript reflects my academic record at the University of Victoria, where I am pursuing a Bachelor of Engineering in Software Engineering.
+\end{itemize}
+
+\vspace{2em}
+
+Please feel free to reach out if you require any additional information or have any questions.
+
+\vfill
+
+\end{document}

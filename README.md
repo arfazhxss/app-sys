@@ -27,8 +27,9 @@
 │   ├── session.pkl
 ├── 9.2 PreProcessed/
 │   ├── 1.pdf
-│   ├── 9-2.pdf
-│   ├── 9-4.pdf
+│   ├── 1.tex
+│   ├── 3.pdf
+│   ├── 4.pdf
 │   ├── 9-5.pdf
 │   ├── README.md
 │   ├── signature.png

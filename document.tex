@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{lipsum} % For placeholder text
+
+% Page geometry
+\geometry{a4paper, margin=1.5in}
+
+% Title formatting to eliminate horizontal misalignment
+\makeatletter
+\renewcommand{\maketitle}{
+  \begin{center}
+    {\Huge \@title \par}
+    \vskip 0.01em
+    {\large \@author \par}
+    \vskip -1em 
+    {\large \@date \par}
+    \noindent\hrulefill 
+  \end{center}
+}
+\makeatother
+
+% Title setup
+\title{Application Overview}
+\author{Arfaz Hossain} 
+\date{\today}
+
+% Spacing
+\setstretch{1.3}
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot[C]{0}
+
+\begin{document}
+\maketitle
+
+\vskip 2em
+This document contains the following attachments, structured as follows:\\
+
+\begin{itemize}[leftmargin=*,labelsep=1em]
+    \item \textbf{Page 1: Cover Letter}\\
+    This section contains a formal cover letter addressed to the hiring manager. It highlights my relevant skills, experience, and motivation for applying for the position.
+    
+    \item \textbf{Pages 2-3: Resume}\\
+    My resume provides a detailed overview of my education, technical skills, projects, work experiences, and volunteering activities.
+\end{itemize}
+
+\vspace{2em}
+
+Please feel free to reach out if you require any additional information or have any questions.
+
+\vfill\noindent\hrulefill
+
+\end{document}
