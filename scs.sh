@@ -567,6 +567,17 @@ JOBS() {
     done
 }
 
+RESUME () {
+    local source="./9.2 PreProcessed/0 Resources/resume.md"
+    
+    if [ -f "$source" ]; then
+        cat "$source" | pbcopy
+        echo "Contents of resume.md copied to clipboard."
+    else
+        echo "Source file not found at $source"
+    fi
+}
+
 PROJECT_DETAILS() {
     local project="$1"
     local options=(
@@ -814,6 +825,7 @@ main () {
         "GitHub"
         "LinkedIn"
         "Jobs [2]"
+        "Resume [5]"
         "Phone Number"
         "Current Year"
         "Projects [1]"
@@ -862,6 +874,9 @@ main () {
                 ;;
             "Projects [1]")
                 PROJECTS
+                ;;
+            "Resume [5]")
+                RESUME
                 ;;
             "Current Year")
                 ACADEMIC_YEAR
