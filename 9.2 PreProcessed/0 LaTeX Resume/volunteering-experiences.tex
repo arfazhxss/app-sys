@@ -1,0 +1,22 @@
+% volunteering.tex
+
+\RequirePackage{xparse}
+\RequirePackage{color}
+\ExplSyntaxOn
+
+% Define the new relevant experience command with indented bullet points
+\NewDocumentCommand{\volunteeringexperiences}{m m m m m}{%
+	\begin{resumeSubHeadingListStart}
+	\resumeSubheadingB
+	    {#1} 		% Position
+	    {#2} 		% Dates
+	    {#3} 		% Organization
+	    {#4} 		% Location
+	\begin{itemize}[leftmargin=3em, label={$\bullet$}, labelsep=1em]    
+		\seq_set_split:Nnn \l_tmpa_seq {|} {#5}
+    	\seq_map_inline:Nn \l_tmpa_seq { \item \normalsize{##1} }
+	\end{itemize}
+\end{resumeSubHeadingListStart}
+}
+
+\ExplSyntaxOff

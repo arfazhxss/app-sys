@@ -1,20 +1,21 @@
-% experiences.tex
+% work.tex
 
 \RequirePackage{xparse}
 \RequirePackage{color}
 \ExplSyntaxOn
 
 % Define the new relevant experience command with indented bullet points
-\NewDocumentCommand{\relevantexperience}{m m m m m}{%
+\NewDocumentCommand{\workexperiences}{m m m m m m}{%
 	\begin{resumeSubHeadingListStart}
-	\resumeSubheadingB
+	\resumeSubheadingA
 	    {#1} 		% Position
-	    {#2} 		% Dates
-	    {#3} 		% Organization
-	    {#4} 		% Location
+	    {\fontsize{11pt}{11pt}\selectfont \  \textbar\ #2}
+	    {#3} 		% Dates
+	    {#4} 		% Organization
+	    {#5} 		% Location
 	\begin{itemize}[leftmargin=3em, label={$\bullet$}, labelsep=1em]    
-		\seq_set_split:Nnn \l_tmpa_seq {|} {#5}
-    	\seq_map_inline:Nn \l_tmpa_seq { \item \normalsize{##1} }
+		\seq_set_split:Nnn \l_tmpa_seq {|} {#6}
+        \seq_map_inline:Nn \l_tmpa_seq { \resumeItemDot{##1} }
 	\end{itemize}
 \end{resumeSubHeadingListStart}
 }
