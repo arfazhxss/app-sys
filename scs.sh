@@ -568,11 +568,11 @@ JOBS() {
 }
 
 PROMPT_SCRIPT() {
-    local source="./9.2 PreProcessed/0 Resources/prompt.txt"
+    local source="./9.2 PreProcessed/0 Resources/prompt.md"
     
     if [ -f "$source" ]; then
         local content=$(cat "$source")
-        COPY_TO_CLIPBOARD "$content" "Contents of prompt.txt copied to clipboard."
+        COPY_TO_CLIPBOARD "$content" "Contents of prompt.md copied to clipboard."
     else
         echo "Source file not found at $source"
     fi
@@ -837,11 +837,11 @@ main () {
         "LinkedIn"
         "Jobs [2]"
         "Resume [5]"
+        "University"
         "Phone Number"
         "Current Year"
         "Projects [1]"
         "Hard Problems"
-        "University Name"
         "Graduation Date"
         "Coop Start Date"
         "Prompt Script [0]"
@@ -907,7 +907,7 @@ main () {
             "Coop Start Date")
                 COOP_START_DATE
                 ;;
-            "University Name")
+            "University")
                 UNIVERSITY
                 ;;
             "Address/Location")

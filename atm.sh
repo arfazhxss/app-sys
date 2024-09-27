@@ -190,12 +190,12 @@ body_1 () {
 }
 
 b2_p1() {
-    local item="\\item \\textbf{Full-Stack Development}: I've experience developing full-stack applications, working primarily with TypeScript, React and Python. During some projects, I had the chance to design the system, develop schemas for both relational and non-relational databases such as {PostgreSQL} and {MongoDB}."
+    local item="\\item \\textbf{Full-Stack Development}: I have experience developing full-stack applications, working primarily with TypeScript, React and Python. During some projects, I had the chance to design the system, develop schemas for both relational and non-relational databases such as {PostgreSQL} and {MongoDB}."
     printf "\n\t%s\n" "$item"
 }
 
 b2_p2() {
-    local item="\\item \\textbf{Diverse Project Portfolio}: I've completed over 13 software development projects, including an iOS weather application in Swift, a 3D Rubik's Cube simulation using C++, and several web applications using React, JavaScript, and TypeScript."
+    local item="\\item \\textbf{Diverse Project Portfolio}: I have completed over 13 software development projects, including an iOS weather application in Swift, a 3D Rubik's Cube simulation using C++, and several web applications using React, JavaScript, and TypeScript."
     printf "\n\t%s\n" "$item"
 }
 
