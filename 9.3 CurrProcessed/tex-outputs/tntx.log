@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.7.14)  23 SEP 2024 23:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.7.14)  26 SEP 2024 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -456,7 +456,8 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box55
-) (./tntx.aux)
+)
+No file tntx.aux.
 \openout1 = `tntx.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -505,7 +506,6 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring ON on input line 43.
- (./tntx.out) (./tntx.out)
 \@outlinefile=\write3
 \openout3 = `tntx.out'.
 
@@ -556,12 +556,12 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
 d
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
@@ -570,7 +570,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--83
 File: ../../9.2 PreProcessed/0 Resources/signature.png Graphic file (type png)
 <use ../../9.2 PreProcessed/0 Resources/signature.png>
 Package pdftex.def Info: ../../9.2 PreProcessed/0 Resources/signature.png  used
- on input line 84.
+ on input line 86.
 (pdftex.def)             Requested size: 284.52756pt x 89.13799pt.
 [1
 
@@ -583,23 +583,30 @@ ng>] (./tntx.aux)
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `tntx.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `tntx.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tntx.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11288 strings out of 474116
- 180508 string characters out of 5732613
+ 11280 strings out of 474116
+ 180412 string characters out of 5732613
  1939187 words of memory out of 5000000
- 33504 multiletter control sequences out of 15000+600000
+ 33502 multiletter control sequences out of 15000+600000
  571817 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,467b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,478b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/type1/public/
 lm/lmbx12.pfb></opt/homebrew/Cellar/texlive/20240312_1/share/texmf-dist/fonts/t
 ype1/public/lm/lmr12.pfb></opt/homebrew/Cellar/texlive/20240312_1/share/texmf-d
 ist/fonts/type1/public/lm/lmr17.pfb></opt/homebrew/Cellar/texlive/20240312_1/sh
 are/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on tntx.pdf (1 page, 118504 bytes).
+Output written on tntx.pdf (1 page, 118767 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream

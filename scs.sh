@@ -212,34 +212,34 @@ PHONE () {
     esac
 }
 
-# Function to copy the prompt script
-PROMPT_SCRIPT() {
-    local prompt_script=$(
-        printf "______________________________________________________________________________________________________\n"
-        printf "Find me the following information:\n"
-        printf "Name of the job:\n"
-        printf "Name of the Company:\n"
-        printf "If the Company has a \"Ltd.\" \"Inc.\" or something like that at the end, like \"wanna work with <company_name>\" not <company_name> corporation, put that:\n"
-        printf "Division/Team that job posting is for:\n"
-        printf "Province that the job is for:\n"
-        printf "City the job is for:\n"
-        printf "Number of terms the job is for:\n"
-        printf "\n(mention where in the file you found it)\n"
-        printf "Term Data:\n"
-        printf "a 12-month\n"
-        printf "a 12-month or a 16-month\n"
-        printf "a 16-month\n"
-        printf "a 4, 8 or a 12-month\n"
-        printf "a 4, 8, 12 or 16-month\n"
-        printf "a 4-month\n"
-        printf "a 4-month or an 8-month\n"
-        printf "an 8, 12 or a 16-month\n"
-        printf "an 8-month\n"
-        printf "an 8-month or a 12-month\n"
-        printf "\nExpress it like this (taken from a python3 snippet of many variables): ./atm.sh \"{job_title}\" \"{organization_name}\" \"{company_suffix}\" \"{division_name}\" \"{job_location}\" \"{region}\" \"{work_term_duration}\"\n"
-    )
-    COPY_TO_CLIPBOARD "$prompt_script" "Here's the ultimate job-snooping toolkit. Just remember, you didn't get this from me. If anyone asks, I don't even know what JSON is."
-}
+# # Function to copy the prompt script
+# PROMPT_SCRIPT() {
+#     local prompt_script=$(
+#         printf "______________________________________________________________________________________________________\n"
+#         printf "Find me the following information:\n"
+#         printf "Name of the job:\n"
+#         printf "Name of the Company:\n"
+#         printf "If the Company has a \"Ltd.\" \"Inc.\" or something like that at the end, like \"wanna work with <company_name>\" not <company_name> corporation, put that:\n"
+#         printf "Division/Team that job posting is for:\n"
+#         printf "Province that the job is for:\n"
+#         printf "City the job is for:\n"
+#         printf "Number of terms the job is for:\n"
+#         printf "\n(mention where in the file you found it)\n"
+#         printf "Term Data:\n"
+#         printf "a 12-month\n"
+#         printf "a 12-month or a 16-month\n"
+#         printf "a 16-month\n"
+#         printf "a 4, 8 or a 12-month\n"
+#         printf "a 4, 8, 12 or 16-month\n"
+#         printf "a 4-month\n"
+#         printf "a 4-month or an 8-month\n"
+#         printf "an 8, 12 or a 16-month\n"
+#         printf "an 8-month\n"
+#         printf "an 8-month or a 12-month\n"
+#         printf "\nExpress it like this (taken from a python3 snippet of many variables): ./atm.sh \"{job_title}\" \"{organization_name}\" \"{company_suffix}\" \"{division_name}\" \"{job_location}\" \"{region}\" \"{work_term_duration}\"\n"
+#     )
+#     COPY_TO_CLIPBOARD "$prompt_script" "Here's the ultimate job-snooping toolkit. Just remember, you didn't get this from me. If anyone asks, I don't even know what JSON is."
+# }
 
 ACADEMIC_YEAR() {
     local current_year_description=$(
@@ -567,12 +567,23 @@ JOBS() {
     done
 }
 
+PROMPT_SCRIPT() {
+    local source="./9.2 PreProcessed/0 Resources/prompt.txt"
+    
+    if [ -f "$source" ]; then
+        local content=$(cat "$source")
+        COPY_TO_CLIPBOARD "$content" "Contents of prompt.txt copied to clipboard."
+    else
+        echo "Source file not found at $source"
+    fi
+}
+
 RESUME () {
     local source="./9.2 PreProcessed/0 Resources/resume.md"
     
     if [ -f "$source" ]; then
-        cat "$source" | pbcopy
-        echo "Contents of resume.md copied to clipboard."
+        local content=$(cat "$source")
+        COPY_TO_CLIPBOARD "$content" "Contents of resume.md copied to clipboard."
     else
         echo "Source file not found at $source"
     fi
