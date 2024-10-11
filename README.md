@@ -72,6 +72,7 @@
 │   │   ├── tntx.aux
 │   │   ├── tntx.log
 │   │   ├── tntx.out
+│   │   ├── tntx.pdf
 │   │   ├── tntx.tex
 ├── 9.4 PostProcessed/
 │   ├── direc.sh

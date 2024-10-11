@@ -22,9 +22,9 @@ Given the above job description, identify which of the four areas (Embedding Pro
     
     \item \textbf{Database Management}: I have designed and managed databases such as PostgreSQL and MongoDB. I have implemented schemas, performed complex queries, and optimized database performance for web applications.
     
-    \item \textbf{Responsive and Accessible Design}: I have built user-friendly, responsive web interfaces using modern frameworks like TailwindCSS and MaterialUI, ensuring accessibility standards are met across different platforms.
+    \item \textbf{Responsive and Accessible Design}: I have built user-friendly, responsive web interfaces using modern frameworks like TailwindCSS and MaterialUI in order to optimize cross-platform accessibility standards through responsive design.
     
-    \item \textbf{Serverless and Cloud Integration}: I have developed serverless applications using AWS Lambda and Firebase Functions. I am experienced in deploying applications to cloud platforms like AWS, Vercel, and Heroku for scalable performance.
+    \item \textbf{Serverless and Cloud Integration}: I have experience developing serverless applications using AWS Lambda, Superbase and Firebase, as well as deploying applications to cloud platforms like AWS, Vercel, and Heroku for scalable performance.
 \end{itemize}
 ```
 
