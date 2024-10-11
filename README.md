@@ -5,16 +5,19 @@
 ├── atm.sh
 ├── automater.py
 ├── direc.sh
+├── document.tex
 ├── ren.sh
 ├── route.sh
 ├── scs.sh
 ├── textual.rtf
+├── tst.sh
 ├── 9.0 LIM+/
 │   ├── checklist.py
 │   ├── cookies.json
 │   ├── credentials.txt
 │   ├── credentials.txt.tmp
 │   ├── index.ts
+│   ├── package-lock.json
 │   ├── package.json
 │   ├── result.json
 │   ├── tsconfig.json
@@ -26,17 +29,18 @@
 │   ├── jobs.csv
 │   ├── session.pkl
 ├── 9.2 PreProcessed/
-│   ├── 1.pdf
-│   ├── 1.tex
-│   ├── 3.pdf
-│   ├── 4.pdf
-│   ├── 9-5.pdf
-│   ├── README.md
-│   ├── signature.png
-│   ├── 0 LaTeX Format/
+│   ├── Hussain, Arfaz - Resume.pdf
+│   ├── Hussain, Arfaz - Transcript.pdf
+│   ├── coop_questionnaire.docx
+│   ├── coop_questionnaire.pdf
+│   ├── overview.pdf
+│   ├── overview.tex
+│   ├── resume.pdf
+│   ├── signature.svg
+│   ├── transcript.pdf
+│   ├── 0 LaTeX Resume/
 │   │   ├── about.tex
 │   │   ├── education.tex
-│   │   ├── experiences.tex
 │   │   ├── formatting.tex
 │   │   ├── glyphtounicode.tex
 │   │   ├── header.tex
@@ -48,16 +52,22 @@
 │   │   ├── resume.tex
 │   │   ├── setup.tex
 │   │   ├── technical-skills.tex
+│   │   ├── volunteering-experiences.tex
+│   │   ├── work-experiences.tex
 │   │   ├── 0 Jake's Format/
 │   │   │   ├── jake-resume-format.pdf
 │   │   │   ├── jake-resume-format.tex
 │   ├── 0 Resources/
-│   │   ├── resut-depricated.sh
+│   │   ├── overview.sh
+│   │   ├── points.md
+│   │   ├── prompt.md
+│   │   ├── resume.md
+│   │   ├── signature.ai
 │   │   ├── signature.png
+│   │   ├── signature.svg
 ├── 9.3 CurrProcessed/
-│   ├── August 2024 Box/
-│   │   ├── Hussain Arfaz - Software Developer - Dayforce.pdf
-│   ├── September 2024 Box/
+│   ├── Oc24 Box/
+│   ├── Sp24 Box/
 │   ├── tex-outputs/
 │   │   ├── tntx.aux
 │   │   ├── tntx.log
@@ -87,6 +97,11 @@
 ├── 9.5 Applications/
 ├── 9.6 Archives/
 │   ├── direc-old.sh
+│   ├── overview-depr.tex
+│   ├── resume-archive-01.md
+│   ├── resume-archive-02.md
+│   ├── resume-gr.pdf
+│   ├── resut-depr.sh
 ├── 9.7 DOCX/
 │   ├── Hussain, Arfaz - Placement Application - SDE (DOCX).docx
 │   ├── SCS.md
