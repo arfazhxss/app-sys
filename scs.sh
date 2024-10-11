@@ -111,11 +111,15 @@ NAME() {
 }
 
 LINKEDIN () {
-    COPY_TO_CLIPBOARD "https://linkedin.com/in/arfazhussain" "...where I need to pretend to be way more professional than I really am"
+    COPY_TO_CLIPBOARD "https://www.linkedin.com/in/arfazhussain" "...where I need to pretend to be way more professional than I really am"
 }
 
 GITHUB () {
-    COPY_TO_CLIPBOARD "https://github.com/arfazhxss" "...where all my code dreams live... and where my hopes of becoming a 10x developer went to die. Enjoy the repo rabbit hole!"
+    COPY_TO_CLIPBOARD "https://www.github.com/arfazhxss" "...where all my code dreams live... and where my hopes of becoming a 10x developer went to die. Enjoy the repo rabbit hole!"
+}
+
+WEB () {
+    COPY_TO_CLIPBOARD "https://www.arfazhxss.ca" "...where I am!"
 }
 
 UNIVERSITY () {
@@ -842,26 +846,28 @@ main () {
     # Define options
     local st=(
         "xX"
-        "Name"
-        "Email"
-        "GitHub"
-        "LinkedIn"
-        "Jobs [3]"
         "Prompt [0]"
         "Points [1]"
-        "Resume [5]"
-        "University"
-        "Phone Number"
-        "Current Year"
         "Projects [2]"
-        "Hard Problems"
-        "Graduation Date"
-        "Coop Start Date"
-        "Address/Location"
-        "Coop Work Permit"
-        "Credits Completed"
-        "Coop Program Name"
-        "Coop Coordinator Name"
+        "Jobs [3]"
+        "Resume [5]"
+        "Address [6]"
+        "Location [6]"
+        "University [9]"
+        "Name [20]"
+        "Email [21]"
+        "LinkedIn [22]"
+        "GitHub [23]"
+        "WEB [24]"
+        "Phone Number [7]"
+        "Current Year [8]"
+        "Hard Problems [4]"
+        "Graduation Date [43]"
+        "Coop Start Date [44]"
+        "Coop Work Permit [66]"
+        "Credits Completed [54]"
+        "Coop Program Name [55]"
+        "Coop Coordinator Name [56]"
     )
     while true; do
         local options=$(printf "%s\n" "${st[@]}")
@@ -880,19 +886,22 @@ main () {
                 printf "\033[31mExiting the script. Goodbye!\033[0m\n"
                 exit 0
                 ;;
-            "Name")
+            "Name [20]")
                 NAME
                 ;;
-            "Email")
+            "Email [21]")
                 EMAIL
                 ;;
-            "GitHub")
+            "GitHub [23]")
                 GITHUB
+                ;;
+            "WEB [24]")
+                WEB
                 ;;
             "Jobs [3]")
                 JOBS
                 ;;
-            "LinkedIn")
+            "LinkedIn [22]")
                 LINKEDIN
                 ;;
             "Projects [2]")
@@ -901,13 +910,13 @@ main () {
             "Resume [5]")
                 RESUME
                 ;;
-            "Current Year")
+            "Current Year [8]")
                 ACADEMIC_YEAR
                 ;;
-            "Phone Number")
+            "Phone Number [7]")
                 PHONE
                 ;;
-            "Hard Problems")
+            "Hard Problems [4]")
                 HARD_PROBLEMS
                 ;;
             "Prompt [0]")
@@ -916,28 +925,31 @@ main () {
             "Points [1]")
                 POINTS_SCRIPT
                 ;;
-            "Graduation Date")
+            "Graduation Date [43]")
                 GRAD_DATE
                 ;;
-            "Coop Start Date")
+            "Coop Start Date [44]")
                 COOP_START_DATE
                 ;;
-            "University")
+            "University [9]")
                 UNIVERSITY
                 ;;
-            "Address/Location")
+            "Address [6]")
                 ADDRESS
                 ;;
-            "Coop Work Permit")
+            "Location [6]")
+                ADDRESS
+                ;;
+            "Coop Work Permit [66]")
                 TYPE_OF_CANADIAN
                 ;;
-            "Credits Completed")
+            "Credits Completed [54]")
                 CREDITS
                 ;;
-            "Coop Coordinator Name")
+            "Coop Coordinator Name [56]")
                 COOP_COORDINATOR_NAME
                 ;;
-            "Coop Program Name")
+            "Coop Program Name [55]")
                 COOP_PROGRAM_NAME
                 ;;
             *)
