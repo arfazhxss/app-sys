@@ -578,6 +578,17 @@ PROMPT_SCRIPT() {
     fi
 }
 
+POINTS_SCRIPT() {
+    local source="./9.2 PreProcessed/0 Resources/points.md"
+    
+    if [ -f "$source" ]; then
+        local content=$(cat "$source")
+        COPY_TO_CLIPBOARD "$content" "Contents of points.md copied to clipboard."
+    else
+        echo "Source file not found at $source"
+    fi
+}
+
 RESUME () {
     local source="./9.2 PreProcessed/0 Resources/resume.md"
     
@@ -835,16 +846,17 @@ main () {
         "Email"
         "GitHub"
         "LinkedIn"
-        "Jobs [2]"
+        "Jobs [3]"
+        "Prompt [0]"
+        "Points [1]"
         "Resume [5]"
         "University"
         "Phone Number"
         "Current Year"
-        "Projects [1]"
+        "Projects [2]"
         "Hard Problems"
         "Graduation Date"
         "Coop Start Date"
-        "Prompt Script [0]"
         "Address/Location"
         "Coop Work Permit"
         "Credits Completed"
@@ -877,13 +889,13 @@ main () {
             "GitHub")
                 GITHUB
                 ;;
-            "Jobs [2]")
+            "Jobs [3]")
                 JOBS
                 ;;
             "LinkedIn")
                 LINKEDIN
                 ;;
-            "Projects [1]")
+            "Projects [2]")
                 PROJECTS
                 ;;
             "Resume [5]")
@@ -898,8 +910,11 @@ main () {
             "Hard Problems")
                 HARD_PROBLEMS
                 ;;
-            "Prompt Script [0]")
+            "Prompt [0]")
                 PROMPT_SCRIPT
+                ;;
+            "Points [1]")
+                POINTS_SCRIPT
                 ;;
             "Graduation Date")
                 GRAD_DATE
